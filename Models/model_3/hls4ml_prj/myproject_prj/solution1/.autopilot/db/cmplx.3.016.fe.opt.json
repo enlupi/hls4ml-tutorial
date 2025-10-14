@@ -1,0 +1,114 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "6 3 7 4 1 5 2 8",
+    "file": "myproject.cpp",
+    "fileloc": 7,
+    "instructions": 518,
+    "loads": {
+      "L": 247,
+      "T": 1
+    },
+    "name": "myproject",
+    "total_instructions": 13681
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "myproject.cpp",
+    "fileloc": 0,
+    "instructions": 2101,
+    "name": "_Z9myprojectP8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES3__",
+    "stores": {
+      "L": 27
+    },
+    "total_instructions": 2101
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 402,
+    "name": "dense_latency<ap_ufixed<6, 0, AP_RND_CONV, AP_SAT, 0>, ap_fixed<18, 7, AP_TRN, AP_WRAP, 0>, config11>",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 402
+  },
+  "3": {
+    "basicblocks": 253,
+    "calls": "",
+    "file": "myproject.cpp",
+    "fileloc": 0,
+    "instructions": 2459,
+    "name": "_Z9myprojectP8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES3__",
+    "stores": {
+      "L": 63
+    },
+    "total_instructions": 2459
+  },
+  "4": {
+    "basicblocks": 125,
+    "calls": "",
+    "file": "myproject.cpp",
+    "fileloc": 0,
+    "instructions": 1211,
+    "name": "_Z9myprojectP8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES3__",
+    "stores": {
+      "L": 31
+    },
+    "total_instructions": 1211
+  },
+  "5": {
+    "basicblocks": 109,
+    "calls": "",
+    "file": "myproject.cpp",
+    "fileloc": 0,
+    "instructions": 1055,
+    "name": "_Z9myprojectP8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES3__",
+    "stores": {
+      "L": 27
+    },
+    "total_instructions": 1055
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "myproject.cpp",
+    "fileloc": 0,
+    "instructions": 1906,
+    "name": "_Z9myprojectP8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES3__",
+    "stores": {
+      "L": 63
+    },
+    "total_instructions": 1906
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "myproject.cpp",
+    "fileloc": 0,
+    "instructions": 3836,
+    "name": "_Z9myprojectP8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES3__",
+    "stores": {
+      "L": 31
+    },
+    "total_instructions": 3836
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 216,
+    "instructions": 193,
+    "loads": {
+      "G": 6
+    },
+    "name": "softmax_stable<ap_fixed<18, 7, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, softmax_config13>",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 193
+  }
+}

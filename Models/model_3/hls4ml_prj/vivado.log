@@ -1,0 +1,1111 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Oct 14 15:23:06 2025
+# Process ID         : 41340
+# Current directory  : /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj
+# Command line       : vivado -mode batch -source vivado_synth.tcl
+# Log file           : /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/vivado.log
+# Journal file       : /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/vivado.jou
+# Running On         : kamino
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+# CPU Frequency      : 800.203 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 6
+# Host memory        : 16358 MB
+# Swap memory        : 8384 MB
+# Total Virtual      : 24743 MB
+# Available Virtual  : 13351 MB
+#-----------------------------------------------------------
+source vivado_synth.tcl
+# set tcldir [file dirname [info script]]
+# source [file join $tcldir project.tcl]
+## variable project_name
+## set project_name "myproject"
+## variable backend
+## set backend "vitis"
+## variable part
+## set part "xcu250-figd2104-2L-e"
+## variable clock_period
+## set clock_period 5
+## variable clock_uncertainty
+## set clock_uncertainty 27%
+## variable version
+## set version "1.0.0"
+## variable maximum_size
+## set maximum_size 4096
+# add_files ${project_name}_prj/solution1/syn/verilog
+# synth_design -top ${project_name} -part $part
+Command: synth_design -top myproject -part xcu250-figd2104-2L-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcu250'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcu250'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 41438
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2030.453 ; gain = 442.707 ; free physical = 307 ; free virtual = 11559
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'myproject' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_16s_6s_21_1_1' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_6s_21_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 6 - type: integer 
+	Parameter dout_WIDTH bound to: 21 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_16s_6s_21_1_1' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_6s_21_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_16s_5ns_21_1_1' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_5ns_21_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 5 - type: integer 
+	Parameter dout_WIDTH bound to: 21 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_16s_5ns_21_1_1' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_5ns_21_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_16s_6s_22_1_1' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_6s_22_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 6 - type: integer 
+	Parameter dout_WIDTH bound to: 22 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_16s_6s_22_1_1' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_6s_22_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_16s_6ns_21_1_1' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_6ns_21_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 6 - type: integer 
+	Parameter dout_WIDTH bound to: 21 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_16s_6ns_21_1_1' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_6ns_21_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_16s_5s_21_1_1' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_5s_21_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 5 - type: integer 
+	Parameter dout_WIDTH bound to: 21 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_16s_5s_21_1_1' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_5s_21_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_16s_5s_20_1_1' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_5s_20_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 5 - type: integer 
+	Parameter dout_WIDTH bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_16s_5s_20_1_1' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_5s_20_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_16s_5ns_20_1_1' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_5ns_20_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 5 - type: integer 
+	Parameter dout_WIDTH bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_16s_5ns_20_1_1' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_5ns_20_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_16s_6ns_22_1_1' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_6ns_22_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 6 - type: integer 
+	Parameter dout_WIDTH bound to: 22 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_16s_6ns_22_1_1' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_6ns_22_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_relu_ap_fixed_27_12_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_relu_ap_fixed_27_12_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_relu_ap_fixed_27_12_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_relu_ap_fixed_27_12_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_19_8_5_3_0_config5_s' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_19_8_5_3_0_config5_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_6ns_5ns_10_1_1' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_6ns_5ns_10_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 6 - type: integer 
+	Parameter din1_WIDTH bound to: 5 - type: integer 
+	Parameter dout_WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_6ns_5ns_10_1_1' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_6ns_5ns_10_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_6ns_6ns_11_1_1' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_6ns_6ns_11_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 6 - type: integer 
+	Parameter din1_WIDTH bound to: 6 - type: integer 
+	Parameter dout_WIDTH bound to: 11 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_6ns_6ns_11_1_1' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_6ns_6ns_11_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_6ns_5s_11_1_1' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_6ns_5s_11_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 6 - type: integer 
+	Parameter din1_WIDTH bound to: 5 - type: integer 
+	Parameter dout_WIDTH bound to: 11 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_6ns_5s_11_1_1' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_6ns_5s_11_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_6ns_6s_12_1_1' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_6ns_6s_12_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 6 - type: integer 
+	Parameter din1_WIDTH bound to: 6 - type: integer 
+	Parameter dout_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_6ns_6s_12_1_1' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_6ns_6s_12_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_19_8_5_3_0_config5_s' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_19_8_5_3_0_config5_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_relu_ap_fixed_19_8_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_relu_ap_fixed_19_8_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_relu_ap_fixed_19_8_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_relu_ap_fixed_19_8_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_18_7_5_3_0_config8_s' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_18_7_5_3_0_config8_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_6ns_6s_11_1_1' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_6ns_6s_11_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 6 - type: integer 
+	Parameter din1_WIDTH bound to: 6 - type: integer 
+	Parameter dout_WIDTH bound to: 11 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_6ns_6s_11_1_1' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_6ns_6s_11_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_18_7_5_3_0_config8_s' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_18_7_5_3_0_config8_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_relu_ap_fixed_18_7_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_relu_ap_fixed_18_7_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_relu_ap_fixed_18_7_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_relu_ap_fixed_18_7_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_18_7_5_3_0_config11_s' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_18_7_5_3_0_config11_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_18_7_5_3_0_config11_s' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_18_7_5_3_0_config11_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table_ROM_bkb' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table_ROM_bkb.v:7]
+	Parameter DataWidth bound to: 18 - type: integer 
+	Parameter AddressWidth bound to: 10 - type: integer 
+	Parameter AddressRange bound to: 1024 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table_ROM_bkb.dat' is read successfully [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table_ROM_bkb.v:52]
+INFO: [Synth 8-3876] $readmem data file './myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table_ROM_bkb.dat' is read successfully [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table_ROM_bkb.v:53]
+INFO: [Synth 8-3876] $readmem data file './myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table_ROM_bkb.dat' is read successfully [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table_ROM_bkb.v:54]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table_ROM_bkb' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table_ROM_bkb.v:7]
+INFO: [Synth 8-6157] synthesizing module 'myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table_Rcud' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table_Rcud.v:7]
+	Parameter DataWidth bound to: 18 - type: integer 
+	Parameter AddressWidth bound to: 10 - type: integer 
+	Parameter AddressRange bound to: 1024 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table_Rcud.dat' is read successfully [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table_Rcud.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table_Rcud' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table_Rcud.v:7]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_18s_18s_30_1_0' [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_18s_18s_30_1_0.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 18 - type: integer 
+	Parameter din1_WIDTH bound to: 18 - type: integer 
+	Parameter dout_WIDTH bound to: 30 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_18s_18s_30_1_0' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_18s_18s_30_1_0.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject' (0#1) [/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject.v:9]
+WARNING: [Synth 8-7129] Port reset in module myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table_Rcud is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table_ROM_bkb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ap_rst in module myproject_relu_ap_fixed_18_7_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ap_rst in module myproject_relu_ap_fixed_19_8_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ap_rst in module myproject_relu_ap_fixed_27_12_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 2186.391 ; gain = 598.645 ; free physical = 328 ; free virtual = 11448
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 2186.391 ; gain = 598.645 ; free physical = 308 ; free virtual = 11426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcu250-figd2104-2L-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+INFO: [Device 21-403] Loading part xcu250-figd2104-2L-e
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 2194.395 ; gain = 606.648 ; free physical = 308 ; free virtual = 11432
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2743.629 ; gain = 1155.883 ; free physical = 279 ; free virtual = 10833
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   23 Bit       Adders := 5     
+	   2 Input   23 Bit       Adders := 8     
+	   2 Input   22 Bit       Adders := 25    
+	   4 Input   22 Bit       Adders := 6     
+	   3 Input   22 Bit       Adders := 21    
+	   5 Input   22 Bit       Adders := 2     
+	   2 Input   21 Bit       Adders := 27    
+	   7 Input   21 Bit       Adders := 1     
+	   3 Input   21 Bit       Adders := 21    
+	   4 Input   21 Bit       Adders := 22    
+	   5 Input   21 Bit       Adders := 4     
+	   6 Input   21 Bit       Adders := 1     
+	   2 Input   20 Bit       Adders := 18    
+	   3 Input   20 Bit       Adders := 24    
+	   4 Input   20 Bit       Adders := 6     
+	   6 Input   20 Bit       Adders := 1     
+	   5 Input   20 Bit       Adders := 3     
+	   3 Input   19 Bit       Adders := 17    
+	   2 Input   19 Bit       Adders := 6     
+	   4 Input   19 Bit       Adders := 4     
+	   3 Input   18 Bit       Adders := 5     
+	   2 Input   18 Bit       Adders := 4     
+	   5 Input   18 Bit       Adders := 1     
+	   2 Input   17 Bit       Adders := 8     
+	   4 Input   15 Bit       Adders := 1     
+	   3 Input   15 Bit       Adders := 3     
+	   2 Input   15 Bit       Adders := 2     
+	   2 Input   14 Bit       Adders := 30    
+	   3 Input   14 Bit       Adders := 12    
+	   4 Input   14 Bit       Adders := 7     
+	  16 Input   14 Bit       Adders := 1     
+	   2 Input   13 Bit       Adders := 45    
+	   4 Input   13 Bit       Adders := 6     
+	   6 Input   13 Bit       Adders := 7     
+	   3 Input   13 Bit       Adders := 21    
+	   9 Input   13 Bit       Adders := 2     
+	   7 Input   13 Bit       Adders := 2     
+	   5 Input   13 Bit       Adders := 4     
+	  10 Input   13 Bit       Adders := 1     
+	   8 Input   13 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 61    
+	   3 Input   12 Bit       Adders := 41    
+	   4 Input   12 Bit       Adders := 18    
+	   7 Input   12 Bit       Adders := 2     
+	   5 Input   12 Bit       Adders := 9     
+	   6 Input   12 Bit       Adders := 5     
+	   9 Input   12 Bit       Adders := 1     
+	  14 Input   12 Bit       Adders := 1     
+	   8 Input   12 Bit       Adders := 1     
+	   3 Input   11 Bit       Adders := 84    
+	   2 Input   11 Bit       Adders := 65    
+	   4 Input   11 Bit       Adders := 20    
+	   5 Input   11 Bit       Adders := 4     
+	   6 Input   11 Bit       Adders := 2     
+	   2 Input   10 Bit       Adders := 49    
+	   3 Input   10 Bit       Adders := 72    
+	   4 Input   10 Bit       Adders := 15    
+	   5 Input   10 Bit       Adders := 1     
+	   3 Input    9 Bit       Adders := 57    
+	   2 Input    9 Bit       Adders := 31    
+	   4 Input    9 Bit       Adders := 7     
+	   3 Input    8 Bit       Adders := 24    
+	   4 Input    8 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    7 Bit       Adders := 4     
+	   2 Input    6 Bit       Adders := 121   
++---XORs : 
+	   2 Input      1 Bit         XORs := 256   
++---Registers : 
+	              256 Bit    Registers := 1     
+	               27 Bit    Registers := 63    
+	               21 Bit    Registers := 12    
+	               20 Bit    Registers := 3     
+	               18 Bit    Registers := 27    
+	               16 Bit    Registers := 37    
+	               15 Bit    Registers := 1     
+	               14 Bit    Registers := 24    
+	               13 Bit    Registers := 50    
+	               12 Bit    Registers := 29    
+	               11 Bit    Registers := 6     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 4     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 122   
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 29    
++---ROMs : 
+	                    ROMs := 6     
++---Muxes : 
+	   2 Input  256 Bit        Muxes := 1     
+	   2 Input   18 Bit        Muxes := 4     
+	   2 Input   16 Bit        Muxes := 5     
+	   3 Input   10 Bit        Muxes := 3     
+	   2 Input    6 Bit        Muxes := 484   
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 12288 (col length:96)
+BRAMs: 5376 (col length: RAMB18 384 RAMB36 192)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP mul_16s_5ns_21_1_1_U30/tmp_product, operation Mode is: A2*(B:0xb).
+DSP Report: register a_9_reg_40987_reg is absorbed into DSP mul_16s_5ns_21_1_1_U30/tmp_product.
+DSP Report: operator mul_16s_5ns_21_1_1_U30/tmp_product is absorbed into DSP mul_16s_5ns_21_1_1_U30/tmp_product.
+DSP Report: Generating DSP mul_16s_5ns_20_1_1_U28/tmp_product, operation Mode is: A2*(B:0xb).
+DSP Report: register a_20_reg_40853_reg is absorbed into DSP mul_16s_5ns_20_1_1_U28/tmp_product.
+DSP Report: operator mul_16s_5ns_20_1_1_U28/tmp_product is absorbed into DSP mul_16s_5ns_20_1_1_U28/tmp_product.
+DSP Report: Generating DSP add_ln58_723_fu_38460_p2, operation Mode is: PCIN+A:B+(C:0x2).
+DSP Report: operator add_ln58_723_fu_38460_p2 is absorbed into DSP add_ln58_723_fu_38460_p2.
+DSP Report: Generating DSP add_ln58_723_fu_38460_p2, operation Mode is: PCIN+A:B.
+DSP Report: operator add_ln58_723_fu_38460_p2 is absorbed into DSP add_ln58_723_fu_38460_p2.
+DSP Report: Generating DSP mul_ln17_11_reg_9307_reg, operation Mode is: (A*(B:0x13))'.
+DSP Report: register mul_ln17_11_reg_9307_reg is absorbed into DSP mul_ln17_11_reg_9307_reg.
+DSP Report: operator mul_16s_6ns_21_1_1_U11/tmp_product is absorbed into DSP mul_ln17_11_reg_9307_reg.
+DSP Report: Generating DSP add_ln58_838_fu_39615_p2, operation Mode is: PCIN+A2:B2+(C:0x3400).
+DSP Report: register add_ln58_838_fu_39615_p2 is absorbed into DSP add_ln58_838_fu_39615_p2.
+DSP Report: register add_ln58_838_fu_39615_p2 is absorbed into DSP add_ln58_838_fu_39615_p2.
+DSP Report: operator add_ln58_838_fu_39615_p2 is absorbed into DSP add_ln58_838_fu_39615_p2.
+DSP Report: Generating DSP add_ln58_838_fu_39615_p2, operation Mode is: PCIN+A2:B2.
+DSP Report: register add_ln58_838_fu_39615_p2 is absorbed into DSP add_ln58_838_fu_39615_p2.
+DSP Report: register add_ln58_838_fu_39615_p2 is absorbed into DSP add_ln58_838_fu_39615_p2.
+DSP Report: operator add_ln58_838_fu_39615_p2 is absorbed into DSP add_ln58_838_fu_39615_p2.
+DSP Report: Generating DSP add_ln58_856_fu_39811_p2, operation Mode is: C+(A*(B:0x3ffe5))'.
+DSP Report: register mul_ln17_6_reg_9303_reg is absorbed into DSP add_ln58_856_fu_39811_p2.
+DSP Report: operator add_ln58_856_fu_39811_p2 is absorbed into DSP add_ln58_856_fu_39811_p2.
+DSP Report: operator mul_16s_6s_21_1_1_U1/tmp_product is absorbed into DSP add_ln58_856_fu_39811_p2.
+DSP Report: Generating DSP mul_16s_5ns_21_1_1_U25/tmp_product, operation Mode is: A2*(B:0xd).
+DSP Report: register sext_ln73_19_reg_40826_reg is absorbed into DSP mul_16s_5ns_21_1_1_U25/tmp_product.
+DSP Report: operator mul_16s_5ns_21_1_1_U25/tmp_product is absorbed into DSP mul_16s_5ns_21_1_1_U25/tmp_product.
+DSP Report: Generating DSP add_ln58_712_fu_38310_p2, operation Mode is: (C:0x800)+A2*(B:0x3ffe9).
+DSP Report: register sext_ln73_24_reg_40861_reg is absorbed into DSP add_ln58_712_fu_38310_p2.
+DSP Report: operator add_ln58_712_fu_38310_p2 is absorbed into DSP add_ln58_712_fu_38310_p2.
+DSP Report: operator mul_16s_6s_21_1_1_U6/tmp_product is absorbed into DSP add_ln58_712_fu_38310_p2.
+DSP Report: Generating DSP mul_16s_6s_21_1_1_U23/tmp_product, operation Mode is: A2*(B:0x3ffeb).
+DSP Report: register sext_ln73_60_reg_41087_reg is absorbed into DSP mul_16s_6s_21_1_1_U23/tmp_product.
+DSP Report: operator mul_16s_6s_21_1_1_U23/tmp_product is absorbed into DSP mul_16s_6s_21_1_1_U23/tmp_product.
+DSP Report: Generating DSP add_ln58_827_fu_39501_p2, operation Mode is: PCIN+A2:B2+C.
+DSP Report: register add_ln58_827_fu_39501_p2 is absorbed into DSP add_ln58_827_fu_39501_p2.
+DSP Report: register add_ln58_827_fu_39501_p2 is absorbed into DSP add_ln58_827_fu_39501_p2.
+DSP Report: operator add_ln58_827_fu_39501_p2 is absorbed into DSP add_ln58_827_fu_39501_p2.
+DSP Report: Generating DSP mul_16s_5ns_21_1_1_U2/tmp_product, operation Mode is: A2*(B:0xd).
+DSP Report: register a_25_reg_40962_reg is absorbed into DSP mul_16s_5ns_21_1_1_U2/tmp_product.
+DSP Report: operator mul_16s_5ns_21_1_1_U2/tmp_product is absorbed into DSP mul_16s_5ns_21_1_1_U2/tmp_product.
+DSP Report: Generating DSP add_ln58_866_fu_39914_p2, operation Mode is: PCIN+A2:B2+C'.
+DSP Report: register sext_ln73_60_reg_41087_reg is absorbed into DSP add_ln58_866_fu_39914_p2.
+DSP Report: register add_ln58_866_fu_39914_p2 is absorbed into DSP add_ln58_866_fu_39914_p2.
+DSP Report: register add_ln58_866_fu_39914_p2 is absorbed into DSP add_ln58_866_fu_39914_p2.
+DSP Report: operator add_ln58_866_fu_39914_p2 is absorbed into DSP add_ln58_866_fu_39914_p2.
+DSP Report: Generating DSP mul_16s_6s_21_1_1_U32/tmp_product, operation Mode is: A*(B:0x3ffeb).
+DSP Report: operator mul_16s_6s_21_1_1_U32/tmp_product is absorbed into DSP mul_16s_6s_21_1_1_U32/tmp_product.
+DSP Report: Generating DSP add_ln58_872_fu_39976_p2, operation Mode is: PCIN+A:B+(C:0xffffffffd800).
+DSP Report: operator add_ln58_872_fu_39976_p2 is absorbed into DSP add_ln58_872_fu_39976_p2.
+DSP Report: Generating DSP mul_16s_6s_22_1_1_U29/tmp_product, operation Mode is: A2*(B:0x3ffe7).
+DSP Report: register a_20_reg_40853_reg is absorbed into DSP mul_16s_6s_22_1_1_U29/tmp_product.
+DSP Report: operator mul_16s_6s_22_1_1_U29/tmp_product is absorbed into DSP mul_16s_6s_22_1_1_U29/tmp_product.
+DSP Report: Generating DSP add_ln58_771_fu_38919_p2, operation Mode is: PCIN+A2*(B:0x3ffed).
+DSP Report: register a_21_reg_40881_reg is absorbed into DSP add_ln58_771_fu_38919_p2.
+DSP Report: operator add_ln58_771_fu_38919_p2 is absorbed into DSP add_ln58_771_fu_38919_p2.
+DSP Report: operator mul_16s_6s_22_1_1_U20/tmp_product is absorbed into DSP add_ln58_771_fu_38919_p2.
+DSP Report: Generating DSP add_ln58_772_fu_38929_p2, operation Mode is: (C:0x1800)+A2*(B:0x16).
+DSP Report: register sext_ln73_60_reg_41087_reg is absorbed into DSP add_ln58_772_fu_38929_p2.
+DSP Report: operator add_ln58_772_fu_38929_p2 is absorbed into DSP add_ln58_772_fu_38929_p2.
+DSP Report: operator mul_16s_6ns_21_1_1_U9/tmp_product is absorbed into DSP add_ln58_772_fu_38929_p2.
+DSP Report: Generating DSP mul_16s_6s_22_1_1_U5/tmp_product, operation Mode is: A2*(B:0x3ffeb).
+DSP Report: register a_19_reg_40797_reg is absorbed into DSP mul_16s_6s_22_1_1_U5/tmp_product.
+DSP Report: operator mul_16s_6s_22_1_1_U5/tmp_product is absorbed into DSP mul_16s_6s_22_1_1_U5/tmp_product.
+DSP Report: Generating DSP add_ln58_878_fu_40044_p2, operation Mode is: PCIN+A:B+C.
+DSP Report: operator add_ln58_878_fu_40044_p2 is absorbed into DSP add_ln58_878_fu_40044_p2.
+DSP Report: Generating DSP mul_16s_6ns_22_1_1_U21/tmp_product, operation Mode is: A2*(B:0x1a).
+DSP Report: register a_16_reg_41080_reg is absorbed into DSP mul_16s_6ns_22_1_1_U21/tmp_product.
+DSP Report: operator mul_16s_6ns_22_1_1_U21/tmp_product is absorbed into DSP mul_16s_6ns_22_1_1_U21/tmp_product.
+DSP Report: Generating DSP add_ln58_781_fu_39025_p2, operation Mode is: PCIN+A:B+C.
+DSP Report: operator add_ln58_781_fu_39025_p2 is absorbed into DSP add_ln58_781_fu_39025_p2.
+DSP Report: Generating DSP mul_16s_6ns_21_1_1_U7/tmp_product, operation Mode is: A2*(B:0x1b).
+DSP Report: register sext_ln73_60_reg_41087_reg is absorbed into DSP mul_16s_6ns_21_1_1_U7/tmp_product.
+DSP Report: operator mul_16s_6ns_21_1_1_U7/tmp_product is absorbed into DSP mul_16s_6ns_21_1_1_U7/tmp_product.
+DSP Report: Generating DSP add_ln58_785_fu_39057_p2, operation Mode is: PCIN+A:B+(C:0x800).
+DSP Report: operator add_ln58_785_fu_39057_p2 is absorbed into DSP add_ln58_785_fu_39057_p2.
+DSP Report: Generating DSP mul_16s_6ns_22_1_1_U31/tmp_product, operation Mode is: A2*(B:0x1d).
+DSP Report: register a_20_reg_40853_reg is absorbed into DSP mul_16s_6ns_22_1_1_U31/tmp_product.
+DSP Report: operator mul_16s_6ns_22_1_1_U31/tmp_product is absorbed into DSP mul_16s_6ns_22_1_1_U31/tmp_product.
+DSP Report: Generating DSP add_ln58_755_fu_38739_p2, operation Mode is: PCIN+A:B+C.
+DSP Report: operator add_ln58_755_fu_38739_p2 is absorbed into DSP add_ln58_755_fu_38739_p2.
+DSP Report: Generating DSP mul_16s_6ns_21_1_1_U9/tmp_product, operation Mode is: A2*(B:0x16).
+DSP Report: register sext_ln73_60_reg_41087_reg is absorbed into DSP mul_16s_6ns_21_1_1_U9/tmp_product.
+DSP Report: operator mul_16s_6ns_21_1_1_U9/tmp_product is absorbed into DSP mul_16s_6ns_21_1_1_U9/tmp_product.
+DSP Report: Generating DSP add_ln58_797_fu_39183_p2, operation Mode is: PCIN+A:B+C.
+DSP Report: operator add_ln58_797_fu_39183_p2 is absorbed into DSP add_ln58_797_fu_39183_p2.
+DSP Report: Generating DSP add_ln58_743_fu_38635_p2, operation Mode is: C+A2*(B:0x1b).
+DSP Report: register a_21_reg_40881_reg is absorbed into DSP add_ln58_743_fu_38635_p2.
+DSP Report: operator add_ln58_743_fu_38635_p2 is absorbed into DSP add_ln58_743_fu_38635_p2.
+DSP Report: operator mul_16s_6ns_22_1_1_U35/tmp_product is absorbed into DSP add_ln58_743_fu_38635_p2.
+DSP Report: Generating DSP mul_16s_5ns_21_1_1_U37/tmp_product, operation Mode is: A2*(B:0xd).
+DSP Report: register a_18_reg_40784_reg is absorbed into DSP mul_16s_5ns_21_1_1_U37/tmp_product.
+DSP Report: operator mul_16s_5ns_21_1_1_U37/tmp_product is absorbed into DSP mul_16s_5ns_21_1_1_U37/tmp_product.
+DSP Report: Generating DSP mul_16s_5ns_21_1_1_U3/tmp_product, operation Mode is: A2*(B:0xd).
+DSP Report: register a_26_reg_41025_reg is absorbed into DSP mul_16s_5ns_21_1_1_U3/tmp_product.
+DSP Report: operator mul_16s_5ns_21_1_1_U3/tmp_product is absorbed into DSP mul_16s_5ns_21_1_1_U3/tmp_product.
+DSP Report: Generating DSP add_ln58_894_fu_40200_p2, operation Mode is: PCIN+A:B+(C:0x1).
+DSP Report: operator add_ln58_894_fu_40200_p2 is absorbed into DSP add_ln58_894_fu_40200_p2.
+DSP Report: Generating DSP add_ln58_894_fu_40200_p2, operation Mode is: PCIN-A2:B2.
+DSP Report: register sext_ln73_27_reg_40888_reg is absorbed into DSP add_ln58_894_fu_40200_p2.
+DSP Report: register add_ln58_894_fu_40200_p2 is absorbed into DSP add_ln58_894_fu_40200_p2.
+DSP Report: operator add_ln58_894_fu_40200_p2 is absorbed into DSP add_ln58_894_fu_40200_p2.
+DSP Report: Generating DSP mul_16s_6s_22_1_1_U27/tmp_product, operation Mode is: A2*(B:0x3ffeb).
+DSP Report: register a_reg_40819_reg is absorbed into DSP mul_16s_6s_22_1_1_U27/tmp_product.
+DSP Report: operator mul_16s_6s_22_1_1_U27/tmp_product is absorbed into DSP mul_16s_6s_22_1_1_U27/tmp_product.
+DSP Report: Generating DSP add_ln58_711_fu_38300_p2, operation Mode is: PCIN+A:B+C.
+DSP Report: operator add_ln58_711_fu_38300_p2 is absorbed into DSP add_ln58_711_fu_38300_p2.
+DSP Report: Generating DSP mul_ln17_reg_9288_reg, operation Mode is: (A*(B:0x3ffea))'.
+DSP Report: register mul_ln17_reg_9288_reg is absorbed into DSP mul_ln17_reg_9288_reg.
+DSP Report: operator mul_16s_6s_21_1_1_U26/tmp_product is absorbed into DSP mul_ln17_reg_9288_reg.
+DSP Report: Generating DSP add_ln58_897_fu_40240_p2, operation Mode is: C+A*(B:0xb).
+DSP Report: operator add_ln58_897_fu_40240_p2 is absorbed into DSP add_ln58_897_fu_40240_p2.
+DSP Report: operator mul_16s_5ns_21_1_1_U8/tmp_product is absorbed into DSP add_ln58_897_fu_40240_p2.
+DSP Report: Generating DSP add_ln58_891_fu_40170_p2, operation Mode is: (C:0x1000)+(A*(B:0xd))'.
+DSP Report: register mul_ln17_17_reg_9311_reg is absorbed into DSP add_ln58_891_fu_40170_p2.
+DSP Report: operator add_ln58_891_fu_40170_p2 is absorbed into DSP add_ln58_891_fu_40170_p2.
+DSP Report: operator mul_16s_5ns_20_1_1_U15/tmp_product is absorbed into DSP add_ln58_891_fu_40170_p2.
+DSP Report: Generating DSP add_ln58_883_fu_40090_p2, operation Mode is: C+A*(B:0xd).
+DSP Report: operator add_ln58_883_fu_40090_p2 is absorbed into DSP add_ln58_883_fu_40090_p2.
+DSP Report: operator mul_16s_5ns_21_1_1_U4/tmp_product is absorbed into DSP add_ln58_883_fu_40090_p2.
+DSP Report: Generating DSP add_ln58_884_fu_40100_p2, operation Mode is: (C:0xffffffffe000)+A2*(B:0xb).
+DSP Report: register sext_ln73_64_reg_41119_reg is absorbed into DSP add_ln58_884_fu_40100_p2.
+DSP Report: operator add_ln58_884_fu_40100_p2 is absorbed into DSP add_ln58_884_fu_40100_p2.
+DSP Report: operator mul_16s_5ns_20_1_1_U24/tmp_product is absorbed into DSP add_ln58_884_fu_40100_p2.
+DSP Report: Generating DSP add_ln58_846_fu_39695_p2, operation Mode is: (C:0xfffffffff800)+A2*(B:0x3ffe9).
+DSP Report: register a_27_reg_41112_reg is absorbed into DSP add_ln58_846_fu_39695_p2.
+DSP Report: operator add_ln58_846_fu_39695_p2 is absorbed into DSP add_ln58_846_fu_39695_p2.
+DSP Report: operator mul_16s_6s_21_1_1_U19/tmp_product is absorbed into DSP add_ln58_846_fu_39695_p2.
+DSP Report: Generating DSP add_ln58_766_fu_38847_p2, operation Mode is: C+A*(B:0xd).
+DSP Report: operator add_ln58_766_fu_38847_p2 is absorbed into DSP add_ln58_766_fu_38847_p2.
+DSP Report: operator mul_16s_5ns_20_1_1_U22/tmp_product is absorbed into DSP add_ln58_766_fu_38847_p2.
+DSP Report: Generating DSP add_ln58_841_fu_39645_p2, operation Mode is: C+A*(B:0x19).
+DSP Report: operator add_ln58_841_fu_39645_p2 is absorbed into DSP add_ln58_841_fu_39645_p2.
+DSP Report: operator mul_16s_6ns_21_1_1_U18/tmp_product is absorbed into DSP add_ln58_841_fu_39645_p2.
+DSP Debug: swapped A/B pins for adder 0x5ae7acc0
+DSP Report: Generating DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U386/tmp_product, operation Mode is: A2*B2.
+DSP Report: register grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/a_1_reg_855_reg is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U386/tmp_product.
+DSP Report: register grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/invert_table_U/q0_reg is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U386/tmp_product.
+DSP Report: operator grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U386/tmp_product is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U386/tmp_product.
+DSP Report: Generating DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U387/tmp_product, operation Mode is: A2*B2.
+DSP Report: register grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/b_reg_860_reg is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U387/tmp_product.
+DSP Report: register grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/invert_table_U/q0_reg is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U387/tmp_product.
+DSP Report: operator grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U387/tmp_product is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U387/tmp_product.
+DSP Report: Generating DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U388/tmp_product, operation Mode is: A2*B''.
+DSP Report: register grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/a_2_reg_837_reg is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U388/tmp_product.
+DSP Report: register grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/a_2_reg_837_pp0_iter3_reg_reg is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U388/tmp_product.
+DSP Report: register grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/invert_table_U/q0_reg is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U388/tmp_product.
+DSP Report: operator grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U388/tmp_product is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U388/tmp_product.
+DSP Report: Generating DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U389/tmp_product, operation Mode is: A2*B''.
+DSP Report: register grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/b_1_reg_843_reg is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U389/tmp_product.
+DSP Report: register grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/b_1_reg_843_pp0_iter3_reg_reg is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U389/tmp_product.
+DSP Report: register grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/invert_table_U/q0_reg is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U389/tmp_product.
+DSP Report: operator grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U389/tmp_product is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U389/tmp_product.
+DSP Report: Generating DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U390/tmp_product, operation Mode is: A2*B''.
+DSP Report: register grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/b_2_reg_849_reg is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U390/tmp_product.
+DSP Report: register grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/b_2_reg_849_pp0_iter3_reg_reg is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U390/tmp_product.
+DSP Report: register grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/invert_table_U/q0_reg is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U390/tmp_product.
+DSP Report: operator grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U390/tmp_product is absorbed into DSP grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U390/tmp_product.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:18 ; elapsed = 00:01:20 . Memory (MB): peak = 3505.074 ; gain = 1917.328 ; free physical = 354 ; free virtual = 9662
+---------------------------------------------------------------------------------
+ Sort Area is myproject__GCB2 grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U388/tmp_product_3b : 0 0 : 2532 2532 : Used 1 time 0
+ Sort Area is myproject__GCB2 grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U389/tmp_product_3d : 0 0 : 2532 2532 : Used 1 time 0
+ Sort Area is myproject__GCB2 grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U390/tmp_product_3e : 0 0 : 2532 2532 : Used 1 time 0
+ Sort Area is myproject__GCB2 grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U386/tmp_product_38 : 0 0 : 2514 2514 : Used 1 time 0
+ Sort Area is myproject__GCB2 grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U387/tmp_product_3a : 0 0 : 2514 2514 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6s_22_1_1_U29/tmp_product_18 : 0 0 : 266 592 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6s_22_1_1_U29/tmp_product_18 : 0 1 : 326 592 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6s_21_1_1_U23/tmp_product_e : 0 0 : 266 474 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6s_21_1_1_U23/tmp_product_e : 0 1 : 208 474 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6ns_22_1_1_U21/tmp_product_1c : 0 0 : 266 444 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6ns_22_1_1_U21/tmp_product_1c : 0 1 : 178 444 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6s_22_1_1_U27/tmp_product_2a : 0 0 : 266 444 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6s_22_1_1_U27/tmp_product_2a : 0 1 : 178 444 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6s_22_1_1_U5/tmp_product_1a : 0 0 : 266 441 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6s_22_1_1_U5/tmp_product_1a : 0 1 : 175 441 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6ns_22_1_1_U31/tmp_product_20 : 0 0 : 266 438 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6ns_22_1_1_U31/tmp_product_20 : 0 1 : 172 438 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6ns_21_1_1_U9/tmp_product_22 : 0 0 : 266 436 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6ns_21_1_1_U9/tmp_product_22 : 0 1 : 170 436 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_ln17_11_reg_9307_reg_5 : 0 0 : 245 433 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_ln17_11_reg_9307_reg_5 : 0 1 : 105 433 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_ln17_11_reg_9307_reg_5 : 0 2 : 83 433 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_5ns_21_1_1_U3/tmp_product_27 : 0 0 : 167 398 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_5ns_21_1_1_U3/tmp_product_27 : 0 1 : 64 398 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_5ns_21_1_1_U3/tmp_product_27 : 0 2 : 167 398 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_5ns_21_1_1_U2/tmp_product_11 : 0 0 : 167 378 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_5ns_21_1_1_U2/tmp_product_11 : 0 1 : 211 378 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 add_ln58_743_fu_38635_p2_24 : 0 0 : 366 366 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6ns_21_1_1_U7/tmp_product_1e : 0 0 : 266 345 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6ns_21_1_1_U7/tmp_product_1e : 0 1 : 79 345 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6s_21_1_1_U32/tmp_product_13 : 0 0 : 245 331 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_6s_21_1_1_U32/tmp_product_13 : 0 1 : 86 331 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_5ns_20_1_1_U28/tmp_product_2 : 0 0 : 167 323 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_5ns_20_1_1_U28/tmp_product_2 : 0 1 : 93 323 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_5ns_20_1_1_U28/tmp_product_2 : 0 2 : 63 323 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 add_ln58_772_fu_38929_p2_16 : 0 0 : 310 310 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 add_ln58_856_fu_39811_p2_9 : 0 0 : 273 273 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB1 add_ln58_841_fu_39645_p2_36 : 0 0 : 261 261 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 add_ln58_712_fu_38310_p2_c : 0 0 : 251 251 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB1 add_ln58_846_fu_39695_p2_33 : 0 0 : 251 251 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_ln17_reg_9288_reg_2b : 0 0 : 245 245 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB1 add_ln58_884_fu_40100_p2_30 : 0 0 : 229 229 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB1 add_ln58_883_fu_40090_p2_32 : 0 0 : 218 218 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB1 add_ln58_897_fu_40240_p2_2c : 0 0 : 218 218 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB1 add_ln58_891_fu_40170_p2_2e : 0 0 : 215 215 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB1 add_ln58_766_fu_38847_p2_34 : 0 0 : 199 199 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_5ns_21_1_1_U25/tmp_product_b : 0 0 : 167 167 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_5ns_21_1_1_U30/tmp_product_0 : 0 0 : 167 167 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s__GB0 mul_16s_5ns_21_1_1_U37/tmp_product_26 : 0 0 : 167 167 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+----------------------------------------------------------------------------------------------+---------------+----------------+
+|Module Name | RTL Object                                                                                   | Depth x Width | Implemented As | 
++------------+----------------------------------------------------------------------------------------------+---------------+----------------+
+|myproject   | grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q1_reg | 1024x18       | Block RAM      | 
+|myproject   | grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q2_reg | 1024x18       | Block RAM      | 
+|myproject   | grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q4_reg | 1024x18       | Block RAM      | 
+|myproject   | grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q0_reg | 1024x18       | Block RAM      | 
+|myproject   | grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q3_reg | 1024x18       | Block RAM      | 
+|myproject   | p_0_out                                                                                      | 1024x18       | LUT            | 
+|myproject   | grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q1_reg | 1024x18       | Block RAM      | 
+|myproject   | grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q2_reg | 1024x18       | Block RAM      | 
+|myproject   | grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q4_reg | 1024x18       | Block RAM      | 
+|myproject   | grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q0_reg | 1024x18       | Block RAM      | 
+|myproject   | grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q3_reg | 1024x18       | Block RAM      | 
++------------+----------------------------------------------------------------------------------------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++-----------------------------+-----------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                  | DSP Mapping                       | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------------+-----------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|myproject                    | A2*(B:0xb)                        | 16     | 5      | -      | -      | 21     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A2*(B:0xb)                        | 16     | 5      | -      | -      | 21     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A:B+(C:0x2)                  | 30     | 18     | 3      | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A:B                          | 30     | 18     | -      | -      | -1     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | (A*(B:0x13))'                     | 16     | 6      | -      | -      | 22     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|myproject                    | PCIN+A2:B2+(C:0x3400)             | 3      | 18     | 14     | -      | -1     | 1    | 1    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A2:B2                        | 3      | 18     | -      | -      | -1     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject                    | C+(A*(B:0x3ffe5))'                | 16     | 6      | 19     | -      | 21     | 0    | 0    | 0    | -    | -     | 1    | 0    | 
+|myproject                    | A2*(B:0xd)                        | 16     | 5      | -      | -      | 21     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | (C:0x800)+A2*(B:0x3ffe9)          | 16     | 6      | 12     | -      | 21     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | A2*(B:0x3ffeb)                    | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A2:B2+C                      | 30     | 18     | 48     | -      | -1     | 1    | 1    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | A2*(B:0xd)                        | 16     | 5      | -      | -      | 21     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A2:B2+C'                     | 3      | 18     | 20     | -      | -1     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_mul_16s_6s_21_1_1  | A*(B:0x3ffeb)                     | 16     | 6      | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A:B+(C:0xffffffffd800)       | 1      | 18     | 15     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | A2*(B:0x3ffe7)                    | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A2*(B:0x3ffed)               | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | (C:0x1800)+A2*(B:0x16)            | 16     | 6      | 13     | -      | 21     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | A2*(B:0x3ffeb)                    | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A:B+C                        | 4      | 18     | 21     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | A2*(B:0x1a)                       | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A:B+C                        | 3      | 18     | 20     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | A2*(B:0x1b)                       | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A:B+(C:0x800)                | 30     | 18     | 12     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | A2*(B:0x1d)                       | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A:B+C                        | 1      | 18     | 20     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | A2*(B:0x16)                       | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A:B+C                        | 2      | 18     | 48     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | C+A2*(B:0x1b)                     | 16     | 6      | 22     | -      | 22     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | A2*(B:0xd)                        | 16     | 5      | -      | -      | 21     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A2*(B:0xd)                        | 16     | 5      | -      | -      | 21     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A:B+(C:0x1)                  | 2      | 18     | 32     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN-A2:B2                        | 3      | 18     | -      | -      | -1     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A2*(B:0x3ffeb)                    | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A:B+C                        | 3      | 18     | 20     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | (A*(B:0x3ffea))'                  | 16     | 6      | -      | -      | 22     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|myproject_mul_16s_5ns_21_1_1 | C+A*(B:0xb)                       | 16     | 5      | 21     | -      | 22     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | (C:0x1000)+(A*(B:0xd))'           | 16     | 5      | 13     | -      | 20     | 0    | 0    | 0    | -    | -     | 1    | 0    | 
+|myproject_mul_16s_5ns_21_1_1 | C+A*(B:0xd)                       | 16     | 5      | 21     | -      | 21     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | (C:0xffffffffe000)+A2*(B:0xb)     | 16     | 5      | 14     | -      | 20     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | (C:0xfffffffff800)+A2*(B:0x3ffe9) | 16     | 6      | 12     | -      | 21     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject_mul_16s_5ns_20_1_1 | C+A*(B:0xd)                       | 16     | 5      | 18     | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject_mul_16s_6ns_21_1_1 | C+A*(B:0x19)                      | 16     | 6      | 20     | -      | 21     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | A2*B2                             | 18     | 18     | -      | -      | 36     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A2*B2                             | 18     | 18     | -      | -      | 36     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A2*B''                            | 18     | 18     | -      | -      | 36     | 1    | 2    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A2*B''                            | 18     | 18     | -      | -      | 36     | 1    | 2    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A2*B''                            | 18     | 18     | -      | -      | 36     | 1    | 2    | -    | -    | -     | 0    | 0    | 
++-----------------------------+-----------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:19 ; elapsed = 00:01:21 . Memory (MB): peak = 3505.074 ; gain = 1917.328 ; free physical = 352 ; free virtual = 9660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q1_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q1_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q4_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q4_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q3_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:23 ; elapsed = 00:01:25 . Memory (MB): peak = 3513.082 ; gain = 1925.336 ; free physical = 336 ; free virtual = 9622
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:27 ; elapsed = 00:01:29 . Memory (MB): peak = 3513.082 ; gain = 1925.336 ; free physical = 393 ; free virtual = 9717
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:28 ; elapsed = 00:01:30 . Memory (MB): peak = 3513.082 ; gain = 1925.336 ; free physical = 393 ; free virtual = 9717
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:28 ; elapsed = 00:01:30 . Memory (MB): peak = 3513.082 ; gain = 1925.336 ; free physical = 395 ; free virtual = 9715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:28 ; elapsed = 00:01:30 . Memory (MB): peak = 3513.082 ; gain = 1925.336 ; free physical = 390 ; free virtual = 9716
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:28 ; elapsed = 00:01:30 . Memory (MB): peak = 3513.082 ; gain = 1925.336 ; free physical = 391 ; free virtual = 9716
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:29 ; elapsed = 00:01:31 . Memory (MB): peak = 3513.082 ; gain = 1925.336 ; free physical = 391 ; free virtual = 9716
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++-----------------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                  | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|myproject                    | PCIN+A:B+C    | 30     | 18     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A:B      | 30     | 18     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A':B'+C  | 30     | 18     | -      | -      | 0      | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A':B'    | 30     | 18     | -      | -      | 21     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject                    | C+(A*B)'      | 30     | 18     | 48     | -      | 21     | 0    | 0    | 0    | -    | -     | 1    | 0    | 
+|myproject                    | (C+A'*B)'     | 30     | 18     | 12     | -      | 21     | 1    | 0    | 0    | -    | -     | 0    | 1    | 
+|myproject                    | PCIN+A':B'+C  | 30     | 18     | -      | -      | 21     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A':B'+C' | 30     | 18     | -      | -      | 21     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A'*B     | 30     | 18     | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | C+A'*B        | 30     | 5      | 13     | -      | 21     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A:B+C    | 4      | 18     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | (PCIN+A:B+C)' | 30     | 18     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|myproject                    | PCIN+A:B+C    | 30     | 18     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | (PCIN+A:B+C)' | 30     | 18     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|myproject                    | (PCIN+A:B+C)' | 30     | 18     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|myproject                    | C+A'*B        | 30     | 5      | 22     | -      | 22     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN+A:B+C    | 30     | 18     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | PCIN-(A':B')  | 3      | 18     | -      | -      | 21     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject                    | (PCIN+A:B+C)' | 30     | 18     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|myproject                    | (A*B)'        | 30     | 18     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|myproject_mul_16s_5ns_21_1_1 | C+A'*B        | 30     | 4      | 48     | -      | 22     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | (C+A*B)'      | 30     | 4      | 13     | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
+|myproject_mul_16s_5ns_21_1_1 | C+A'*B        | 30     | 4      | 21     | -      | 21     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | C+A'*B        | 30     | 4      | 48     | -      | 20     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | (C+A'*B)'     | 30     | 18     | 48     | -      | 21     | 1    | 0    | 0    | -    | -     | 0    | 1    | 
+|myproject_mul_16s_5ns_20_1_1 | (C+A'*B)'     | 30     | 4      | 48     | -      | 20     | 1    | 0    | 0    | -    | -     | 0    | 1    | 
+|myproject_mul_16s_6ns_21_1_1 | C+A'*B        | 30     | 5      | 48     | -      | 21     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | A'*B          | 30     | 4      | -      | -      | 0      | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | C'+A'*B       | 30     | 4      | 48     | -      | 0      | 1    | 0    | 1    | -    | -     | 0    | 0    | 
+|myproject                    | A'*B          | 30     | 4      | -      | -      | 21     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A'*B          | 30     | 4      | -      | -      | 0      | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A'*B          | 30     | 4      | -      | -      | 21     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A'*B          | 30     | 4      | -      | -      | 21     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A'*B          | 30     | 5      | -      | -      | 0      | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | C+A'*B        | 30     | 5      | 48     | -      | 0      | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | C+A'*B        | 30     | 5      | 48     | -      | 0      | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | C+A'*B        | 30     | 5      | 48     | -      | 0      | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | C+A'*B        | 30     | 18     | 48     | -      | 0      | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject_mul_16s_6s_21_1_1  | (C+RND+A'*B)' | 30     | 18     | 48     | -      | 48     | 1    | 0    | 0    | -    | -     | 0    | 1    | 
+|myproject                    | C+A'*B        | 30     | 18     | 48     | -      | 0      | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|myproject                    | A'*B          | 30     | 18     | -      | -      | 0      | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A'*B          | 30     | 18     | -      | -      | 0      | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A'*B'         | 30     | 18     | -      | -      | 36     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A'*B'         | 30     | 18     | -      | -      | 36     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A'*B''        | 30     | 18     | -      | -      | 36     | 1    | 2    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A'*B''        | 30     | 18     | -      | -      | 36     | 1    | 2    | -    | -    | -     | 0    | 0    | 
+|myproject                    | A'*B''        | 30     | 18     | -      | -      | 36     | 1    | 2    | -    | -    | -     | 0    | 0    | 
++-----------------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |BUFG            |     1|
+|2     |CARRY8          |  1756|
+|3     |DSP48E2         |    28|
+|4     |DSP_ALU         |    19|
+|5     |DSP_A_B_DATA    |    19|
+|6     |DSP_C_DATA      |    19|
+|7     |DSP_MULTIPLIER  |    19|
+|8     |DSP_M_DATA      |    19|
+|9     |DSP_OUTPUT      |    19|
+|10    |DSP_PREADD      |    19|
+|11    |DSP_PREADD_DATA |    19|
+|12    |LUT1            |   756|
+|13    |LUT2            |  6087|
+|14    |LUT3            |  3543|
+|15    |LUT4            |  3343|
+|16    |LUT5            |  2756|
+|17    |LUT6            |  4451|
+|18    |MUXF7           |    49|
+|19    |MUXF8           |    20|
+|20    |RAMB18E2        |     3|
+|21    |FDRE            |  4334|
+|22    |FDSE            |    18|
+|23    |IBUF            |   260|
+|24    |OBUF            |    88|
++------+----------------+------+
+
+Report Instance Areas: 
++------+-------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+------+
+|      |Instance                                                                       |Module                                                                                                                    |Cells |
++------+-------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+------+
+|1     |top                                                                            |                                                                                                                          | 27645|
+|2     |  call_ret4_relu_ap_fixed_19_8_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s_fu_235 |myproject_relu_ap_fixed_19_8_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s                                                     |    59|
+|3     |  grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95   |myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s                                                |  7791|
+|4     |    add_ln58_712_fu_38310_p2                                                   |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95/add_ln58_712_fu_38310_p2_funnel               |     8|
+|5     |    add_ln58_781_fu_39025_p2                                                   |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95/add_ln58_711_fu_38300_p2_funnel__2            |     8|
+|6     |    add_ln58_755_fu_38739_p2                                                   |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95/add_ln58_711_fu_38300_p2_funnel__1            |     8|
+|7     |    add_ln58_797_fu_39183_p2                                                   |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95/add_ln58_711_fu_38300_p2_funnel__3            |     8|
+|8     |    add_ln58_711_fu_38300_p2                                                   |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95/add_ln58_711_fu_38300_p2_funnel               |     8|
+|9     |    mul_ln17_reg_9288_reg                                                      |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95/add_ln58_891_fu_40170_p2_funnel__1            |     8|
+|10    |    add_ln58_897_fu_40240_p2                                                   |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95/add_ln58_884_fu_40100_p2_funnel__1            |     8|
+|11    |    add_ln58_891_fu_40170_p2                                                   |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95/add_ln58_891_fu_40170_p2_funnel               |     8|
+|12    |    add_ln58_883_fu_40090_p2                                                   |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95/add_ln58_884_fu_40100_p2_funnel__2            |     8|
+|13    |    add_ln58_884_fu_40100_p2                                                   |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95/add_ln58_884_fu_40100_p2_funnel               |     8|
+|14    |    add_ln58_846_fu_39695_p2                                                   |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95/add_ln58_712_fu_38310_p2_funnel__1            |     8|
+|15    |    add_ln58_766_fu_38847_p2                                                   |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95/add_ln58_712_fu_38310_p2_funnel__2            |     8|
+|16    |    add_ln58_841_fu_39645_p2                                                   |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95/add_ln58_884_fu_40100_p2_funnel__3            |     8|
+|17    |    mul_16s_5ns_20_1_1_U28                                                     |myproject_mul_16s_5ns_20_1_1                                                                                              |     1|
+|18    |    mul_16s_5ns_21_1_1_U2                                                      |myproject_mul_16s_5ns_21_1_1                                                                                              |    18|
+|19    |    mul_16s_5ns_21_1_1_U25                                                     |myproject_mul_16s_5ns_21_1_1_77                                                                                           |   128|
+|20    |    mul_16s_5ns_21_1_1_U3                                                      |myproject_mul_16s_5ns_21_1_1_78                                                                                           |    17|
+|21    |    mul_16s_5ns_21_1_1_U30                                                     |myproject_mul_16s_5ns_21_1_1_79                                                                                           |    66|
+|22    |    mul_16s_5ns_21_1_1_U37                                                     |myproject_mul_16s_5ns_21_1_1_80                                                                                           |    79|
+|23    |    mul_16s_5s_20_1_1_U12                                                      |myproject_mul_16s_5s_20_1_1                                                                                               |    95|
+|24    |    mul_16s_5s_20_1_1_U16                                                      |myproject_mul_16s_5s_20_1_1_81                                                                                            |    83|
+|25    |    mul_16s_5s_20_1_1_U17                                                      |myproject_mul_16s_5s_20_1_1_82                                                                                            |    99|
+|26    |    mul_16s_5s_20_1_1_U34                                                      |myproject_mul_16s_5s_20_1_1_83                                                                                            |   107|
+|27    |    mul_16s_5s_21_1_1_U10                                                      |myproject_mul_16s_5s_21_1_1                                                                                               |    53|
+|28    |    mul_16s_5s_21_1_1_U13                                                      |myproject_mul_16s_5s_21_1_1_84                                                                                            |    84|
+|29    |    mul_16s_5s_21_1_1_U14                                                      |myproject_mul_16s_5s_21_1_1_85                                                                                            |    97|
+|30    |    mul_16s_5s_21_1_1_U33                                                      |myproject_mul_16s_5s_21_1_1_86                                                                                            |     1|
+|31    |    mul_16s_5s_21_1_1_U36                                                      |myproject_mul_16s_5s_21_1_1_87                                                                                            |    99|
+|32    |    mul_16s_6ns_21_1_1_U7                                                      |myproject_mul_16s_6ns_21_1_1                                                                                              |     3|
+|33    |    mul_16s_6ns_21_1_1_U9                                                      |myproject_mul_16s_6ns_21_1_1_88                                                                                           |    35|
+|34    |    mul_16s_6ns_22_1_1_U21                                                     |myproject_mul_16s_6ns_22_1_1                                                                                              |    25|
+|35    |    mul_16s_6ns_22_1_1_U31                                                     |myproject_mul_16s_6ns_22_1_1_89                                                                                           |    59|
+|36    |    mul_16s_6s_21_1_1_U23                                                      |myproject_mul_16s_6s_21_1_1                                                                                               |    21|
+|37    |    mul_16s_6s_21_1_1_U32                                                      |myproject_mul_16s_6s_21_1_1_90                                                                                            |   100|
+|38    |      tmp_product                                                              |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_27_12_5_3_0_config2_s_fu_95/mul_16s_6s_21_1_1_U32/tmp_product_funnel      |     8|
+|39    |    mul_16s_6s_22_1_1_U27                                                      |myproject_mul_16s_6s_22_1_1                                                                                               |    29|
+|40    |    mul_16s_6s_22_1_1_U29                                                      |myproject_mul_16s_6s_22_1_1_91                                                                                            |     1|
+|41    |    mul_16s_6s_22_1_1_U5                                                       |myproject_mul_16s_6s_22_1_1_92                                                                                            |    17|
+|42    |  grp_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_18_7_5_3_0_config11_s_fu_336  |myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_18_7_5_3_0_config11_s                                                |   750|
+|43    |    mul_6ns_6ns_11_1_1_U356                                                    |myproject_mul_6ns_6ns_11_1_1_74                                                                                           |    64|
+|44    |    mul_6ns_6ns_11_1_1_U358                                                    |myproject_mul_6ns_6ns_11_1_1_75                                                                                           |    26|
+|45    |    mul_6ns_6s_12_1_1_U357                                                     |myproject_mul_6ns_6s_12_1_1_76                                                                                            |    44|
+|46    |  grp_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_18_7_5_3_0_config8_s_fu_270   |myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_18_7_5_3_0_config8_s                                                 |  5196|
+|47    |    mul_6ns_5ns_10_1_1_U260                                                    |myproject_mul_6ns_5ns_10_1_1_37                                                                                           |    35|
+|48    |    mul_6ns_5ns_10_1_1_U265                                                    |myproject_mul_6ns_5ns_10_1_1_38                                                                                           |    23|
+|49    |    mul_6ns_5ns_10_1_1_U270                                                    |myproject_mul_6ns_5ns_10_1_1_39                                                                                           |    57|
+|50    |    mul_6ns_5ns_10_1_1_U275                                                    |myproject_mul_6ns_5ns_10_1_1_40                                                                                           |    34|
+|51    |    mul_6ns_5ns_10_1_1_U276                                                    |myproject_mul_6ns_5ns_10_1_1_41                                                                                           |     1|
+|52    |    mul_6ns_5ns_10_1_1_U285                                                    |myproject_mul_6ns_5ns_10_1_1_42                                                                                           |    20|
+|53    |    mul_6ns_5ns_10_1_1_U286                                                    |myproject_mul_6ns_5ns_10_1_1_43                                                                                           |    51|
+|54    |    mul_6ns_5ns_10_1_1_U289                                                    |myproject_mul_6ns_5ns_10_1_1_44                                                                                           |    47|
+|55    |    mul_6ns_5ns_10_1_1_U291                                                    |myproject_mul_6ns_5ns_10_1_1_45                                                                                           |    39|
+|56    |    mul_6ns_5ns_10_1_1_U292                                                    |myproject_mul_6ns_5ns_10_1_1_46                                                                                           |    42|
+|57    |    mul_6ns_6ns_11_1_1_U253                                                    |myproject_mul_6ns_6ns_11_1_1_47                                                                                           |    53|
+|58    |    mul_6ns_6ns_11_1_1_U255                                                    |myproject_mul_6ns_6ns_11_1_1_48                                                                                           |    20|
+|59    |    mul_6ns_6ns_11_1_1_U263                                                    |myproject_mul_6ns_6ns_11_1_1_49                                                                                           |    36|
+|60    |    mul_6ns_6ns_11_1_1_U266                                                    |myproject_mul_6ns_6ns_11_1_1_50                                                                                           |    54|
+|61    |    mul_6ns_6ns_11_1_1_U267                                                    |myproject_mul_6ns_6ns_11_1_1_51                                                                                           |    42|
+|62    |    mul_6ns_6ns_11_1_1_U268                                                    |myproject_mul_6ns_6ns_11_1_1_52                                                                                           |    56|
+|63    |    mul_6ns_6ns_11_1_1_U269                                                    |myproject_mul_6ns_6ns_11_1_1_53                                                                                           |    62|
+|64    |    mul_6ns_6ns_11_1_1_U271                                                    |myproject_mul_6ns_6ns_11_1_1_54                                                                                           |    20|
+|65    |    mul_6ns_6ns_11_1_1_U273                                                    |myproject_mul_6ns_6ns_11_1_1_55                                                                                           |   136|
+|66    |    mul_6ns_6ns_11_1_1_U277                                                    |myproject_mul_6ns_6ns_11_1_1_56                                                                                           |    14|
+|67    |    mul_6ns_6ns_11_1_1_U278                                                    |myproject_mul_6ns_6ns_11_1_1_57                                                                                           |    49|
+|68    |    mul_6ns_6ns_11_1_1_U282                                                    |myproject_mul_6ns_6ns_11_1_1_58                                                                                           |    54|
+|69    |    mul_6ns_6ns_11_1_1_U284                                                    |myproject_mul_6ns_6ns_11_1_1_59                                                                                           |    36|
+|70    |    mul_6ns_6ns_11_1_1_U287                                                    |myproject_mul_6ns_6ns_11_1_1_60                                                                                           |     1|
+|71    |    mul_6ns_6ns_11_1_1_U295                                                    |myproject_mul_6ns_6ns_11_1_1_61                                                                                           |    30|
+|72    |    mul_6ns_6ns_11_1_1_U296                                                    |myproject_mul_6ns_6ns_11_1_1_62                                                                                           |    62|
+|73    |    mul_6ns_6s_12_1_1_U254                                                     |myproject_mul_6ns_6s_12_1_1_63                                                                                            |    11|
+|74    |    mul_6ns_6s_12_1_1_U256                                                     |myproject_mul_6ns_6s_12_1_1_64                                                                                            |    39|
+|75    |    mul_6ns_6s_12_1_1_U258                                                     |myproject_mul_6ns_6s_12_1_1_65                                                                                            |    37|
+|76    |    mul_6ns_6s_12_1_1_U261                                                     |myproject_mul_6ns_6s_12_1_1_66                                                                                            |    33|
+|77    |    mul_6ns_6s_12_1_1_U264                                                     |myproject_mul_6ns_6s_12_1_1_67                                                                                            |    36|
+|78    |    mul_6ns_6s_12_1_1_U272                                                     |myproject_mul_6ns_6s_12_1_1_68                                                                                            |    28|
+|79    |    mul_6ns_6s_12_1_1_U274                                                     |myproject_mul_6ns_6s_12_1_1_69                                                                                            |     6|
+|80    |    mul_6ns_6s_12_1_1_U280                                                     |myproject_mul_6ns_6s_12_1_1_70                                                                                            |    36|
+|81    |    mul_6ns_6s_12_1_1_U288                                                     |myproject_mul_6ns_6s_12_1_1_71                                                                                            |    41|
+|82    |    mul_6ns_6s_12_1_1_U293                                                     |myproject_mul_6ns_6s_12_1_1_72                                                                                            |    48|
+|83    |    mul_6ns_6s_12_1_1_U294                                                     |myproject_mul_6ns_6s_12_1_1_73                                                                                            |    63|
+|84    |  grp_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_19_8_5_3_0_config5_s_fu_168   |myproject_dense_latency_ap_ufixed_6_0_4_0_0_ap_fixed_19_8_5_3_0_config5_s                                                 |  8006|
+|85    |    mul_6ns_5ns_10_1_1_U110                                                    |myproject_mul_6ns_5ns_10_1_1                                                                                              |    76|
+|86    |    mul_6ns_5ns_10_1_1_U114                                                    |myproject_mul_6ns_5ns_10_1_1_4                                                                                            |    21|
+|87    |    mul_6ns_5ns_10_1_1_U115                                                    |myproject_mul_6ns_5ns_10_1_1_5                                                                                            |    35|
+|88    |    mul_6ns_5ns_10_1_1_U117                                                    |myproject_mul_6ns_5ns_10_1_1_6                                                                                            |    26|
+|89    |    mul_6ns_5ns_10_1_1_U119                                                    |myproject_mul_6ns_5ns_10_1_1_7                                                                                            |    33|
+|90    |    mul_6ns_5ns_10_1_1_U126                                                    |myproject_mul_6ns_5ns_10_1_1_8                                                                                            |    26|
+|91    |    mul_6ns_5ns_10_1_1_U127                                                    |myproject_mul_6ns_5ns_10_1_1_9                                                                                            |    18|
+|92    |    mul_6ns_5ns_10_1_1_U128                                                    |myproject_mul_6ns_5ns_10_1_1_10                                                                                           |    12|
+|93    |    mul_6ns_5ns_10_1_1_U129                                                    |myproject_mul_6ns_5ns_10_1_1_11                                                                                           |    22|
+|94    |    mul_6ns_5ns_10_1_1_U131                                                    |myproject_mul_6ns_5ns_10_1_1_12                                                                                           |    30|
+|95    |    mul_6ns_5ns_10_1_1_U134                                                    |myproject_mul_6ns_5ns_10_1_1_13                                                                                           |    40|
+|96    |    mul_6ns_5ns_10_1_1_U139                                                    |myproject_mul_6ns_5ns_10_1_1_14                                                                                           |    59|
+|97    |    mul_6ns_5ns_10_1_1_U140                                                    |myproject_mul_6ns_5ns_10_1_1_15                                                                                           |    65|
+|98    |    mul_6ns_5ns_10_1_1_U146                                                    |myproject_mul_6ns_5ns_10_1_1_16                                                                                           |    48|
+|99    |    mul_6ns_5ns_10_1_1_U147                                                    |myproject_mul_6ns_5ns_10_1_1_17                                                                                           |    57|
+|100   |    mul_6ns_5ns_10_1_1_U148                                                    |myproject_mul_6ns_5ns_10_1_1_18                                                                                           |    69|
+|101   |    mul_6ns_5ns_10_1_1_U150                                                    |myproject_mul_6ns_5ns_10_1_1_19                                                                                           |    35|
+|102   |    mul_6ns_5ns_10_1_1_U151                                                    |myproject_mul_6ns_5ns_10_1_1_20                                                                                           |    23|
+|103   |    mul_6ns_6ns_11_1_1_U111                                                    |myproject_mul_6ns_6ns_11_1_1                                                                                              |     1|
+|104   |    mul_6ns_6ns_11_1_1_U112                                                    |myproject_mul_6ns_6ns_11_1_1_21                                                                                           |    34|
+|105   |    mul_6ns_6ns_11_1_1_U113                                                    |myproject_mul_6ns_6ns_11_1_1_22                                                                                           |    31|
+|106   |    mul_6ns_6ns_11_1_1_U116                                                    |myproject_mul_6ns_6ns_11_1_1_23                                                                                           |    46|
+|107   |    mul_6ns_6ns_11_1_1_U118                                                    |myproject_mul_6ns_6ns_11_1_1_24                                                                                           |    33|
+|108   |    mul_6ns_6ns_11_1_1_U121                                                    |myproject_mul_6ns_6ns_11_1_1_25                                                                                           |    76|
+|109   |    mul_6ns_6ns_11_1_1_U130                                                    |myproject_mul_6ns_6ns_11_1_1_26                                                                                           |    47|
+|110   |    mul_6ns_6ns_11_1_1_U133                                                    |myproject_mul_6ns_6ns_11_1_1_27                                                                                           |    33|
+|111   |    mul_6ns_6ns_11_1_1_U138                                                    |myproject_mul_6ns_6ns_11_1_1_28                                                                                           |    54|
+|112   |    mul_6ns_6ns_11_1_1_U142                                                    |myproject_mul_6ns_6ns_11_1_1_29                                                                                           |    25|
+|113   |    mul_6ns_6ns_11_1_1_U143                                                    |myproject_mul_6ns_6ns_11_1_1_30                                                                                           |    38|
+|114   |    mul_6ns_6ns_11_1_1_U145                                                    |myproject_mul_6ns_6ns_11_1_1_31                                                                                           |    18|
+|115   |    mul_6ns_6s_12_1_1_U124                                                     |myproject_mul_6ns_6s_12_1_1                                                                                               |    25|
+|116   |    mul_6ns_6s_12_1_1_U136                                                     |myproject_mul_6ns_6s_12_1_1_32                                                                                            |    42|
+|117   |    mul_6ns_6s_12_1_1_U141                                                     |myproject_mul_6ns_6s_12_1_1_33                                                                                            |    25|
+|118   |    mul_6ns_6s_12_1_1_U149                                                     |myproject_mul_6ns_6s_12_1_1_34                                                                                            |    93|
+|119   |    mul_6ns_6s_12_1_1_U152                                                     |myproject_mul_6ns_6s_12_1_1_35                                                                                            |    35|
+|120   |    mul_6ns_6s_12_1_1_U153                                                     |myproject_mul_6ns_6s_12_1_1_36                                                                                            |    40|
+|121   |  grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367    |myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s                                                  |  1036|
+|122   |    exp_table_U                                                                |myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table_ROM_bkb                                |    35|
+|123   |    mul_18s_18s_30_1_0_U386                                                    |myproject_mul_18s_18s_30_1_0                                                                                              |     8|
+|124   |      tmp_product                                                              |\grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U386/tmp_product_funnel     |     8|
+|125   |    mul_18s_18s_30_1_0_U387                                                    |myproject_mul_18s_18s_30_1_0_0                                                                                            |     8|
+|126   |      tmp_product                                                              |\grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U386/tmp_product_funnel__1  |     8|
+|127   |    mul_18s_18s_30_1_0_U388                                                    |myproject_mul_18s_18s_30_1_0_1                                                                                            |     8|
+|128   |      tmp_product                                                              |\grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U388/tmp_product_funnel     |     8|
+|129   |    mul_18s_18s_30_1_0_U389                                                    |myproject_mul_18s_18s_30_1_0_2                                                                                            |     8|
+|130   |      tmp_product                                                              |\grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U388/tmp_product_funnel__1  |     8|
+|131   |    mul_18s_18s_30_1_0_U390                                                    |myproject_mul_18s_18s_30_1_0_3                                                                                            |   221|
+|132   |      tmp_product                                                              |\grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/mul_18s_18s_30_1_0_U388/tmp_product_funnel__2  |     8|
++------+-------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:29 ; elapsed = 00:01:31 . Memory (MB): peak = 3513.082 ; gain = 1925.336 ; free physical = 391 ; free virtual = 9716
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:29 ; elapsed = 00:01:31 . Memory (MB): peak = 3513.082 ; gain = 1925.336 ; free physical = 390 ; free virtual = 9716
+Synthesis Optimization Complete : Time (s): cpu = 00:01:29 ; elapsed = 00:01:31 . Memory (MB): peak = 3513.090 ; gain = 1925.336 ; free physical = 390 ; free virtual = 9716
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.17 . Memory (MB): peak = 3521.082 ; gain = 0.000 ; free physical = 511 ; free virtual = 9863
+INFO: [Netlist 29-17] Analyzing 2133 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q1_reg has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_367/exp_table_U/q4_reg has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3631.656 ; gain = 0.000 ; free physical = 427 ; free virtual = 9817
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 308 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 47 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 260 instances
+
+Synth Design complete | Checksum: a4cb2e0b
+INFO: [Common 17-83] Releasing license: Synthesis
+74 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:40 ; elapsed = 00:01:41 . Memory (MB): peak = 3631.656 ; gain = 2049.879 ; free physical = 427 ; free virtual = 9818
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2918.309; main = 2817.729; forked = 323.900
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 5052.980; main = 3631.660; forked = 1539.895
+# opt_design -retarget -propconst -sweep -bram_power_opt -shift_register_opt
+Command: opt_design -retarget -propconst -sweep -bram_power_opt -shift_register_opt
+Attempting to get a license for feature 'Implementation' and/or device 'xcu250'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcu250'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 6 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.96 . Memory (MB): peak = 3695.688 ; gain = 64.031 ; free physical = 461 ; free virtual = 9815
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 21ea4f42f
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 4082.586 ; gain = 386.898 ; free physical = 268 ; free virtual = 9528
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 21ea4f42f
+
+Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 300 ; free virtual = 9019
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 21ea4f42f
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 300 ; free virtual = 9019
+Phase 1 Initialization | Checksum: 21ea4f42f
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.05 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 300 ; free virtual = 9019
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 21ea4f42f
+
+Time (s): cpu = 00:00:00.94 ; elapsed = 00:00:00.38 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 301 ; free virtual = 9019
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 21ea4f42f
+
+Time (s): cpu = 00:00:00.98 ; elapsed = 00:00:00.44 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 301 ; free virtual = 9019
+Phase 2 Timer Update And Timing Data Collection | Checksum: 21ea4f42f
+
+Time (s): cpu = 00:00:00.99 ; elapsed = 00:00:00.45 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 301 ; free virtual = 9019
+
+Phase 3 Retarget
+INFO: [Opt 31-1851] Number of loadless carry chains removed were: 0
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-138] Pushed 7 inverter(s) to 31 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 1bbd63dc3
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.97 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 307 ; free virtual = 9011
+Retarget | Checksum: 1bbd63dc3
+INFO: [Opt 31-389] Phase Retarget created 2 cells and removed 2 cells
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 1ae81522f
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 309 ; free virtual = 9011
+Constant propagation | Checksum: 1ae81522f
+INFO: [Opt 31-389] Phase Constant propagation created 4 cells and removed 4 cells
+
+Phase 5 Sweep
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 309 ; free virtual = 9011
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 309 ; free virtual = 9011
+Phase 5 Sweep | Checksum: 218b6ecb0
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 309 ; free virtual = 9011
+Sweep | Checksum: 218b6ecb0
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 6 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 6 Shift Register Optimization | Checksum: 218b6ecb0
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 310 ; free virtual = 9012
+Shift Register Optimization | Checksum: 218b6ecb0
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 7 Post Processing Netlist
+Phase 7 Post Processing Netlist | Checksum: 218b6ecb0
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 310 ; free virtual = 9012
+Post Processing Netlist | Checksum: 218b6ecb0
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 8 Finalization
+
+Phase 8.1 Finalizing Design Cores and Updating Shapes
+Phase 8.1 Finalizing Design Cores and Updating Shapes | Checksum: 1c6fdfa14
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 304 ; free virtual = 9006
+
+Phase 8.2 Verifying Netlist Connectivity
+Phase 8.2 Verifying Netlist Connectivity | Checksum: 1c6fdfa14
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 304 ; free virtual = 9006
+Phase 8 Finalization | Checksum: 1c6fdfa14
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 304 ; free virtual = 9006
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               2  |               2  |                                              0  |
+|  Constant propagation         |               4  |               4  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 1c6fdfa14
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 4359.430 ; gain = 0.000 ; free physical = 304 ; free virtual = 9006
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Power 33-232] No user defined clocks were found in the design! Power estimation will be inaccurate until this is corrected.
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+CRITICAL WARNING: [Power 33-333] The Vccint supply current exceeds the maximum limit of the selected package.  See the PCB design user guide for limit values.
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 3 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 6
+Ending PowerOpt Patch Enables Task | Checksum: 1c6fdfa14
+
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 4535.484 ; gain = 0.000 ; free physical = 289 ; free virtual = 8922
+Ending Power Optimization Task | Checksum: 1c6fdfa14
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 4535.484 ; gain = 176.055 ; free physical = 289 ; free virtual = 8921
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1c6fdfa14
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4535.484 ; gain = 0.000 ; free physical = 289 ; free virtual = 8921
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4535.484 ; gain = 0.000 ; free physical = 289 ; free virtual = 8921
+Ending Netlist Obfuscation Task | Checksum: 1c6fdfa14
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 4535.484 ; gain = 0.000 ; free physical = 289 ; free virtual = 8921
+INFO: [Common 17-83] Releasing license: Implementation
+25 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:28 . Memory (MB): peak = 4535.484 ; gain = 903.828 ; free physical = 289 ; free virtual = 8921
+# report_utilization -file vivado_synth.rpt
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 14 15:25:42 2025...
