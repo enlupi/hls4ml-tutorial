@@ -1,0 +1,86 @@
+{
+    "1": {
+        "name": "dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>",
+        "file": "firmware\/myproject.cpp",
+        "fileloc": "54",
+        "instructions": "959",
+        "total_instructions": "959",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "0": {
+        "name": "myproject",
+        "file": "myproject.cpp",
+        "fileloc": "7",
+        "instructions": "275",
+        "total_instructions": "5636",
+        "calls": "7 6 3 5 1 8 4 2",
+        "basicblocks": "1"
+    },
+    "2": {
+        "name": "softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13>",
+        "file": "firmware\/nnet_utils\/nnet_activation.h",
+        "fileloc": "239",
+        "instructions": "134",
+        "total_instructions": "134",
+        "calls": "",
+        "basicblocks": "1",
+        "loads": {
+            "G": "6"
+        }
+    },
+    "3": {
+        "name": "dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5>",
+        "file": "firmware\/nnet_utils\/nnet_dense_latency.h",
+        "fileloc": "13",
+        "instructions": "2341",
+        "total_instructions": "2341",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "4": {
+        "name": "dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config11>",
+        "file": "firmware\/nnet_utils\/nnet_dense_latency.h",
+        "fileloc": "13",
+        "instructions": "180",
+        "total_instructions": "180",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "5": {
+        "name": "relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7>",
+        "file": "firmware\/nnet_utils\/nnet_activation.h",
+        "fileloc": "39",
+        "instructions": "194",
+        "total_instructions": "194",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "6": {
+        "name": "relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config4>",
+        "file": "firmware\/myproject.cpp",
+        "fileloc": "44",
+        "instructions": "368",
+        "total_instructions": "368",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "7": {
+        "name": "dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>",
+        "file": "firmware\/myproject.cpp",
+        "fileloc": "54",
+        "instructions": "1033",
+        "total_instructions": "1033",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "8": {
+        "name": "relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config10>",
+        "file": "firmware\/myproject.cpp",
+        "fileloc": "60",
+        "instructions": "152",
+        "total_instructions": "152",
+        "calls": "",
+        "basicblocks": "1"
+    }
+}
