@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'myproject'" level="0">
-<item name = "Date">Tue Oct 14 15:07:03 2025
+<item name = "Date">Fri Oct 17 10:56:28 2025
 </item>
-<item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
+<item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
 <item name = "Solution">solution1 (Vivado IP Flow Target)</item>
 <item name = "Product family">virtexuplus</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00 ns, 3.494 ns, 1.35 ns</column>
+<column name="ap_clk">5.00 ns, 3.500 ns, 1.35 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">14, 14, 70.000 ns, 70.000 ns, 1, 1, yes</column>
+<column name="">13, 13, 65.000 ns, 65.000 ns, 1, 1, yes</column>
 </table>
 </item>
 <item name = "Detail">
@@ -57,12 +57,12 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 14, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">8, 884, 4773, 31480, -</column>
+<column name="Instance">8, 884, 6434, 33118, -</column>
 <column name="Memory">-, -, -, -, -</column>
-<column name="Multiplexer">-, -, 0, 36, -</column>
-<column name="Register">-, -, 3540, -, -</column>
+<column name="Multiplexer">-, -, -, 36, -</column>
+<column name="Register">-, -, 3536, -, -</column>
 <specialColumn name="Available SLR">1344, 3072, 864000, 432000, 320</specialColumn>
-<specialColumn name="Utilization SLR (%)">~0, 28, ~0, 7, 0</specialColumn>
+<specialColumn name="Utilization SLR (%)">~0, 28, 1, 7, 0</specialColumn>
 <specialColumn name="Available">5376, 12288, 3456000, 1728000, 1280</specialColumn>
 <specialColumn name="Utilization (%)">~0, 7, ~0, 1, 0</specialColumn>
 </table>
@@ -71,14 +71,14 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s_fu_332">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s, 0, 40, 242, 912, 0</column>
-<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_95">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s, 0, 229, 722, 6178, 0</column>
-<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s_fu_166">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s, 0, 416, 2338, 13404, 0</column>
-<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_fu_267">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s, 0, 194, 1034, 5732, 0</column>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s_fu_332">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s, 0, 40, 321, 980, 0</column>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_95">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s, 0, 229, 1549, 7035, 0</column>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s_fu_166">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s, 0, 416, 2847, 13822, 0</column>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_fu_267">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s, 0, 194, 1433, 6067, 0</column>
 <column name="call_ret6_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s_fu_303">relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s, 0, 0, 0, 950, 0</column>
 <column name="call_ret2_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s_fu_101">relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s, 0, 0, 0, 2318, 0</column>
 <column name="call_ret4_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s_fu_231">relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s, 0, 0, 0, 1216, 0</column>
-<column name="grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_361">softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s, 8, 5, 437, 770, 0</column>
+<column name="grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_361">softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s, 8, 5, 284, 730, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -95,12 +95,12 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="ap_block_pp0_stage0_11001">and, 0, 0, 2, 1, 1</column>
-<column name="ap_block_pp0_stage0_11001_ignoreCallOp142">and, 0, 0, 2, 1, 1</column>
-<column name="ap_block_pp0_stage0_11001_ignoreCallOp17">and, 0, 0, 2, 1, 1</column>
-<column name="ap_block_pp0_stage0_11001_ignoreCallOp209">and, 0, 0, 2, 1, 1</column>
-<column name="ap_block_pp0_stage0_11001_ignoreCallOp262">and, 0, 0, 2, 1, 1</column>
-<column name="ap_block_pp0_stage0_11001_ignoreCallOp269">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_01001">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_11001_ignoreCallOp141">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_11001_ignoreCallOp16">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_11001_ignoreCallOp208">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_11001_ignoreCallOp261">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_11001_ignoreCallOp268">and, 0, 0, 2, 1, 1</column>
 <column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
 </table>
 </item>
@@ -115,13 +115,11 @@
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
 <column name="ap_CS_fsm">1, 0, 1, 0</column>
-<column name="ap_block_pp0_stage0_subdone_grp0_done_reg">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter10">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter11">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter12">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter13">1, 0, 1, 0</column>
-<column name="ap_enable_reg_pp0_iter14">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter3">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter4">1, 0, 1, 0</column>
@@ -132,25 +130,23 @@
 <column name="ap_enable_reg_pp0_iter9">1, 0, 1, 0</column>
 <column name="fc1_input_ap_vld_preg">1, 0, 1, 0</column>
 <column name="fc1_input_preg">256, 0, 256, 0</column>
-<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s_fu_332_ap_start_reg">1, 0, 1, 0</column>
-<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s_fu_166_ap_start_reg">1, 0, 1, 0</column>
-<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_fu_267_ap_start_reg">1, 0, 1, 0</column>
-<column name="layer10_out_10_reg_2345">16, 0, 16, 0</column>
-<column name="layer10_out_11_reg_2350">16, 0, 16, 0</column>
-<column name="layer10_out_12_reg_2355">16, 0, 16, 0</column>
-<column name="layer10_out_13_reg_2360">16, 0, 16, 0</column>
-<column name="layer10_out_14_reg_2365">16, 0, 16, 0</column>
-<column name="layer10_out_15_reg_2370">16, 0, 16, 0</column>
-<column name="layer10_out_16_reg_2375">16, 0, 16, 0</column>
-<column name="layer10_out_17_reg_2380">16, 0, 16, 0</column>
-<column name="layer10_out_18_reg_2385">16, 0, 16, 0</column>
-<column name="layer10_out_19_reg_2390">16, 0, 16, 0</column>
+<column name="grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_361_ap_start_reg">1, 0, 1, 0</column>
+<column name="layer10_out_10_reg_2350">16, 0, 16, 0</column>
+<column name="layer10_out_11_reg_2355">16, 0, 16, 0</column>
+<column name="layer10_out_12_reg_2360">16, 0, 16, 0</column>
+<column name="layer10_out_13_reg_2365">16, 0, 16, 0</column>
+<column name="layer10_out_14_reg_2370">16, 0, 16, 0</column>
+<column name="layer10_out_15_reg_2375">16, 0, 16, 0</column>
+<column name="layer10_out_16_reg_2380">16, 0, 16, 0</column>
+<column name="layer10_out_17_reg_2385">16, 0, 16, 0</column>
+<column name="layer10_out_18_reg_2390">16, 0, 16, 0</column>
+<column name="layer10_out_19_reg_2395">16, 0, 16, 0</column>
 <column name="layer10_out_1_reg_2300">16, 0, 16, 0</column>
-<column name="layer10_out_20_reg_2395">16, 0, 16, 0</column>
-<column name="layer10_out_21_reg_2400">16, 0, 16, 0</column>
-<column name="layer10_out_22_reg_2405">16, 0, 16, 0</column>
-<column name="layer10_out_23_reg_2410">16, 0, 16, 0</column>
-<column name="layer10_out_24_reg_2415">16, 0, 16, 0</column>
+<column name="layer10_out_20_reg_2400">16, 0, 16, 0</column>
+<column name="layer10_out_21_reg_2405">16, 0, 16, 0</column>
+<column name="layer10_out_22_reg_2410">16, 0, 16, 0</column>
+<column name="layer10_out_23_reg_2415">16, 0, 16, 0</column>
+<column name="layer10_out_24_reg_2345">16, 0, 16, 0</column>
 <column name="layer10_out_2_reg_2305">16, 0, 16, 0</column>
 <column name="layer10_out_3_reg_2310">16, 0, 16, 0</column>
 <column name="layer10_out_4_reg_2315">16, 0, 16, 0</column>
@@ -314,22 +310,22 @@
 <column name="layer7_out_8_reg_2050">16, 0, 16, 0</column>
 <column name="layer7_out_9_reg_2055">16, 0, 16, 0</column>
 <column name="layer7_out_reg_2010">16, 0, 16, 0</column>
-<column name="layer8_out_10_reg_2220">16, 0, 16, 0</column>
-<column name="layer8_out_11_reg_2225">16, 0, 16, 0</column>
-<column name="layer8_out_12_reg_2230">16, 0, 16, 0</column>
-<column name="layer8_out_13_reg_2235">16, 0, 16, 0</column>
-<column name="layer8_out_14_reg_2240">16, 0, 16, 0</column>
-<column name="layer8_out_15_reg_2245">16, 0, 16, 0</column>
-<column name="layer8_out_16_reg_2250">16, 0, 16, 0</column>
-<column name="layer8_out_17_reg_2255">16, 0, 16, 0</column>
-<column name="layer8_out_18_reg_2260">16, 0, 16, 0</column>
-<column name="layer8_out_19_reg_2265">16, 0, 16, 0</column>
+<column name="layer8_out_10_reg_2225">16, 0, 16, 0</column>
+<column name="layer8_out_11_reg_2230">16, 0, 16, 0</column>
+<column name="layer8_out_12_reg_2235">16, 0, 16, 0</column>
+<column name="layer8_out_13_reg_2240">16, 0, 16, 0</column>
+<column name="layer8_out_14_reg_2245">16, 0, 16, 0</column>
+<column name="layer8_out_15_reg_2250">16, 0, 16, 0</column>
+<column name="layer8_out_16_reg_2255">16, 0, 16, 0</column>
+<column name="layer8_out_17_reg_2260">16, 0, 16, 0</column>
+<column name="layer8_out_18_reg_2265">16, 0, 16, 0</column>
+<column name="layer8_out_19_reg_2270">16, 0, 16, 0</column>
 <column name="layer8_out_1_reg_2175">16, 0, 16, 0</column>
-<column name="layer8_out_20_reg_2270">16, 0, 16, 0</column>
-<column name="layer8_out_21_reg_2275">16, 0, 16, 0</column>
-<column name="layer8_out_22_reg_2280">16, 0, 16, 0</column>
-<column name="layer8_out_23_reg_2285">16, 0, 16, 0</column>
-<column name="layer8_out_24_reg_2290">16, 0, 16, 0</column>
+<column name="layer8_out_20_reg_2275">16, 0, 16, 0</column>
+<column name="layer8_out_21_reg_2280">16, 0, 16, 0</column>
+<column name="layer8_out_22_reg_2285">16, 0, 16, 0</column>
+<column name="layer8_out_23_reg_2290">16, 0, 16, 0</column>
+<column name="layer8_out_24_reg_2220">16, 0, 16, 0</column>
 <column name="layer8_out_2_reg_2180">16, 0, 16, 0</column>
 <column name="layer8_out_3_reg_2185">16, 0, 16, 0</column>
 <column name="layer8_out_4_reg_2190">16, 0, 16, 0</column>

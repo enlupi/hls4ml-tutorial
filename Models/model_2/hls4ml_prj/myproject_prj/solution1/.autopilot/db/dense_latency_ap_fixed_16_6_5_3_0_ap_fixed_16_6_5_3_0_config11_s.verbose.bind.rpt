@@ -3,9 +3,9 @@
 ================================================================
 == Vitis HLS Report for 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s'
 ================================================================
-* Date:           Tue Oct 14 15:06:57 2025
+* Date:           Fri Oct 17 10:56:24 2025
 
-* Version:        2024.2 (Build 5238294 on Nov  8 2024)
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
 * Solution:       solution1 (Vivado IP Flow Target)
 * Product family: virtexuplus
@@ -113,104 +113,104 @@ ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%trunc_ln42_1 = partselect i16 @_ss
 ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%sext_ln42 = sext i16 %data_2_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 33 'sext' 'sext_ln42' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 34 [1/1] (1.94ns)   --->   "%mul_ln42_152 = mul i26 %sext_ln42, i26 67107983" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 34 'mul' 'mul_ln42_152' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%trunc_ln42_2 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_152, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 35 'partselect' 'trunc_ln42_2' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 36 [1/1] (0.00ns)   --->   "%sext_ln73_1 = sext i16 %data_4_val_read" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 36 'sext' 'sext_ln73_1' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 37 [1/1] (1.94ns)   --->   "%mul_ln42_153 = mul i26 %sext_ln73_1, i26 67108066" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 37 'mul' 'mul_ln42_153' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 36 [1/1] (0.00ns)   --->   "%sext_ln73_190 = sext i16 %data_4_val_read" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 36 'sext' 'sext_ln73_190' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 37 [1/1] (1.94ns)   --->   "%mul_ln42_153 = mul i26 %sext_ln73_190, i26 67108066" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 37 'mul' 'mul_ln42_153' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 38 [1/1] (0.00ns)   --->   "%trunc_ln42_3 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_153, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 38 'partselect' 'trunc_ln42_3' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 39 [1/1] (1.94ns)   --->   "%mul_ln42_154 = mul i26 %sext_ln73_1, i26 631" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 39 'mul' 'mul_ln42_154' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 39 [1/1] (1.94ns)   --->   "%mul_ln42_154 = mul i26 %sext_ln73_190, i26 631" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 39 'mul' 'mul_ln42_154' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 40 [1/1] (0.00ns)   --->   "%trunc_ln42_4 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_154, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 40 'partselect' 'trunc_ln42_4' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 41 [1/1] (0.00ns)   --->   "%sext_ln42_393 = sext i16 %data_5_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 41 'sext' 'sext_ln42_393' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 42 [1/1] (1.94ns)   --->   "%mul_ln42_155 = mul i26 %sext_ln42_393, i26 67107697" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 42 'mul' 'mul_ln42_155' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 41 [1/1] (0.00ns)   --->   "%sext_ln42_384 = sext i16 %data_5_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 41 'sext' 'sext_ln42_384' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 42 [1/1] (1.94ns)   --->   "%mul_ln42_155 = mul i26 %sext_ln42_384, i26 67107697" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 42 'mul' 'mul_ln42_155' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 43 [1/1] (0.00ns)   --->   "%trunc_ln42_5 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_155, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 43 'partselect' 'trunc_ln42_5' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 44 [1/1] (1.94ns)   --->   "%mul_ln42_156 = mul i26 %sext_ln42_393, i26 697" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 44 'mul' 'mul_ln42_156' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 44 [1/1] (1.94ns)   --->   "%mul_ln42_156 = mul i26 %sext_ln42_384, i26 697" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 44 'mul' 'mul_ln42_156' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 45 [1/1] (0.00ns)   --->   "%trunc_ln42_6 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_156, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 45 'partselect' 'trunc_ln42_6' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 46 [1/1] (0.00ns)   --->   "%sext_ln42_394 = sext i16 %data_6_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 46 'sext' 'sext_ln42_394' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 47 [1/1] (1.94ns)   --->   "%mul_ln42_157 = mul i26 %sext_ln42_394, i26 67108075" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 47 'mul' 'mul_ln42_157' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 46 [1/1] (0.00ns)   --->   "%sext_ln42_385 = sext i16 %data_6_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 46 'sext' 'sext_ln42_385' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 47 [1/1] (1.94ns)   --->   "%mul_ln42_157 = mul i26 %sext_ln42_385, i26 67108075" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 47 'mul' 'mul_ln42_157' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 48 [1/1] (0.00ns)   --->   "%trunc_ln42_7 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_157, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 48 'partselect' 'trunc_ln42_7' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%sext_ln73_2 = sext i16 %data_7_val_read" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 49 'sext' 'sext_ln73_2' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 50 [1/1] (1.94ns)   --->   "%mul_ln42_158 = mul i26 %sext_ln73_2, i26 67107683" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 50 'mul' 'mul_ln42_158' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%sext_ln73_191 = sext i16 %data_7_val_read" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 49 'sext' 'sext_ln73_191' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 50 [1/1] (1.94ns)   --->   "%mul_ln42_158 = mul i26 %sext_ln73_191, i26 67107683" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 50 'mul' 'mul_ln42_158' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 51 [1/1] (0.00ns)   --->   "%trunc_ln42_8 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_158, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 51 'partselect' 'trunc_ln42_8' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 52 [1/1] (1.94ns)   --->   "%mul_ln42_159 = mul i26 %sext_ln73_2, i26 67107709" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 52 'mul' 'mul_ln42_159' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 52 [1/1] (1.94ns)   --->   "%mul_ln42_159 = mul i26 %sext_ln73_191, i26 67107709" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 52 'mul' 'mul_ln42_159' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 53 [1/1] (0.00ns)   --->   "%trunc_ln42_9 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_159, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 53 'partselect' 'trunc_ln42_9' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 54 [1/1] (0.00ns)   --->   "%sext_ln42_395 = sext i16 %data_8_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 54 'sext' 'sext_ln42_395' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 55 [1/1] (1.94ns)   --->   "%mul_ln42_160 = mul i26 %sext_ln42_395, i26 67108042" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 55 'mul' 'mul_ln42_160' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 54 [1/1] (0.00ns)   --->   "%sext_ln42_386 = sext i16 %data_8_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 54 'sext' 'sext_ln42_386' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 55 [1/1] (1.94ns)   --->   "%mul_ln42_160 = mul i26 %sext_ln42_386, i26 67108042" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 55 'mul' 'mul_ln42_160' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 56 [1/1] (0.00ns)   --->   "%trunc_ln42_10 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_160, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 56 'partselect' 'trunc_ln42_10' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 57 [1/1] (0.00ns)   --->   "%sext_ln42_396 = sext i16 %data_9_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 57 'sext' 'sext_ln42_396' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 58 [1/1] (1.94ns)   --->   "%mul_ln42_161 = mul i26 %sext_ln42_396, i26 67108329" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 58 'mul' 'mul_ln42_161' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 57 [1/1] (0.00ns)   --->   "%sext_ln42_387 = sext i16 %data_9_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 57 'sext' 'sext_ln42_387' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 58 [1/1] (1.94ns)   --->   "%mul_ln42_161 = mul i26 %sext_ln42_387, i26 67108329" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 58 'mul' 'mul_ln42_161' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 59 [1/1] (0.00ns)   --->   "%trunc_ln42_11 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_161, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 59 'partselect' 'trunc_ln42_11' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 60 [1/1] (0.00ns)   --->   "%sext_ln42_397 = sext i16 %data_10_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 60 'sext' 'sext_ln42_397' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 61 [1/1] (1.94ns)   --->   "%mul_ln42_162 = mul i26 %sext_ln42_397, i26 67108199" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 61 'mul' 'mul_ln42_162' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 60 [1/1] (0.00ns)   --->   "%sext_ln42_388 = sext i16 %data_10_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 60 'sext' 'sext_ln42_388' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 61 [1/1] (1.94ns)   --->   "%mul_ln42_162 = mul i26 %sext_ln42_388, i26 67108199" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 61 'mul' 'mul_ln42_162' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 62 [1/1] (0.00ns)   --->   "%trunc_ln42_12 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_162, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 62 'partselect' 'trunc_ln42_12' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 63 [1/1] (0.00ns)   --->   "%sext_ln70 = sext i16 %data_11_val_read" [firmware/nnet_utils/nnet_mult.h:70->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 63 'sext' 'sext_ln70' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 64 [1/1] (1.94ns)   --->   "%mul_ln42_163 = mul i26 %sext_ln70, i26 67107760" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 64 'mul' 'mul_ln42_163' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 65 [1/1] (0.00ns)   --->   "%trunc_ln42_13 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_163, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 65 'partselect' 'trunc_ln42_13' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 66 [1/1] (1.94ns)   --->   "%mul_ln73 = mul i26 %sext_ln70, i26 445" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 66 'mul' 'mul_ln73' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 67 [1/1] (0.00ns)   --->   "%trunc_ln42_14 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln73, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 67 'partselect' 'trunc_ln42_14' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 68 [1/1] (0.00ns)   --->   "%sext_ln70_266 = sext i16 %data_12_val_read" [firmware/nnet_utils/nnet_mult.h:70->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 68 'sext' 'sext_ln70_266' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 69 [1/1] (1.94ns)   --->   "%mul_ln73_684 = mul i26 %sext_ln70_266, i26 67108470" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 69 'mul' 'mul_ln73_684' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 68 [1/1] (0.00ns)   --->   "%sext_ln70_271 = sext i16 %data_12_val_read" [firmware/nnet_utils/nnet_mult.h:70->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 68 'sext' 'sext_ln70_271' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 69 [1/1] (1.94ns)   --->   "%mul_ln73_684 = mul i26 %sext_ln70_271, i26 67108470" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 69 'mul' 'mul_ln73_684' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 70 [1/1] (0.00ns)   --->   "%trunc_ln42_15 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln73_684, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 70 'partselect' 'trunc_ln42_15' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 71 [1/1] (0.00ns)   --->   "%sext_ln70_267 = sext i16 %data_13_val_read" [firmware/nnet_utils/nnet_mult.h:70->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 71 'sext' 'sext_ln70_267' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 72 [1/1] (0.00ns)   --->   "%sext_ln73_3 = sext i16 %data_13_val_read" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 72 'sext' 'sext_ln73_3' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 73 [1/1] (1.94ns)   --->   "%mul_ln42_164 = mul i26 %sext_ln73_3, i26 67107882" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 73 'mul' 'mul_ln42_164' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 71 [1/1] (0.00ns)   --->   "%sext_ln70_272 = sext i16 %data_13_val_read" [firmware/nnet_utils/nnet_mult.h:70->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 71 'sext' 'sext_ln70_272' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 72 [1/1] (0.00ns)   --->   "%sext_ln73_192 = sext i16 %data_13_val_read" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 72 'sext' 'sext_ln73_192' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 73 [1/1] (1.94ns)   --->   "%mul_ln42_164 = mul i26 %sext_ln73_192, i26 67107882" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 73 'mul' 'mul_ln42_164' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 74 [1/1] (0.00ns)   --->   "%trunc_ln42_16 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_164, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 74 'partselect' 'trunc_ln42_16' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 75 [1/1] (1.94ns)   --->   "%mul_ln73_685 = mul i25 %sext_ln70_267, i25 33554217" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 75 'mul' 'mul_ln73_685' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 75 [1/1] (1.94ns)   --->   "%mul_ln73_685 = mul i25 %sext_ln70_272, i25 33554217" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 75 'mul' 'mul_ln73_685' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 76 [1/1] (0.00ns)   --->   "%trunc_ln42_s = partselect i15 @_ssdm_op_PartSelect.i15.i25.i32.i32, i25 %mul_ln73_685, i32 10, i32 24" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 76 'partselect' 'trunc_ln42_s' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 77 [1/1] (0.00ns)   --->   "%sext_ln42_398 = sext i15 %trunc_ln42_s" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 77 'sext' 'sext_ln42_398' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 78 [1/1] (1.94ns)   --->   "%mul_ln42_165 = mul i26 %sext_ln73_3, i26 779" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 78 'mul' 'mul_ln42_165' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 77 [1/1] (0.00ns)   --->   "%sext_ln42_389 = sext i15 %trunc_ln42_s" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 77 'sext' 'sext_ln42_389' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 78 [1/1] (1.94ns)   --->   "%mul_ln42_165 = mul i26 %sext_ln73_192, i26 779" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 78 'mul' 'mul_ln42_165' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 79 [1/1] (0.00ns)   --->   "%trunc_ln42_17 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_165, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 79 'partselect' 'trunc_ln42_17' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 80 [1/1] (0.00ns)   --->   "%sext_ln42_399 = sext i16 %data_14_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 80 'sext' 'sext_ln42_399' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 81 [1/1] (1.94ns)   --->   "%mul_ln42_166 = mul i26 %sext_ln42_399, i26 770" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 81 'mul' 'mul_ln42_166' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 80 [1/1] (0.00ns)   --->   "%sext_ln42_390 = sext i16 %data_14_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 80 'sext' 'sext_ln42_390' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 81 [1/1] (1.94ns)   --->   "%mul_ln42_166 = mul i26 %sext_ln42_390, i26 770" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 81 'mul' 'mul_ln42_166' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 82 [1/1] (0.00ns)   --->   "%trunc_ln42_18 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_166, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 82 'partselect' 'trunc_ln42_18' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 83 [1/1] (1.94ns)   --->   "%mul_ln42_167 = mul i26 %sext_ln42_399, i26 67107746" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 83 'mul' 'mul_ln42_167' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 83 [1/1] (1.94ns)   --->   "%mul_ln42_167 = mul i26 %sext_ln42_390, i26 67107746" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 83 'mul' 'mul_ln42_167' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 84 [1/1] (0.00ns)   --->   "%trunc_ln42_19 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_167, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 84 'partselect' 'trunc_ln42_19' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 85 [1/1] (0.00ns)   --->   "%sext_ln70_268 = sext i16 %data_17_val_read" [firmware/nnet_utils/nnet_mult.h:70->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 85 'sext' 'sext_ln70_268' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 86 [1/1] (1.94ns)   --->   "%mul_ln42_168 = mul i26 %sext_ln70_268, i26 67108299" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 86 'mul' 'mul_ln42_168' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 85 [1/1] (0.00ns)   --->   "%sext_ln70_273 = sext i16 %data_17_val_read" [firmware/nnet_utils/nnet_mult.h:70->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 85 'sext' 'sext_ln70_273' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 86 [1/1] (1.94ns)   --->   "%mul_ln42_168 = mul i26 %sext_ln70_273, i26 67108299" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 86 'mul' 'mul_ln42_168' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 87 [1/1] (0.00ns)   --->   "%trunc_ln42_20 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_168, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 87 'partselect' 'trunc_ln42_20' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 88 [1/1] (1.94ns)   --->   "%mul_ln73_686 = mul i26 %sext_ln70_268, i26 67108533" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 88 'mul' 'mul_ln73_686' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 88 [1/1] (1.94ns)   --->   "%mul_ln73_686 = mul i26 %sext_ln70_273, i26 67108533" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 88 'mul' 'mul_ln73_686' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 89 [1/1] (0.00ns)   --->   "%trunc_ln42_21 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln73_686, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 89 'partselect' 'trunc_ln42_21' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 90 [1/1] (1.94ns)   --->   "%mul_ln42_169 = mul i26 %sext_ln70_268, i26 784" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 90 'mul' 'mul_ln42_169' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 90 [1/1] (1.94ns)   --->   "%mul_ln42_169 = mul i26 %sext_ln70_273, i26 784" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 90 'mul' 'mul_ln42_169' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 91 [1/1] (0.00ns)   --->   "%trunc_ln42_22 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_169, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 91 'partselect' 'trunc_ln42_22' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 92 [1/1] (0.00ns)   --->   "%sext_ln42_400 = sext i16 %data_18_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 92 'sext' 'sext_ln42_400' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 93 [1/1] (1.94ns)   --->   "%mul_ln42_170 = mul i26 %sext_ln42_400, i26 573" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 93 'mul' 'mul_ln42_170' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 92 [1/1] (0.00ns)   --->   "%sext_ln42_391 = sext i16 %data_18_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 92 'sext' 'sext_ln42_391' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 93 [1/1] (1.94ns)   --->   "%mul_ln42_170 = mul i26 %sext_ln42_391, i26 573" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 93 'mul' 'mul_ln42_170' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 94 [1/1] (0.00ns)   --->   "%trunc_ln42_23 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_170, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 94 'partselect' 'trunc_ln42_23' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 95 [1/1] (0.00ns)   --->   "%sext_ln42_401 = sext i16 %data_19_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 95 'sext' 'sext_ln42_401' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 96 [1/1] (1.94ns)   --->   "%mul_ln42_171 = mul i26 %sext_ln42_401, i26 930" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 96 'mul' 'mul_ln42_171' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 95 [1/1] (0.00ns)   --->   "%sext_ln42_392 = sext i16 %data_19_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 95 'sext' 'sext_ln42_392' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 96 [1/1] (1.94ns)   --->   "%mul_ln42_171 = mul i26 %sext_ln42_392, i26 930" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 96 'mul' 'mul_ln42_171' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 97 [1/1] (0.00ns)   --->   "%trunc_ln42_24 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_171, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 97 'partselect' 'trunc_ln42_24' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 98 [1/1] (0.00ns)   --->   "%sext_ln42_402 = sext i16 %data_20_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 98 'sext' 'sext_ln42_402' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 99 [1/1] (1.94ns)   --->   "%mul_ln42_172 = mul i26 %sext_ln42_402, i26 67108019" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 99 'mul' 'mul_ln42_172' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 98 [1/1] (0.00ns)   --->   "%sext_ln42_393 = sext i16 %data_20_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 98 'sext' 'sext_ln42_393' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 99 [1/1] (1.94ns)   --->   "%mul_ln42_172 = mul i26 %sext_ln42_393, i26 67108019" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 99 'mul' 'mul_ln42_172' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 100 [1/1] (0.00ns)   --->   "%trunc_ln42_25 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_172, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 100 'partselect' 'trunc_ln42_25' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 101 [1/1] (0.00ns)   --->   "%sext_ln42_403 = sext i16 %data_23_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 101 'sext' 'sext_ln42_403' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 102 [1/1] (1.94ns)   --->   "%mul_ln42_173 = mul i26 %sext_ln42_403, i26 67108205" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 102 'mul' 'mul_ln42_173' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 101 [1/1] (0.00ns)   --->   "%sext_ln42_394 = sext i16 %data_23_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 101 'sext' 'sext_ln42_394' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 102 [1/1] (1.94ns)   --->   "%mul_ln42_173 = mul i26 %sext_ln42_394, i26 67108205" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 102 'mul' 'mul_ln42_173' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 103 [1/1] (0.00ns)   --->   "%trunc_ln42_26 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_173, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 103 'partselect' 'trunc_ln42_26' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 104 [1/1] (0.00ns)   --->   "%sext_ln42_404 = sext i16 %data_24_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 104 'sext' 'sext_ln42_404' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 105 [1/1] (1.94ns)   --->   "%mul_ln42_174 = mul i26 %sext_ln42_404, i26 669" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 105 'mul' 'mul_ln42_174' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 104 [1/1] (0.00ns)   --->   "%sext_ln42_395 = sext i16 %data_24_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 104 'sext' 'sext_ln42_395' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 105 [1/1] (1.94ns)   --->   "%mul_ln42_174 = mul i26 %sext_ln42_395, i26 669" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 105 'mul' 'mul_ln42_174' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 106 [1/1] (0.00ns)   --->   "%trunc_ln42_27 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_174, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 106 'partselect' 'trunc_ln42_27' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 107 [1/1] (0.00ns)   --->   "%sext_ln42_405 = sext i16 %data_25_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 107 'sext' 'sext_ln42_405' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 108 [1/1] (1.94ns)   --->   "%mul_ln42_175 = mul i26 %sext_ln42_405, i26 67107830" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 108 'mul' 'mul_ln42_175' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 107 [1/1] (0.00ns)   --->   "%sext_ln42_396 = sext i16 %data_25_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 107 'sext' 'sext_ln42_396' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 108 [1/1] (1.94ns)   --->   "%mul_ln42_175 = mul i26 %sext_ln42_396, i26 67107830" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 108 'mul' 'mul_ln42_175' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 109 [1/1] (0.00ns)   --->   "%trunc_ln42_28 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_175, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 109 'partselect' 'trunc_ln42_28' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 110 [1/1] (1.94ns)   --->   "%mul_ln42_176 = mul i26 %sext_ln42_405, i26 562" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 110 'mul' 'mul_ln42_176' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 110 [1/1] (1.94ns)   --->   "%mul_ln42_176 = mul i26 %sext_ln42_396, i26 562" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 110 'mul' 'mul_ln42_176' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 111 [1/1] (0.00ns)   --->   "%trunc_ln42_29 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_176, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 111 'partselect' 'trunc_ln42_29' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 112 [1/1] (0.00ns)   --->   "%sext_ln42_406 = sext i16 %data_26_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 112 'sext' 'sext_ln42_406' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 113 [1/1] (1.94ns)   --->   "%mul_ln42_177 = mul i26 %sext_ln42_406, i26 67108181" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 113 'mul' 'mul_ln42_177' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 112 [1/1] (0.00ns)   --->   "%sext_ln42_397 = sext i16 %data_26_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 112 'sext' 'sext_ln42_397' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 113 [1/1] (1.94ns)   --->   "%mul_ln42_177 = mul i26 %sext_ln42_397, i26 67108181" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 113 'mul' 'mul_ln42_177' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 114 [1/1] (0.00ns)   --->   "%trunc_ln42_30 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_177, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 114 'partselect' 'trunc_ln42_30' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 115 [1/1] (0.00ns)   --->   "%sext_ln42_407 = sext i16 %data_28_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 115 'sext' 'sext_ln42_407' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 116 [1/1] (1.94ns)   --->   "%mul_ln42_178 = mul i26 %sext_ln42_407, i26 67107854" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 116 'mul' 'mul_ln42_178' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 115 [1/1] (0.00ns)   --->   "%sext_ln42_398 = sext i16 %data_28_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 115 'sext' 'sext_ln42_398' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 116 [1/1] (1.94ns)   --->   "%mul_ln42_178 = mul i26 %sext_ln42_398, i26 67107854" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 116 'mul' 'mul_ln42_178' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 117 [1/1] (0.00ns)   --->   "%trunc_ln42_31 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_178, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 117 'partselect' 'trunc_ln42_31' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 118 [1/1] (1.94ns)   --->   "%mul_ln42_179 = mul i26 %sext_ln42_407, i26 67107591" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 118 'mul' 'mul_ln42_179' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 118 [1/1] (1.94ns)   --->   "%mul_ln42_179 = mul i26 %sext_ln42_398, i26 67107591" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 118 'mul' 'mul_ln42_179' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 119 [1/1] (0.00ns)   --->   "%trunc_ln42_32 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_179, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 119 'partselect' 'trunc_ln42_32' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 120 [1/1] (1.94ns)   --->   "%mul_ln42_180 = mul i26 %sext_ln42_407, i26 1474" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 120 'mul' 'mul_ln42_180' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 120 [1/1] (1.94ns)   --->   "%mul_ln42_180 = mul i26 %sext_ln42_398, i26 1474" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 120 'mul' 'mul_ln42_180' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 121 [1/1] (0.00ns)   --->   "%trunc_ln42_33 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_180, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 121 'partselect' 'trunc_ln42_33' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 122 [1/1] (0.00ns)   --->   "%sext_ln42_408 = sext i16 %data_29_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 122 'sext' 'sext_ln42_408' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 123 [1/1] (1.94ns)   --->   "%mul_ln42_181 = mul i26 %sext_ln42_408, i26 948" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 123 'mul' 'mul_ln42_181' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 122 [1/1] (0.00ns)   --->   "%sext_ln42_399 = sext i16 %data_29_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 122 'sext' 'sext_ln42_399' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 123 [1/1] (1.94ns)   --->   "%mul_ln42_181 = mul i26 %sext_ln42_399, i26 948" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 123 'mul' 'mul_ln42_181' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 124 [1/1] (0.00ns)   --->   "%trunc_ln42_34 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_181, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 124 'partselect' 'trunc_ln42_34' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 125 [1/1] (0.00ns)   --->   "%sext_ln42_409 = sext i16 %data_30_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 125 'sext' 'sext_ln42_409' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 126 [1/1] (1.94ns)   --->   "%mul_ln73_687 = mul i26 %sext_ln42_409, i26 411" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 126 'mul' 'mul_ln73_687' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 125 [1/1] (0.00ns)   --->   "%sext_ln42_400 = sext i16 %data_30_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 125 'sext' 'sext_ln42_400' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 126 [1/1] (1.94ns)   --->   "%mul_ln73_687 = mul i26 %sext_ln42_400, i26 411" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 126 'mul' 'mul_ln73_687' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 127 [1/1] (0.00ns)   --->   "%trunc_ln42_35 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln73_687, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 127 'partselect' 'trunc_ln42_35' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 128 [1/1] (1.94ns)   --->   "%mul_ln42_182 = mul i26 %sext_ln42_409, i26 67107730" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 128 'mul' 'mul_ln42_182' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 128 [1/1] (1.94ns)   --->   "%mul_ln42_182 = mul i26 %sext_ln42_400, i26 67107730" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 128 'mul' 'mul_ln42_182' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 129 [1/1] (0.00ns)   --->   "%trunc_ln42_36 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_182, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 129 'partselect' 'trunc_ln42_36' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 130 [1/1] (0.00ns)   --->   "%sext_ln73_4 = sext i16 %data_31_val_read" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 130 'sext' 'sext_ln73_4' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 131 [1/1] (1.94ns)   --->   "%mul_ln42_183 = mul i26 %sext_ln73_4, i26 525" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 131 'mul' 'mul_ln42_183' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 130 [1/1] (0.00ns)   --->   "%sext_ln73_193 = sext i16 %data_31_val_read" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 130 'sext' 'sext_ln73_193' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 131 [1/1] (1.94ns)   --->   "%mul_ln42_183 = mul i26 %sext_ln73_193, i26 525" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 131 'mul' 'mul_ln42_183' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 132 [1/1] (0.00ns)   --->   "%trunc_ln42_37 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_183, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 132 'partselect' 'trunc_ln42_37' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 133 [1/1] (1.94ns)   --->   "%mul_ln42_184 = mul i26 %sext_ln73_4, i26 67108181" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 133 'mul' 'mul_ln42_184' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 133 [1/1] (1.94ns)   --->   "%mul_ln42_184 = mul i26 %sext_ln73_193, i26 67108181" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 133 'mul' 'mul_ln42_184' <Predicate = true> <Delay = 1.94> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.94> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 134 [1/1] (0.00ns)   --->   "%trunc_ln42_38 = partselect i16 @_ssdm_op_PartSelect.i16.i26.i32.i32, i26 %mul_ln42_184, i32 10, i32 25" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 134 'partselect' 'trunc_ln42_38' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 135 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln58 = add i16 %trunc_ln, i16 %trunc_ln42_27" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 135 'add' 'add_ln58' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.33> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_1 : Operation 136 [1/1] (0.78ns)   --->   "%add_ln58_977 = add i16 %trunc_ln42_28, i16 65521" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 136 'add' 'add_ln58_977' <Predicate = true> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
@@ -224,7 +224,7 @@ ST_1 : Operation 143 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_l
 ST_1 : Operation 144 [1/1] (0.67ns) (root node of TernaryAdder)   --->   "%add_ln58_986 = add i16 %add_ln58_985, i16 %trunc_ln42_30" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 144 'add' 'add_ln58_986' <Predicate = true> <Delay = 0.67> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.33> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_1 : Operation 145 [1/1] (0.67ns) (root node of TernaryAdder)   --->   "%add_ln58_987 = add i16 %add_ln58_986, i16 %add_ln58_984" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 145 'add' 'add_ln58_987' <Predicate = true> <Delay = 0.67> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.33> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_1 : Operation 146 [1/1] (0.78ns)   --->   "%add_ln58_989 = add i16 %trunc_ln42_7, i16 %trunc_ln42_10" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 146 'add' 'add_ln58_989' <Predicate = true> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 147 [1/1] (0.78ns)   --->   "%add_ln58_990 = add i16 %trunc_ln42_13, i16 %sext_ln42_398" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 147 'add' 'add_ln58_990' <Predicate = true> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 147 [1/1] (0.78ns)   --->   "%add_ln58_990 = add i16 %trunc_ln42_13, i16 %sext_ln42_389" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 147 'add' 'add_ln58_990' <Predicate = true> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 148 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln58_992 = add i16 %trunc_ln42_21, i16 %trunc_ln42_24" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 148 'add' 'add_ln58_992' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.33> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_1 : Operation 149 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln58_993 = add i16 %trunc_ln42_36, i16 246" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 149 'add' 'add_ln58_993' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.33> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_1 : Operation 150 [1/1] (0.67ns) (root node of TernaryAdder)   --->   "%add_ln58_994 = add i16 %add_ln58_993, i16 %trunc_ln42_31" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 150 'add' 'add_ln58_994' <Predicate = true> <Delay = 0.67> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.33> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
@@ -244,7 +244,7 @@ ST_1 : Operation 163 [1/1] (0.78ns)   --->   "%add_ln58_1012 = add i16 %trunc_ln
 ST_1 : Operation 164 [1/1] (0.67ns) (root node of TernaryAdder)   --->   "%add_ln58_1013 = add i16 %add_ln58_1012, i16 %add_ln58_1011" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 164 'add' 'add_ln58_1013' <Predicate = true> <Delay = 0.67> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.33> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 
 State 2 <SV = 1> <Delay = 1.35>
-ST_2 : Operation 165 [1/1] (0.00ns)   --->   "%specpipeline_ln13 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_0" [firmware/nnet_utils/nnet_dense_latency.h:13]   --->   Operation 165 'specpipeline' 'specpipeline_ln13' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 165 [1/1] (0.00ns)   --->   "%specpipeline_ln33 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_0" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 165 'specpipeline' 'specpipeline_ln33' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 166 [1/1] (0.00ns)   --->   "%specresourcelimit_ln33 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 40, void @empty_1, void @empty_0, void @empty_0, void @empty_0" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 166 'specresourcelimit' 'specresourcelimit_ln33' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 167 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln58_982 = add i16 %add_ln58_981, i16 %add_ln58_979" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 167 'add' 'add_ln58_982' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.33> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_2 : Operation 168 [1/1] (0.67ns) (root node of TernaryAdder)   --->   "%add_ln58_988 = add i16 %add_ln58_987, i16 %add_ln58_982" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 168 'add' 'add_ln58_988' <Predicate = true> <Delay = 0.67> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.33> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
@@ -271,7 +271,7 @@ STG Binding:
 ---------------- STG Properties BEGIN ----------------
 - Is combinational: 0
 - Is one-state seq: 0
-- Is datapath-only: 0
+- Is datapath-only: 1
 - Is pipelined: 1
 - Is top level: 0
 Port [ Return ] is wired: 1; IO mode=ap_ctrl_hs:ce=0
@@ -339,31 +339,31 @@ trunc_ln42_1           (partselect       ) [ 000]
 sext_ln42              (sext             ) [ 000]
 mul_ln42_152           (mul              ) [ 000]
 trunc_ln42_2           (partselect       ) [ 000]
-sext_ln73_1            (sext             ) [ 000]
+sext_ln73_190          (sext             ) [ 000]
 mul_ln42_153           (mul              ) [ 000]
 trunc_ln42_3           (partselect       ) [ 000]
 mul_ln42_154           (mul              ) [ 000]
 trunc_ln42_4           (partselect       ) [ 000]
-sext_ln42_393          (sext             ) [ 000]
+sext_ln42_384          (sext             ) [ 000]
 mul_ln42_155           (mul              ) [ 000]
 trunc_ln42_5           (partselect       ) [ 000]
 mul_ln42_156           (mul              ) [ 000]
 trunc_ln42_6           (partselect       ) [ 000]
-sext_ln42_394          (sext             ) [ 000]
+sext_ln42_385          (sext             ) [ 000]
 mul_ln42_157           (mul              ) [ 000]
 trunc_ln42_7           (partselect       ) [ 000]
-sext_ln73_2            (sext             ) [ 000]
+sext_ln73_191          (sext             ) [ 000]
 mul_ln42_158           (mul              ) [ 000]
 trunc_ln42_8           (partselect       ) [ 000]
 mul_ln42_159           (mul              ) [ 000]
 trunc_ln42_9           (partselect       ) [ 000]
-sext_ln42_395          (sext             ) [ 000]
+sext_ln42_386          (sext             ) [ 000]
 mul_ln42_160           (mul              ) [ 000]
 trunc_ln42_10          (partselect       ) [ 000]
-sext_ln42_396          (sext             ) [ 000]
+sext_ln42_387          (sext             ) [ 000]
 mul_ln42_161           (mul              ) [ 000]
 trunc_ln42_11          (partselect       ) [ 000]
-sext_ln42_397          (sext             ) [ 000]
+sext_ln42_388          (sext             ) [ 000]
 mul_ln42_162           (mul              ) [ 000]
 trunc_ln42_12          (partselect       ) [ 000]
 sext_ln70              (sext             ) [ 000]
@@ -371,69 +371,69 @@ mul_ln42_163           (mul              ) [ 000]
 trunc_ln42_13          (partselect       ) [ 000]
 mul_ln73               (mul              ) [ 000]
 trunc_ln42_14          (partselect       ) [ 000]
-sext_ln70_266          (sext             ) [ 000]
+sext_ln70_271          (sext             ) [ 000]
 mul_ln73_684           (mul              ) [ 000]
 trunc_ln42_15          (partselect       ) [ 000]
-sext_ln70_267          (sext             ) [ 000]
-sext_ln73_3            (sext             ) [ 000]
+sext_ln70_272          (sext             ) [ 000]
+sext_ln73_192          (sext             ) [ 000]
 mul_ln42_164           (mul              ) [ 000]
 trunc_ln42_16          (partselect       ) [ 011]
 mul_ln73_685           (mul              ) [ 000]
 trunc_ln42_s           (partselect       ) [ 000]
-sext_ln42_398          (sext             ) [ 000]
+sext_ln42_389          (sext             ) [ 000]
 mul_ln42_165           (mul              ) [ 000]
 trunc_ln42_17          (partselect       ) [ 000]
-sext_ln42_399          (sext             ) [ 000]
+sext_ln42_390          (sext             ) [ 000]
 mul_ln42_166           (mul              ) [ 000]
 trunc_ln42_18          (partselect       ) [ 011]
 mul_ln42_167           (mul              ) [ 000]
 trunc_ln42_19          (partselect       ) [ 000]
-sext_ln70_268          (sext             ) [ 000]
+sext_ln70_273          (sext             ) [ 000]
 mul_ln42_168           (mul              ) [ 000]
 trunc_ln42_20          (partselect       ) [ 000]
 mul_ln73_686           (mul              ) [ 000]
 trunc_ln42_21          (partselect       ) [ 000]
 mul_ln42_169           (mul              ) [ 000]
 trunc_ln42_22          (partselect       ) [ 000]
-sext_ln42_400          (sext             ) [ 000]
+sext_ln42_391          (sext             ) [ 000]
 mul_ln42_170           (mul              ) [ 000]
 trunc_ln42_23          (partselect       ) [ 000]
-sext_ln42_401          (sext             ) [ 000]
+sext_ln42_392          (sext             ) [ 000]
 mul_ln42_171           (mul              ) [ 000]
 trunc_ln42_24          (partselect       ) [ 000]
-sext_ln42_402          (sext             ) [ 000]
+sext_ln42_393          (sext             ) [ 000]
 mul_ln42_172           (mul              ) [ 000]
 trunc_ln42_25          (partselect       ) [ 000]
-sext_ln42_403          (sext             ) [ 000]
+sext_ln42_394          (sext             ) [ 000]
 mul_ln42_173           (mul              ) [ 000]
 trunc_ln42_26          (partselect       ) [ 000]
-sext_ln42_404          (sext             ) [ 000]
+sext_ln42_395          (sext             ) [ 000]
 mul_ln42_174           (mul              ) [ 000]
 trunc_ln42_27          (partselect       ) [ 000]
-sext_ln42_405          (sext             ) [ 000]
+sext_ln42_396          (sext             ) [ 000]
 mul_ln42_175           (mul              ) [ 000]
 trunc_ln42_28          (partselect       ) [ 000]
 mul_ln42_176           (mul              ) [ 000]
 trunc_ln42_29          (partselect       ) [ 000]
-sext_ln42_406          (sext             ) [ 000]
+sext_ln42_397          (sext             ) [ 000]
 mul_ln42_177           (mul              ) [ 000]
 trunc_ln42_30          (partselect       ) [ 000]
-sext_ln42_407          (sext             ) [ 000]
+sext_ln42_398          (sext             ) [ 000]
 mul_ln42_178           (mul              ) [ 000]
 trunc_ln42_31          (partselect       ) [ 000]
 mul_ln42_179           (mul              ) [ 000]
 trunc_ln42_32          (partselect       ) [ 000]
 mul_ln42_180           (mul              ) [ 000]
 trunc_ln42_33          (partselect       ) [ 000]
-sext_ln42_408          (sext             ) [ 000]
+sext_ln42_399          (sext             ) [ 000]
 mul_ln42_181           (mul              ) [ 000]
 trunc_ln42_34          (partselect       ) [ 000]
-sext_ln42_409          (sext             ) [ 000]
+sext_ln42_400          (sext             ) [ 000]
 mul_ln73_687           (mul              ) [ 000]
 trunc_ln42_35          (partselect       ) [ 000]
 mul_ln42_182           (mul              ) [ 000]
 trunc_ln42_36          (partselect       ) [ 000]
-sext_ln73_4            (sext             ) [ 000]
+sext_ln73_193          (sext             ) [ 000]
 mul_ln42_183           (mul              ) [ 000]
 trunc_ln42_37          (partselect       ) [ 000]
 mul_ln42_184           (mul              ) [ 000]
@@ -468,7 +468,7 @@ add_ln58_1009          (add              ) [ 011]
 add_ln58_1011          (add              ) [ 000]
 add_ln58_1012          (add              ) [ 000]
 add_ln58_1013          (add              ) [ 011]
-specpipeline_ln13      (specpipeline     ) [ 000]
+specpipeline_ln33      (specpipeline     ) [ 000]
 specresourcelimit_ln33 (specresourcelimit) [ 000]
 add_ln58_982           (add              ) [ 000]
 add_ln58_988           (add              ) [ 000]
@@ -2082,14 +2082,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7078" class="1004" name="sext_ln73_1_fu_7078">
+<comp id="7078" class="1004" name="sext_ln73_190_fu_7078">
 <pin_list>
 <pin id="7079" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7080" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln73_1/1 "/>
+<opset="sext_ln73_190/1 "/>
 </bind>
 </comp>
 
@@ -2121,14 +2121,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7104" class="1004" name="sext_ln42_393_fu_7104">
+<comp id="7104" class="1004" name="sext_ln42_384_fu_7104">
 <pin_list>
 <pin id="7105" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7106" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_393/1 "/>
+<opset="sext_ln42_384/1 "/>
 </bind>
 </comp>
 
@@ -2160,14 +2160,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7130" class="1004" name="sext_ln42_394_fu_7130">
+<comp id="7130" class="1004" name="sext_ln42_385_fu_7130">
 <pin_list>
 <pin id="7131" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7132" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_394/1 "/>
+<opset="sext_ln42_385/1 "/>
 </bind>
 </comp>
 
@@ -2185,14 +2185,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7145" class="1004" name="sext_ln73_2_fu_7145">
+<comp id="7145" class="1004" name="sext_ln73_191_fu_7145">
 <pin_list>
 <pin id="7146" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7147" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln73_2/1 "/>
+<opset="sext_ln73_191/1 "/>
 </bind>
 </comp>
 
@@ -2224,14 +2224,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7171" class="1004" name="sext_ln42_395_fu_7171">
+<comp id="7171" class="1004" name="sext_ln42_386_fu_7171">
 <pin_list>
 <pin id="7172" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7173" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_395/1 "/>
+<opset="sext_ln42_386/1 "/>
 </bind>
 </comp>
 
@@ -2249,14 +2249,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7186" class="1004" name="sext_ln42_396_fu_7186">
+<comp id="7186" class="1004" name="sext_ln42_387_fu_7186">
 <pin_list>
 <pin id="7187" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7188" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_396/1 "/>
+<opset="sext_ln42_387/1 "/>
 </bind>
 </comp>
 
@@ -2274,14 +2274,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7201" class="1004" name="sext_ln42_397_fu_7201">
+<comp id="7201" class="1004" name="sext_ln42_388_fu_7201">
 <pin_list>
 <pin id="7202" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7203" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_397/1 "/>
+<opset="sext_ln42_388/1 "/>
 </bind>
 </comp>
 
@@ -2338,14 +2338,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7242" class="1004" name="sext_ln70_266_fu_7242">
+<comp id="7242" class="1004" name="sext_ln70_271_fu_7242">
 <pin_list>
 <pin id="7243" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7244" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln70_266/1 "/>
+<opset="sext_ln70_271/1 "/>
 </bind>
 </comp>
 
@@ -2363,25 +2363,25 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7257" class="1004" name="sext_ln70_267_fu_7257">
+<comp id="7257" class="1004" name="sext_ln70_272_fu_7257">
 <pin_list>
 <pin id="7258" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7259" dir="1" index="1" bw="25" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln70_267/1 "/>
+<opset="sext_ln70_272/1 "/>
 </bind>
 </comp>
 
-<comp id="7262" class="1004" name="sext_ln73_3_fu_7262">
+<comp id="7262" class="1004" name="sext_ln73_192_fu_7262">
 <pin_list>
 <pin id="7263" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7264" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln73_3/1 "/>
+<opset="sext_ln73_192/1 "/>
 </bind>
 </comp>
 
@@ -2413,14 +2413,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7288" class="1004" name="sext_ln42_398_fu_7288">
+<comp id="7288" class="1004" name="sext_ln42_389_fu_7288">
 <pin_list>
 <pin id="7289" dir="0" index="0" bw="15" slack="0"/>
 <pin id="7290" dir="1" index="1" bw="16" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_398/1 "/>
+<opset="sext_ln42_389/1 "/>
 </bind>
 </comp>
 
@@ -2438,14 +2438,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7302" class="1004" name="sext_ln42_399_fu_7302">
+<comp id="7302" class="1004" name="sext_ln42_390_fu_7302">
 <pin_list>
 <pin id="7303" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7304" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_399/1 "/>
+<opset="sext_ln42_390/1 "/>
 </bind>
 </comp>
 
@@ -2477,14 +2477,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7328" class="1004" name="sext_ln70_268_fu_7328">
+<comp id="7328" class="1004" name="sext_ln70_273_fu_7328">
 <pin_list>
 <pin id="7329" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7330" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln70_268/1 "/>
+<opset="sext_ln70_273/1 "/>
 </bind>
 </comp>
 
@@ -2530,14 +2530,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7365" class="1004" name="sext_ln42_400_fu_7365">
+<comp id="7365" class="1004" name="sext_ln42_391_fu_7365">
 <pin_list>
 <pin id="7366" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7367" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_400/1 "/>
+<opset="sext_ln42_391/1 "/>
 </bind>
 </comp>
 
@@ -2555,14 +2555,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7380" class="1004" name="sext_ln42_401_fu_7380">
+<comp id="7380" class="1004" name="sext_ln42_392_fu_7380">
 <pin_list>
 <pin id="7381" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7382" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_401/1 "/>
+<opset="sext_ln42_392/1 "/>
 </bind>
 </comp>
 
@@ -2580,14 +2580,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7395" class="1004" name="sext_ln42_402_fu_7395">
+<comp id="7395" class="1004" name="sext_ln42_393_fu_7395">
 <pin_list>
 <pin id="7396" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7397" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_402/1 "/>
+<opset="sext_ln42_393/1 "/>
 </bind>
 </comp>
 
@@ -2605,14 +2605,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7410" class="1004" name="sext_ln42_403_fu_7410">
+<comp id="7410" class="1004" name="sext_ln42_394_fu_7410">
 <pin_list>
 <pin id="7411" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7412" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_403/1 "/>
+<opset="sext_ln42_394/1 "/>
 </bind>
 </comp>
 
@@ -2630,14 +2630,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7425" class="1004" name="sext_ln42_404_fu_7425">
+<comp id="7425" class="1004" name="sext_ln42_395_fu_7425">
 <pin_list>
 <pin id="7426" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7427" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_404/1 "/>
+<opset="sext_ln42_395/1 "/>
 </bind>
 </comp>
 
@@ -2655,14 +2655,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7440" class="1004" name="sext_ln42_405_fu_7440">
+<comp id="7440" class="1004" name="sext_ln42_396_fu_7440">
 <pin_list>
 <pin id="7441" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7442" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_405/1 "/>
+<opset="sext_ln42_396/1 "/>
 </bind>
 </comp>
 
@@ -2694,14 +2694,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7466" class="1004" name="sext_ln42_406_fu_7466">
+<comp id="7466" class="1004" name="sext_ln42_397_fu_7466">
 <pin_list>
 <pin id="7467" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7468" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_406/1 "/>
+<opset="sext_ln42_397/1 "/>
 </bind>
 </comp>
 
@@ -2719,14 +2719,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7481" class="1004" name="sext_ln42_407_fu_7481">
+<comp id="7481" class="1004" name="sext_ln42_398_fu_7481">
 <pin_list>
 <pin id="7482" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7483" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_407/1 "/>
+<opset="sext_ln42_398/1 "/>
 </bind>
 </comp>
 
@@ -2772,14 +2772,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7518" class="1004" name="sext_ln42_408_fu_7518">
+<comp id="7518" class="1004" name="sext_ln42_399_fu_7518">
 <pin_list>
 <pin id="7519" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7520" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_408/1 "/>
+<opset="sext_ln42_399/1 "/>
 </bind>
 </comp>
 
@@ -2797,14 +2797,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7533" class="1004" name="sext_ln42_409_fu_7533">
+<comp id="7533" class="1004" name="sext_ln42_400_fu_7533">
 <pin_list>
 <pin id="7534" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7535" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln42_409/1 "/>
+<opset="sext_ln42_400/1 "/>
 </bind>
 </comp>
 
@@ -2836,14 +2836,14 @@ ret_ln68               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="7559" class="1004" name="sext_ln73_4_fu_7559">
+<comp id="7559" class="1004" name="sext_ln73_193_fu_7559">
 <pin_list>
 <pin id="7560" dir="0" index="0" bw="16" slack="0"/>
 <pin id="7561" dir="1" index="1" bw="26" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln73_4/1 "/>
+<opset="sext_ln73_193/1 "/>
 </bind>
 </comp>
 
@@ -4483,7 +4483,7 @@ ret_ln68               (ret              ) [ 000]
 		trunc_ln42_16 : 2
 		mul_ln73_685 : 1
 		trunc_ln42_s : 2
-		sext_ln42_398 : 3
+		sext_ln42_389 : 3
 		mul_ln42_165 : 1
 		trunc_ln42_17 : 2
 		mul_ln42_166 : 1
@@ -4689,31 +4689,31 @@ ret_ln68               (ret              ) [ 000]
 |----------|------------------------------|---------|---------|---------|
 |          |       sext_ln73_fu_7037      |    0    |    0    |    0    |
 |          |       sext_ln42_fu_7063      |    0    |    0    |    0    |
-|          |      sext_ln73_1_fu_7078     |    0    |    0    |    0    |
-|          |     sext_ln42_393_fu_7104    |    0    |    0    |    0    |
-|          |     sext_ln42_394_fu_7130    |    0    |    0    |    0    |
-|          |      sext_ln73_2_fu_7145     |    0    |    0    |    0    |
-|          |     sext_ln42_395_fu_7171    |    0    |    0    |    0    |
-|          |     sext_ln42_396_fu_7186    |    0    |    0    |    0    |
-|          |     sext_ln42_397_fu_7201    |    0    |    0    |    0    |
+|          |     sext_ln73_190_fu_7078    |    0    |    0    |    0    |
+|          |     sext_ln42_384_fu_7104    |    0    |    0    |    0    |
+|          |     sext_ln42_385_fu_7130    |    0    |    0    |    0    |
+|          |     sext_ln73_191_fu_7145    |    0    |    0    |    0    |
+|          |     sext_ln42_386_fu_7171    |    0    |    0    |    0    |
+|          |     sext_ln42_387_fu_7186    |    0    |    0    |    0    |
+|          |     sext_ln42_388_fu_7201    |    0    |    0    |    0    |
 |          |       sext_ln70_fu_7216      |    0    |    0    |    0    |
-|          |     sext_ln70_266_fu_7242    |    0    |    0    |    0    |
-|          |     sext_ln70_267_fu_7257    |    0    |    0    |    0    |
-|          |      sext_ln73_3_fu_7262     |    0    |    0    |    0    |
-|   sext   |     sext_ln42_398_fu_7288    |    0    |    0    |    0    |
-|          |     sext_ln42_399_fu_7302    |    0    |    0    |    0    |
-|          |     sext_ln70_268_fu_7328    |    0    |    0    |    0    |
-|          |     sext_ln42_400_fu_7365    |    0    |    0    |    0    |
-|          |     sext_ln42_401_fu_7380    |    0    |    0    |    0    |
-|          |     sext_ln42_402_fu_7395    |    0    |    0    |    0    |
-|          |     sext_ln42_403_fu_7410    |    0    |    0    |    0    |
-|          |     sext_ln42_404_fu_7425    |    0    |    0    |    0    |
-|          |     sext_ln42_405_fu_7440    |    0    |    0    |    0    |
-|          |     sext_ln42_406_fu_7466    |    0    |    0    |    0    |
-|          |     sext_ln42_407_fu_7481    |    0    |    0    |    0    |
-|          |     sext_ln42_408_fu_7518    |    0    |    0    |    0    |
-|          |     sext_ln42_409_fu_7533    |    0    |    0    |    0    |
-|          |      sext_ln73_4_fu_7559     |    0    |    0    |    0    |
+|          |     sext_ln70_271_fu_7242    |    0    |    0    |    0    |
+|          |     sext_ln70_272_fu_7257    |    0    |    0    |    0    |
+|          |     sext_ln73_192_fu_7262    |    0    |    0    |    0    |
+|   sext   |     sext_ln42_389_fu_7288    |    0    |    0    |    0    |
+|          |     sext_ln42_390_fu_7302    |    0    |    0    |    0    |
+|          |     sext_ln70_273_fu_7328    |    0    |    0    |    0    |
+|          |     sext_ln42_391_fu_7365    |    0    |    0    |    0    |
+|          |     sext_ln42_392_fu_7380    |    0    |    0    |    0    |
+|          |     sext_ln42_393_fu_7395    |    0    |    0    |    0    |
+|          |     sext_ln42_394_fu_7410    |    0    |    0    |    0    |
+|          |     sext_ln42_395_fu_7425    |    0    |    0    |    0    |
+|          |     sext_ln42_396_fu_7440    |    0    |    0    |    0    |
+|          |     sext_ln42_397_fu_7466    |    0    |    0    |    0    |
+|          |     sext_ln42_398_fu_7481    |    0    |    0    |    0    |
+|          |     sext_ln42_399_fu_7518    |    0    |    0    |    0    |
+|          |     sext_ln42_400_fu_7533    |    0    |    0    |    0    |
+|          |     sext_ln73_193_fu_7559    |    0    |    0    |    0    |
 |----------|------------------------------|---------|---------|---------|
 |          |       trunc_ln_fu_7043       |    0    |    0    |    0    |
 |          |     trunc_ln42_1_fu_7053     |    0    |    0    |    0    |

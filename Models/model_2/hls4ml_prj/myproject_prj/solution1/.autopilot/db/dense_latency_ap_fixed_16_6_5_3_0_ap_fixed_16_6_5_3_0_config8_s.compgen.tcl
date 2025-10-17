@@ -11,14 +11,14 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1011 \
-    name layer7_out_0_val \
+    name data_0_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_0_val \
+    corename dc_data_0_val \
     op interface \
-    ports { layer7_out_0_val { I 16 vector } } \
+    ports { data_0_val { I 16 vector } } \
 } "
 }
 
@@ -26,14 +26,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1012 \
-    name layer7_out_1_val \
+    name data_1_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_1_val \
+    corename dc_data_1_val \
     op interface \
-    ports { layer7_out_1_val { I 16 vector } } \
+    ports { data_1_val { I 16 vector } } \
 } "
 }
 
@@ -41,14 +41,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1013 \
-    name layer7_out_2_val \
+    name data_2_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_2_val \
+    corename dc_data_2_val \
     op interface \
-    ports { layer7_out_2_val { I 16 vector } } \
+    ports { data_2_val { I 16 vector } } \
 } "
 }
 
@@ -56,14 +56,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1014 \
-    name layer7_out_3_val \
+    name data_3_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_3_val \
+    corename dc_data_3_val \
     op interface \
-    ports { layer7_out_3_val { I 16 vector } } \
+    ports { data_3_val { I 16 vector } } \
 } "
 }
 
@@ -71,14 +71,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1015 \
-    name layer7_out_4_val \
+    name data_4_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_4_val \
+    corename dc_data_4_val \
     op interface \
-    ports { layer7_out_4_val { I 16 vector } } \
+    ports { data_4_val { I 16 vector } } \
 } "
 }
 
@@ -86,14 +86,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1016 \
-    name layer7_out_5_val \
+    name data_5_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_5_val \
+    corename dc_data_5_val \
     op interface \
-    ports { layer7_out_5_val { I 16 vector } } \
+    ports { data_5_val { I 16 vector } } \
 } "
 }
 
@@ -101,14 +101,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1017 \
-    name layer7_out_6_val \
+    name data_6_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_6_val \
+    corename dc_data_6_val \
     op interface \
-    ports { layer7_out_6_val { I 16 vector } } \
+    ports { data_6_val { I 16 vector } } \
 } "
 }
 
@@ -116,14 +116,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1018 \
-    name layer7_out_7_val \
+    name data_7_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_7_val \
+    corename dc_data_7_val \
     op interface \
-    ports { layer7_out_7_val { I 16 vector } } \
+    ports { data_7_val { I 16 vector } } \
 } "
 }
 
@@ -131,14 +131,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1019 \
-    name layer7_out_8_val \
+    name data_8_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_8_val \
+    corename dc_data_8_val \
     op interface \
-    ports { layer7_out_8_val { I 16 vector } } \
+    ports { data_8_val { I 16 vector } } \
 } "
 }
 
@@ -146,14 +146,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1020 \
-    name layer7_out_9_val \
+    name data_9_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_9_val \
+    corename dc_data_9_val \
     op interface \
-    ports { layer7_out_9_val { I 16 vector } } \
+    ports { data_9_val { I 16 vector } } \
 } "
 }
 
@@ -161,14 +161,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1021 \
-    name layer7_out_10_val \
+    name data_10_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_10_val \
+    corename dc_data_10_val \
     op interface \
-    ports { layer7_out_10_val { I 16 vector } } \
+    ports { data_10_val { I 16 vector } } \
 } "
 }
 
@@ -176,14 +176,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1022 \
-    name layer7_out_11_val \
+    name data_11_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_11_val \
+    corename dc_data_11_val \
     op interface \
-    ports { layer7_out_11_val { I 16 vector } } \
+    ports { data_11_val { I 16 vector } } \
 } "
 }
 
@@ -191,14 +191,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1023 \
-    name layer7_out_12_val \
+    name data_12_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_12_val \
+    corename dc_data_12_val \
     op interface \
-    ports { layer7_out_12_val { I 16 vector } } \
+    ports { data_12_val { I 16 vector } } \
 } "
 }
 
@@ -206,14 +206,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1024 \
-    name layer7_out_13_val \
+    name data_13_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_13_val \
+    corename dc_data_13_val \
     op interface \
-    ports { layer7_out_13_val { I 16 vector } } \
+    ports { data_13_val { I 16 vector } } \
 } "
 }
 
@@ -221,14 +221,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1025 \
-    name layer7_out_14_val \
+    name data_14_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_14_val \
+    corename dc_data_14_val \
     op interface \
-    ports { layer7_out_14_val { I 16 vector } } \
+    ports { data_14_val { I 16 vector } } \
 } "
 }
 
@@ -236,14 +236,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1026 \
-    name layer7_out_15_val \
+    name data_15_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_15_val \
+    corename dc_data_15_val \
     op interface \
-    ports { layer7_out_15_val { I 16 vector } } \
+    ports { data_15_val { I 16 vector } } \
 } "
 }
 
@@ -251,14 +251,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1027 \
-    name layer7_out_16_val \
+    name data_16_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_16_val \
+    corename dc_data_16_val \
     op interface \
-    ports { layer7_out_16_val { I 16 vector } } \
+    ports { data_16_val { I 16 vector } } \
 } "
 }
 
@@ -266,14 +266,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1028 \
-    name layer7_out_17_val \
+    name data_17_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_17_val \
+    corename dc_data_17_val \
     op interface \
-    ports { layer7_out_17_val { I 16 vector } } \
+    ports { data_17_val { I 16 vector } } \
 } "
 }
 
@@ -281,14 +281,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1029 \
-    name layer7_out_18_val \
+    name data_18_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_18_val \
+    corename dc_data_18_val \
     op interface \
-    ports { layer7_out_18_val { I 16 vector } } \
+    ports { data_18_val { I 16 vector } } \
 } "
 }
 
@@ -296,14 +296,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1030 \
-    name layer7_out_19_val \
+    name data_19_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_19_val \
+    corename dc_data_19_val \
     op interface \
-    ports { layer7_out_19_val { I 16 vector } } \
+    ports { data_19_val { I 16 vector } } \
 } "
 }
 
@@ -311,14 +311,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1031 \
-    name layer7_out_20_val \
+    name data_20_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_20_val \
+    corename dc_data_20_val \
     op interface \
-    ports { layer7_out_20_val { I 16 vector } } \
+    ports { data_20_val { I 16 vector } } \
 } "
 }
 
@@ -326,14 +326,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1032 \
-    name layer7_out_21_val \
+    name data_21_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_21_val \
+    corename dc_data_21_val \
     op interface \
-    ports { layer7_out_21_val { I 16 vector } } \
+    ports { data_21_val { I 16 vector } } \
 } "
 }
 
@@ -341,14 +341,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1033 \
-    name layer7_out_22_val \
+    name data_22_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_22_val \
+    corename dc_data_22_val \
     op interface \
-    ports { layer7_out_22_val { I 16 vector } } \
+    ports { data_22_val { I 16 vector } } \
 } "
 }
 
@@ -356,14 +356,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1034 \
-    name layer7_out_23_val \
+    name data_23_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_23_val \
+    corename dc_data_23_val \
     op interface \
-    ports { layer7_out_23_val { I 16 vector } } \
+    ports { data_23_val { I 16 vector } } \
 } "
 }
 
@@ -371,14 +371,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1035 \
-    name layer7_out_24_val \
+    name data_24_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_24_val \
+    corename dc_data_24_val \
     op interface \
-    ports { layer7_out_24_val { I 16 vector } } \
+    ports { data_24_val { I 16 vector } } \
 } "
 }
 
@@ -386,14 +386,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1036 \
-    name layer7_out_25_val \
+    name data_25_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_25_val \
+    corename dc_data_25_val \
     op interface \
-    ports { layer7_out_25_val { I 16 vector } } \
+    ports { data_25_val { I 16 vector } } \
 } "
 }
 
@@ -401,14 +401,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1037 \
-    name layer7_out_26_val \
+    name data_26_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_26_val \
+    corename dc_data_26_val \
     op interface \
-    ports { layer7_out_26_val { I 16 vector } } \
+    ports { data_26_val { I 16 vector } } \
 } "
 }
 
@@ -416,14 +416,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1038 \
-    name layer7_out_27_val \
+    name data_27_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_27_val \
+    corename dc_data_27_val \
     op interface \
-    ports { layer7_out_27_val { I 16 vector } } \
+    ports { data_27_val { I 16 vector } } \
 } "
 }
 
@@ -431,14 +431,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1039 \
-    name layer7_out_28_val \
+    name data_28_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_28_val \
+    corename dc_data_28_val \
     op interface \
-    ports { layer7_out_28_val { I 16 vector } } \
+    ports { data_28_val { I 16 vector } } \
 } "
 }
 
@@ -446,14 +446,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1040 \
-    name layer7_out_29_val \
+    name data_29_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_29_val \
+    corename dc_data_29_val \
     op interface \
-    ports { layer7_out_29_val { I 16 vector } } \
+    ports { data_29_val { I 16 vector } } \
 } "
 }
 
@@ -461,14 +461,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1041 \
-    name layer7_out_30_val \
+    name data_30_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_30_val \
+    corename dc_data_30_val \
     op interface \
-    ports { layer7_out_30_val { I 16 vector } } \
+    ports { data_30_val { I 16 vector } } \
 } "
 }
 
@@ -476,14 +476,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 1042 \
-    name layer7_out_31_val \
+    name data_31_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_layer7_out_31_val \
+    corename dc_data_31_val \
     op interface \
-    ports { layer7_out_31_val { I 16 vector } } \
+    ports { data_31_val { I 16 vector } } \
 } "
 }
 
@@ -491,20 +491,6 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id -1 \
-    name ap_ctrl \
-    type ap_ctrl \
-    reset_level 1 \
-    sync_rst true \
-    corename ap_ctrl \
-    op interface \
-    ports { ap_start { I 1 bit } ap_ready { O 1 bit } ap_done { O 1 bit } ap_idle { O 1 bit } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id -2 \
     name ap_return \
     type ap_return \
     reset_level 1 \
@@ -522,7 +508,7 @@ set DataWd 1
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc cg_default_interface_gen_clock] == "cg_default_interface_gen_clock"} {
 eval "cg_default_interface_gen_clock { \
-    id -3 \
+    id -2 \
     name ${PortName} \
     reset_level 1 \
     sync_rst true \
@@ -542,7 +528,7 @@ set DataWd 1
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc cg_default_interface_gen_reset] == "cg_default_interface_gen_reset"} {
 eval "cg_default_interface_gen_reset { \
-    id -4 \
+    id -3 \
     name ${PortName} \
     reset_level 1 \
     sync_rst true \
@@ -562,7 +548,7 @@ set DataWd 1
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc cg_default_interface_gen_ce] == "cg_default_interface_gen_ce"} {
 eval "cg_default_interface_gen_ce { \
-    id -5 \
+    id -4 \
     name ${PortName} \
     reset_level 1 \
     sync_rst true \
