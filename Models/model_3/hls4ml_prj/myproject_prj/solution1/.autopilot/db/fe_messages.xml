@@ -1,11 +1,11 @@
 <xilinx:hls_fe_msgs>
-    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5538" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:33:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5536" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:33:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
         <args ClangWarningOption="ignored-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5538" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:107:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5536" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:107:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
         <args ClangWarningOption="ignored-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5538" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:189:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5536" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:189:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
         <args ClangWarningOption="ignored-hls-pragmas"/>
     </msg>
     <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_helpers.h:285:99" msg_body="unused parameter 'keep'">
@@ -677,7 +677,7 @@
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_stream.h:91:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="dense" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=res complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/build_prj.tcl:184:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/build_prj.tcl:184:9" msg_body="HLS pragma dump">
         <args ARG_PragmaContext="directive" ARG_PragmaFunction="myproject" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=myproject" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/myproject.cpp:13:9" msg_body="HLS pragma dump">

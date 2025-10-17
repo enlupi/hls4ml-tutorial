@@ -34,7 +34,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>62</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>256</bitwidth>
@@ -70,7 +70,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -106,7 +106,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>156</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -142,7 +142,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>132</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -178,7 +178,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -214,7 +214,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>208</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -280,25 +280,39 @@
 						<type>0</type>
 						<id>24</id>
 						<name>call_ret1</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="11" tracking_level="0" version="0">
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second class_id="12" tracking_level="0" version="0">
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item class_id="13" tracking_level="0" version="0">
 										<first class_id="14" tracking_level="0" version="0">
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -311,7 +325,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1701</bitwidth>
@@ -327,7 +341,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.55</m_delay>
+				<m_delay>1.94</m_delay>
 				<m_topoIndex>2</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -337,25 +351,39 @@
 						<type>0</type>
 						<id>25</id>
 						<name>layer2_out</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -368,7 +396,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876868272</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -393,25 +421,39 @@
 						<type>0</type>
 						<id>26</id>
 						<name>layer2_out_1</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -424,7 +466,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876499328</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -449,25 +491,39 @@
 						<type>0</type>
 						<id>27</id>
 						<name>layer2_out_2</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -480,7 +536,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876371440</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -505,25 +561,39 @@
 						<type>0</type>
 						<id>28</id>
 						<name>layer2_out_3</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -536,7 +606,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -561,25 +631,39 @@
 						<type>0</type>
 						<id>29</id>
 						<name>layer2_out_4</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -592,7 +676,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876877552</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -617,25 +701,39 @@
 						<type>0</type>
 						<id>30</id>
 						<name>layer2_out_5</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -648,7 +746,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876513536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -673,25 +771,39 @@
 						<type>0</type>
 						<id>31</id>
 						<name>layer2_out_6</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -704,7 +816,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876073312</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -729,25 +841,39 @@
 						<type>0</type>
 						<id>32</id>
 						<name>layer2_out_7</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -760,7 +886,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876148784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -785,25 +911,39 @@
 						<type>0</type>
 						<id>33</id>
 						<name>layer2_out_8</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -816,7 +956,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876499352</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -841,25 +981,39 @@
 						<type>0</type>
 						<id>34</id>
 						<name>layer2_out_9</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -872,7 +1026,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1414445600</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -896,26 +1050,40 @@
 					<Obj>
 						<type>0</type>
 						<id>35</id>
-						<name>layer2_out_10</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_62</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -928,7 +1096,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1414916533</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -952,26 +1120,40 @@
 					<Obj>
 						<type>0</type>
 						<id>36</id>
-						<name>layer2_out_11</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_10</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -984,7 +1166,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876513536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1008,26 +1190,40 @@
 					<Obj>
 						<type>0</type>
 						<id>37</id>
-						<name>layer2_out_12</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_11</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1040,7 +1236,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877012192</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1064,26 +1260,40 @@
 					<Obj>
 						<type>0</type>
 						<id>38</id>
-						<name>layer2_out_13</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_12</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1096,7 +1306,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>795177569</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1120,26 +1330,40 @@
 					<Obj>
 						<type>0</type>
 						<id>39</id>
-						<name>layer2_out_14</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_13</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1152,7 +1376,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876885552</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1176,26 +1400,40 @@
 					<Obj>
 						<type>0</type>
 						<id>40</id>
-						<name>layer2_out_15</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_14</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1208,7 +1446,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876494688</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1232,26 +1470,40 @@
 					<Obj>
 						<type>0</type>
 						<id>41</id>
-						<name>layer2_out_16</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_15</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1264,7 +1516,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876879456</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1288,26 +1540,40 @@
 					<Obj>
 						<type>0</type>
 						<id>42</id>
-						<name>layer2_out_17</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_16</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1320,7 +1586,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>126</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1344,26 +1610,40 @@
 					<Obj>
 						<type>0</type>
 						<id>43</id>
-						<name>layer2_out_18</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_17</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1376,7 +1656,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>138</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1400,26 +1680,40 @@
 					<Obj>
 						<type>0</type>
 						<id>44</id>
-						<name>layer2_out_19</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_18</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1432,7 +1726,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876796192</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1456,26 +1750,40 @@
 					<Obj>
 						<type>0</type>
 						<id>45</id>
-						<name>layer2_out_20</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_19</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1488,7 +1796,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876800880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1512,26 +1820,40 @@
 					<Obj>
 						<type>0</type>
 						<id>46</id>
-						<name>layer2_out_21</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_20</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1544,7 +1866,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876878720</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1568,26 +1890,40 @@
 					<Obj>
 						<type>0</type>
 						<id>47</id>
-						<name>layer2_out_22</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_21</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1600,7 +1936,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876882024</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1624,26 +1960,40 @@
 					<Obj>
 						<type>0</type>
 						<id>48</id>
-						<name>layer2_out_23</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_22</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1656,7 +2006,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1414459700</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1680,26 +2030,40 @@
 					<Obj>
 						<type>0</type>
 						<id>49</id>
-						<name>layer2_out_24</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_23</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1712,7 +2076,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>574454117</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1736,26 +2100,40 @@
 					<Obj>
 						<type>0</type>
 						<id>50</id>
-						<name>layer2_out_25</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_24</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1768,7 +2146,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1792,26 +2170,40 @@
 					<Obj>
 						<type>0</type>
 						<id>51</id>
-						<name>layer2_out_26</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_25</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1824,7 +2216,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876897232</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1848,26 +2240,40 @@
 					<Obj>
 						<type>0</type>
 						<id>52</id>
-						<name>layer2_out_27</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_26</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1880,7 +2286,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876513536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1904,26 +2310,40 @@
 					<Obj>
 						<type>0</type>
 						<id>53</id>
-						<name>layer2_out_28</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_27</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1936,7 +2356,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -1960,26 +2380,40 @@
 					<Obj>
 						<type>0</type>
 						<id>54</id>
-						<name>layer2_out_29</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_28</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -1992,7 +2426,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2016,26 +2450,40 @@
 					<Obj>
 						<type>0</type>
 						<id>55</id>
-						<name>layer2_out_30</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_29</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2048,7 +2496,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876680624</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2072,26 +2520,40 @@
 					<Obj>
 						<type>0</type>
 						<id>56</id>
-						<name>layer2_out_31</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_30</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2104,7 +2566,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>788537856</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2128,26 +2590,40 @@
 					<Obj>
 						<type>0</type>
 						<id>57</id>
-						<name>layer2_out_32</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_31</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2160,7 +2636,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1414287534</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2184,26 +2660,40 @@
 					<Obj>
 						<type>0</type>
 						<id>58</id>
-						<name>layer2_out_33</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_32</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2216,7 +2706,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876753296</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2240,26 +2730,40 @@
 					<Obj>
 						<type>0</type>
 						<id>59</id>
-						<name>layer2_out_34</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_33</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2272,7 +2776,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876767584</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2296,26 +2800,40 @@
 					<Obj>
 						<type>0</type>
 						<id>60</id>
-						<name>layer2_out_35</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_34</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2328,7 +2846,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2352,26 +2870,40 @@
 					<Obj>
 						<type>0</type>
 						<id>61</id>
-						<name>layer2_out_36</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_35</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2384,7 +2916,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413551466</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2408,26 +2940,40 @@
 					<Obj>
 						<type>0</type>
 						<id>62</id>
-						<name>layer2_out_37</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_36</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2440,7 +2986,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2464,26 +3010,40 @@
 					<Obj>
 						<type>0</type>
 						<id>63</id>
-						<name>layer2_out_38</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_37</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2496,7 +3056,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2520,26 +3080,40 @@
 					<Obj>
 						<type>0</type>
 						<id>64</id>
-						<name>layer2_out_39</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_38</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2552,7 +3126,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877042432</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2576,26 +3150,40 @@
 					<Obj>
 						<type>0</type>
 						<id>65</id>
-						<name>layer2_out_40</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_39</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2608,7 +3196,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2632,26 +3220,40 @@
 					<Obj>
 						<type>0</type>
 						<id>66</id>
-						<name>layer2_out_41</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_40</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2664,7 +3266,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877049088</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2688,26 +3290,40 @@
 					<Obj>
 						<type>0</type>
 						<id>67</id>
-						<name>layer2_out_42</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_41</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2720,7 +3336,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876788336</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2744,26 +3360,40 @@
 					<Obj>
 						<type>0</type>
 						<id>68</id>
-						<name>layer2_out_43</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_42</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2776,7 +3406,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2800,26 +3430,40 @@
 					<Obj>
 						<type>0</type>
 						<id>69</id>
-						<name>layer2_out_44</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_43</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2832,7 +3476,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413625640</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2856,26 +3500,40 @@
 					<Obj>
 						<type>0</type>
 						<id>70</id>
-						<name>layer2_out_45</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_44</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2888,7 +3546,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876513536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2912,26 +3570,40 @@
 					<Obj>
 						<type>0</type>
 						<id>71</id>
-						<name>layer2_out_46</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_45</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -2944,7 +3616,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876509728</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -2968,26 +3640,40 @@
 					<Obj>
 						<type>0</type>
 						<id>72</id>
-						<name>layer2_out_47</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_46</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3000,7 +3686,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876518016</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3024,26 +3710,40 @@
 					<Obj>
 						<type>0</type>
 						<id>73</id>
-						<name>layer2_out_48</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_47</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3056,7 +3756,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1414093086</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3080,26 +3780,40 @@
 					<Obj>
 						<type>0</type>
 						<id>74</id>
-						<name>layer2_out_49</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_48</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3112,7 +3826,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876075840</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3136,26 +3850,40 @@
 					<Obj>
 						<type>0</type>
 						<id>75</id>
-						<name>layer2_out_50</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_49</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3168,7 +3896,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1680810042</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3192,26 +3920,40 @@
 					<Obj>
 						<type>0</type>
 						<id>76</id>
-						<name>layer2_out_51</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_50</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3224,7 +3966,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>539768881</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3248,26 +3990,40 @@
 					<Obj>
 						<type>0</type>
 						<id>77</id>
-						<name>layer2_out_52</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_51</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3280,7 +4036,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876513536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3304,26 +4060,40 @@
 					<Obj>
 						<type>0</type>
 						<id>78</id>
-						<name>layer2_out_53</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_52</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3336,7 +4106,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3360,26 +4130,40 @@
 					<Obj>
 						<type>0</type>
 						<id>79</id>
-						<name>layer2_out_54</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_53</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3392,7 +4176,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3416,26 +4200,40 @@
 					<Obj>
 						<type>0</type>
 						<id>80</id>
-						<name>layer2_out_55</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_54</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3448,7 +4246,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877327424</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3472,26 +4270,40 @@
 					<Obj>
 						<type>0</type>
 						<id>81</id>
-						<name>layer2_out_56</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_55</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3504,7 +4316,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877329696</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3528,26 +4340,40 @@
 					<Obj>
 						<type>0</type>
 						<id>82</id>
-						<name>layer2_out_57</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_56</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3560,7 +4386,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876885328</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3584,26 +4410,40 @@
 					<Obj>
 						<type>0</type>
 						<id>83</id>
-						<name>layer2_out_58</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_57</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3616,7 +4456,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>757935405</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3640,26 +4480,40 @@
 					<Obj>
 						<type>0</type>
 						<id>84</id>
-						<name>layer2_out_59</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_58</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3672,7 +4526,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>171847458</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3696,26 +4550,40 @@
 					<Obj>
 						<type>0</type>
 						<id>85</id>
-						<name>layer2_out_60</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_59</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3728,7 +4596,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>926167391</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3752,26 +4620,40 @@
 					<Obj>
 						<type>0</type>
 						<id>86</id>
-						<name>layer2_out_61</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_60</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3784,7 +4666,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1702258035</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3808,26 +4690,40 @@
 					<Obj>
 						<type>0</type>
 						<id>87</id>
-						<name>layer2_out_62</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer2_out_61</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>38</second>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;27, 12, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -3840,7 +4736,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1196773202</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>27</bitwidth>
@@ -3866,15 +4762,15 @@
 						<id>88</id>
 						<name>call_ret2</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3883,7 +4779,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -3896,7 +4792,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877329104</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>378</bitwidth>
@@ -3974,7 +4870,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.11</m_delay>
+				<m_delay>2.27</m_delay>
 				<m_topoIndex>66</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3985,15 +4881,15 @@
 						<id>89</id>
 						<name>layer4_out</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4002,7 +4898,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4015,7 +4911,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877036608</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4041,15 +4937,15 @@
 						<id>90</id>
 						<name>layer4_out_1</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4058,7 +4954,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4071,7 +4967,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4097,15 +4993,15 @@
 						<id>91</id>
 						<name>layer4_out_2</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4114,7 +5010,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4127,7 +5023,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877039072</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4153,15 +5049,15 @@
 						<id>92</id>
 						<name>layer4_out_3</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4170,7 +5066,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4183,7 +5079,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877040128</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4209,15 +5105,15 @@
 						<id>93</id>
 						<name>layer4_out_4</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4226,7 +5122,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4239,7 +5135,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413914546</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4265,15 +5161,15 @@
 						<id>94</id>
 						<name>layer4_out_5</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4282,7 +5178,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4295,7 +5191,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4321,15 +5217,15 @@
 						<id>95</id>
 						<name>layer4_out_6</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4338,7 +5234,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4351,7 +5247,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>543516788</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4377,15 +5273,15 @@
 						<id>96</id>
 						<name>layer4_out_7</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4394,7 +5290,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4407,7 +5303,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877044664</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4433,15 +5329,15 @@
 						<id>97</id>
 						<name>layer4_out_8</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4450,7 +5346,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4463,7 +5359,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876513536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4489,15 +5385,15 @@
 						<id>98</id>
 						<name>layer4_out_9</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4506,7 +5402,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4519,7 +5415,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877177264</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4543,17 +5439,17 @@
 					<Obj>
 						<type>0</type>
 						<id>99</id>
-						<name>layer4_out_10</name>
+						<name>layer4_out_62</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4562,7 +5458,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4575,7 +5471,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877178816</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4599,17 +5495,17 @@
 					<Obj>
 						<type>0</type>
 						<id>100</id>
-						<name>layer4_out_11</name>
+						<name>layer4_out_10</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4618,7 +5514,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4631,7 +5527,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877179952</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4655,17 +5551,17 @@
 					<Obj>
 						<type>0</type>
 						<id>101</id>
-						<name>layer4_out_12</name>
+						<name>layer4_out_11</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4674,7 +5570,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4687,7 +5583,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876988368</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4711,17 +5607,17 @@
 					<Obj>
 						<type>0</type>
 						<id>102</id>
-						<name>layer4_out_13</name>
+						<name>layer4_out_12</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4730,7 +5626,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4743,7 +5639,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877182304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4767,17 +5663,17 @@
 					<Obj>
 						<type>0</type>
 						<id>103</id>
-						<name>layer4_out_14</name>
+						<name>layer4_out_13</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4786,7 +5682,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4799,7 +5695,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>539770416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4823,17 +5719,17 @@
 					<Obj>
 						<type>0</type>
 						<id>104</id>
-						<name>layer4_out_15</name>
+						<name>layer4_out_14</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4842,7 +5738,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4855,7 +5751,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4879,17 +5775,17 @@
 					<Obj>
 						<type>0</type>
 						<id>105</id>
-						<name>layer4_out_16</name>
+						<name>layer4_out_15</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4898,7 +5794,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4911,7 +5807,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413801285</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4935,17 +5831,17 @@
 					<Obj>
 						<type>0</type>
 						<id>106</id>
-						<name>layer4_out_17</name>
+						<name>layer4_out_16</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4954,7 +5850,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -4967,7 +5863,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876680624</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -4991,17 +5887,17 @@
 					<Obj>
 						<type>0</type>
 						<id>107</id>
-						<name>layer4_out_18</name>
+						<name>layer4_out_17</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5010,7 +5906,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5023,7 +5919,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876699616</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5047,17 +5943,17 @@
 					<Obj>
 						<type>0</type>
 						<id>108</id>
-						<name>layer4_out_19</name>
+						<name>layer4_out_18</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5066,7 +5962,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5079,7 +5975,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1852392994</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5103,17 +5999,17 @@
 					<Obj>
 						<type>0</type>
 						<id>109</id>
-						<name>layer4_out_20</name>
+						<name>layer4_out_19</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5122,7 +6018,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5135,7 +6031,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>892674106</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5159,17 +6055,17 @@
 					<Obj>
 						<type>0</type>
 						<id>110</id>
-						<name>layer4_out_21</name>
+						<name>layer4_out_20</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5178,7 +6074,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5191,7 +6087,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1869833586</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5215,17 +6111,17 @@
 					<Obj>
 						<type>0</type>
 						<id>111</id>
-						<name>layer4_out_22</name>
+						<name>layer4_out_21</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5234,7 +6130,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5247,7 +6143,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1965053264</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5271,17 +6167,17 @@
 					<Obj>
 						<type>0</type>
 						<id>112</id>
-						<name>layer4_out_23</name>
+						<name>layer4_out_22</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5290,7 +6186,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5303,7 +6199,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5327,17 +6223,17 @@
 					<Obj>
 						<type>0</type>
 						<id>113</id>
-						<name>layer4_out_24</name>
+						<name>layer4_out_23</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5346,7 +6242,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5359,7 +6255,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1702258035</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5383,17 +6279,17 @@
 					<Obj>
 						<type>0</type>
 						<id>114</id>
-						<name>layer4_out_25</name>
+						<name>layer4_out_24</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5402,7 +6298,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5415,7 +6311,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5439,17 +6335,17 @@
 					<Obj>
 						<type>0</type>
 						<id>115</id>
-						<name>layer4_out_26</name>
+						<name>layer4_out_25</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5458,7 +6354,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5471,7 +6367,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876710424</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5495,17 +6391,17 @@
 					<Obj>
 						<type>0</type>
 						<id>116</id>
-						<name>layer4_out_27</name>
+						<name>layer4_out_26</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5514,7 +6410,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5527,7 +6423,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5551,17 +6447,17 @@
 					<Obj>
 						<type>0</type>
 						<id>117</id>
-						<name>layer4_out_28</name>
+						<name>layer4_out_27</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5570,7 +6466,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5583,7 +6479,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876850496</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5607,17 +6503,17 @@
 					<Obj>
 						<type>0</type>
 						<id>118</id>
-						<name>layer4_out_29</name>
+						<name>layer4_out_28</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5626,7 +6522,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5639,7 +6535,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1145981250</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5663,17 +6559,17 @@
 					<Obj>
 						<type>0</type>
 						<id>119</id>
-						<name>layer4_out_30</name>
+						<name>layer4_out_29</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5682,7 +6578,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5695,7 +6591,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5719,17 +6615,17 @@
 					<Obj>
 						<type>0</type>
 						<id>120</id>
-						<name>layer4_out_31</name>
+						<name>layer4_out_30</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5738,7 +6634,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5751,7 +6647,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876868272</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5775,17 +6671,17 @@
 					<Obj>
 						<type>0</type>
 						<id>121</id>
-						<name>layer4_out_32</name>
+						<name>layer4_out_31</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5794,7 +6690,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5807,7 +6703,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876870256</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5831,17 +6727,17 @@
 					<Obj>
 						<type>0</type>
 						<id>122</id>
-						<name>layer4_out_33</name>
+						<name>layer4_out_32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5850,7 +6746,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5863,7 +6759,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2771640336</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5887,17 +6783,17 @@
 					<Obj>
 						<type>0</type>
 						<id>123</id>
-						<name>layer4_out_34</name>
+						<name>layer4_out_33</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5906,7 +6802,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5919,7 +6815,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413685609</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5943,17 +6839,17 @@
 					<Obj>
 						<type>0</type>
 						<id>124</id>
-						<name>layer4_out_35</name>
+						<name>layer4_out_34</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5962,7 +6858,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -5975,7 +6871,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876874176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -5999,17 +6895,17 @@
 					<Obj>
 						<type>0</type>
 						<id>125</id>
-						<name>layer4_out_36</name>
+						<name>layer4_out_35</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6018,7 +6914,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6031,7 +6927,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876875312</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6055,17 +6951,17 @@
 					<Obj>
 						<type>0</type>
 						<id>126</id>
-						<name>layer4_out_37</name>
+						<name>layer4_out_36</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6074,7 +6970,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6087,7 +6983,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876876600</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6111,17 +7007,17 @@
 					<Obj>
 						<type>0</type>
 						<id>127</id>
-						<name>layer4_out_38</name>
+						<name>layer4_out_37</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6130,7 +7026,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6143,7 +7039,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876877728</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6167,17 +7063,17 @@
 					<Obj>
 						<type>0</type>
 						<id>128</id>
-						<name>layer4_out_39</name>
+						<name>layer4_out_38</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6186,7 +7082,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6199,7 +7095,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877005200</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6223,17 +7119,17 @@
 					<Obj>
 						<type>0</type>
 						<id>129</id>
-						<name>layer4_out_40</name>
+						<name>layer4_out_39</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6242,7 +7138,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6255,7 +7151,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876482608</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6279,17 +7175,17 @@
 					<Obj>
 						<type>0</type>
 						<id>130</id>
-						<name>layer4_out_41</name>
+						<name>layer4_out_40</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6298,7 +7194,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6311,7 +7207,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6335,17 +7231,17 @@
 					<Obj>
 						<type>0</type>
 						<id>131</id>
-						<name>layer4_out_42</name>
+						<name>layer4_out_41</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6354,7 +7250,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6367,7 +7263,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>544367872</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6391,17 +7287,17 @@
 					<Obj>
 						<type>0</type>
 						<id>132</id>
-						<name>layer4_out_43</name>
+						<name>layer4_out_42</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6410,7 +7306,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6423,7 +7319,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876486480</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6447,17 +7343,17 @@
 					<Obj>
 						<type>0</type>
 						<id>133</id>
-						<name>layer4_out_44</name>
+						<name>layer4_out_43</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6466,7 +7362,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6479,7 +7375,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876486416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6503,17 +7399,17 @@
 					<Obj>
 						<type>0</type>
 						<id>134</id>
-						<name>layer4_out_45</name>
+						<name>layer4_out_44</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6522,7 +7418,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6535,7 +7431,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>288</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6559,17 +7455,17 @@
 					<Obj>
 						<type>0</type>
 						<id>135</id>
-						<name>layer4_out_46</name>
+						<name>layer4_out_45</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6578,7 +7474,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6591,7 +7487,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876490008</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6615,17 +7511,17 @@
 					<Obj>
 						<type>0</type>
 						<id>136</id>
-						<name>layer4_out_47</name>
+						<name>layer4_out_46</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6634,7 +7530,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6647,7 +7543,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2053722912</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6671,17 +7567,17 @@
 					<Obj>
 						<type>0</type>
 						<id>137</id>
-						<name>layer4_out_48</name>
+						<name>layer4_out_47</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6690,7 +7586,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6703,7 +7599,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1701998445</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6727,17 +7623,17 @@
 					<Obj>
 						<type>0</type>
 						<id>138</id>
-						<name>layer4_out_49</name>
+						<name>layer4_out_48</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6746,7 +7642,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6759,7 +7655,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1414101548</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6783,17 +7679,17 @@
 					<Obj>
 						<type>0</type>
 						<id>139</id>
-						<name>layer4_out_50</name>
+						<name>layer4_out_49</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6802,7 +7698,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6815,7 +7711,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6839,17 +7735,17 @@
 					<Obj>
 						<type>0</type>
 						<id>140</id>
-						<name>layer4_out_51</name>
+						<name>layer4_out_50</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6858,7 +7754,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6871,7 +7767,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876513536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6895,17 +7791,17 @@
 					<Obj>
 						<type>0</type>
 						<id>141</id>
-						<name>layer4_out_52</name>
+						<name>layer4_out_51</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6914,7 +7810,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6927,7 +7823,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876970960</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -6951,17 +7847,17 @@
 					<Obj>
 						<type>0</type>
 						<id>142</id>
-						<name>layer4_out_53</name>
+						<name>layer4_out_52</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6970,7 +7866,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -6983,7 +7879,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876989696</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -7007,17 +7903,17 @@
 					<Obj>
 						<type>0</type>
 						<id>143</id>
-						<name>layer4_out_54</name>
+						<name>layer4_out_53</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7026,7 +7922,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -7039,7 +7935,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -7063,17 +7959,17 @@
 					<Obj>
 						<type>0</type>
 						<id>144</id>
-						<name>layer4_out_55</name>
+						<name>layer4_out_54</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7082,7 +7978,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -7095,7 +7991,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -7119,17 +8015,17 @@
 					<Obj>
 						<type>0</type>
 						<id>145</id>
-						<name>layer4_out_56</name>
+						<name>layer4_out_55</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7138,7 +8034,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -7151,7 +8047,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -7175,17 +8071,17 @@
 					<Obj>
 						<type>0</type>
 						<id>146</id>
-						<name>layer4_out_57</name>
+						<name>layer4_out_56</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7194,7 +8090,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -7207,7 +8103,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876513536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -7231,17 +8127,17 @@
 					<Obj>
 						<type>0</type>
 						<id>147</id>
-						<name>layer4_out_58</name>
+						<name>layer4_out_57</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7250,7 +8146,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -7263,7 +8159,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876995616</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -7287,17 +8183,17 @@
 					<Obj>
 						<type>0</type>
 						<id>148</id>
-						<name>layer4_out_59</name>
+						<name>layer4_out_58</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7306,7 +8202,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -7319,7 +8215,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876997168</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -7343,17 +8239,17 @@
 					<Obj>
 						<type>0</type>
 						<id>149</id>
-						<name>layer4_out_60</name>
+						<name>layer4_out_59</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7362,7 +8258,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -7375,7 +8271,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876998304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -7399,17 +8295,17 @@
 					<Obj>
 						<type>0</type>
 						<id>150</id>
-						<name>layer4_out_61</name>
+						<name>layer4_out_60</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7418,7 +8314,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -7431,7 +8327,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876997328</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -7455,17 +8351,17 @@
 					<Obj>
 						<type>0</type>
 						<id>151</id>
-						<name>layer4_out_62</name>
+						<name>layer4_out_61</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>42</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>44</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7474,7 +8370,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>42</second>
+										<second>44</second>
 									</item>
 								</second>
 							</item>
@@ -7487,7 +8383,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877000656</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -7512,25 +8408,39 @@
 						<type>0</type>
 						<id>152</id>
 						<name>call_ret3</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -7543,7 +8453,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>589</bitwidth>
@@ -7631,25 +8541,39 @@
 						<type>0</type>
 						<id>153</id>
 						<name>layer5_out</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -7662,7 +8586,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876711168</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7687,25 +8611,39 @@
 						<type>0</type>
 						<id>154</id>
 						<name>layer5_out_1</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -7718,7 +8656,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7743,25 +8681,39 @@
 						<type>0</type>
 						<id>155</id>
 						<name>layer5_out_2</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -7774,7 +8726,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876714408</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7799,25 +8751,39 @@
 						<type>0</type>
 						<id>156</id>
 						<name>layer5_out_3</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -7830,7 +8796,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7855,25 +8821,39 @@
 						<type>0</type>
 						<id>157</id>
 						<name>layer5_out_4</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -7886,7 +8866,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7911,25 +8891,39 @@
 						<type>0</type>
 						<id>158</id>
 						<name>layer5_out_5</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -7942,7 +8936,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7967,25 +8961,39 @@
 						<type>0</type>
 						<id>159</id>
 						<name>layer5_out_6</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -7998,7 +9006,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876715664</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8023,25 +9031,39 @@
 						<type>0</type>
 						<id>160</id>
 						<name>layer5_out_7</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8054,7 +9076,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876722736</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8079,25 +9101,39 @@
 						<type>0</type>
 						<id>161</id>
 						<name>layer5_out_8</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8110,7 +9146,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876724464</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8135,25 +9171,39 @@
 						<type>0</type>
 						<id>162</id>
 						<name>layer5_out_9</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8166,7 +9216,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8190,26 +9240,40 @@
 					<Obj>
 						<type>0</type>
 						<id>163</id>
-						<name>layer5_out_10</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_30</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8222,7 +9286,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8246,26 +9310,40 @@
 					<Obj>
 						<type>0</type>
 						<id>164</id>
-						<name>layer5_out_11</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_10</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8278,7 +9356,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877012640</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8302,26 +9380,40 @@
 					<Obj>
 						<type>0</type>
 						<id>165</id>
-						<name>layer5_out_12</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_11</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8334,7 +9426,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877014320</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8358,26 +9450,40 @@
 					<Obj>
 						<type>0</type>
 						<id>166</id>
-						<name>layer5_out_13</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_12</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8390,7 +9496,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8414,26 +9520,40 @@
 					<Obj>
 						<type>0</type>
 						<id>167</id>
-						<name>layer5_out_14</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_13</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8446,7 +9566,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8470,26 +9590,40 @@
 					<Obj>
 						<type>0</type>
 						<id>168</id>
-						<name>layer5_out_15</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_14</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8502,7 +9636,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8526,26 +9660,40 @@
 					<Obj>
 						<type>0</type>
 						<id>169</id>
-						<name>layer5_out_16</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_15</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8558,7 +9706,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877020928</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8582,26 +9730,40 @@
 					<Obj>
 						<type>0</type>
 						<id>170</id>
-						<name>layer5_out_17</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_16</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8614,7 +9776,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413568094</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8638,26 +9800,40 @@
 					<Obj>
 						<type>0</type>
 						<id>171</id>
-						<name>layer5_out_18</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_17</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8670,7 +9846,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8694,26 +9870,40 @@
 					<Obj>
 						<type>0</type>
 						<id>172</id>
-						<name>layer5_out_19</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_18</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8726,7 +9916,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8750,26 +9940,40 @@
 					<Obj>
 						<type>0</type>
 						<id>173</id>
-						<name>layer5_out_20</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_19</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8782,7 +9986,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413562927</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8806,26 +10010,40 @@
 					<Obj>
 						<type>0</type>
 						<id>174</id>
-						<name>layer5_out_21</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_20</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8838,7 +10056,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8862,26 +10080,40 @@
 					<Obj>
 						<type>0</type>
 						<id>175</id>
-						<name>layer5_out_22</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_21</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8894,7 +10126,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8918,26 +10150,40 @@
 					<Obj>
 						<type>0</type>
 						<id>176</id>
-						<name>layer5_out_23</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_22</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -8950,7 +10196,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876513536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -8974,26 +10220,40 @@
 					<Obj>
 						<type>0</type>
 						<id>177</id>
-						<name>layer5_out_24</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_23</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -9006,7 +10266,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877034224</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -9030,26 +10290,40 @@
 					<Obj>
 						<type>0</type>
 						<id>178</id>
-						<name>layer5_out_25</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_24</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -9062,7 +10336,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876753296</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -9086,26 +10360,40 @@
 					<Obj>
 						<type>0</type>
 						<id>179</id>
-						<name>layer5_out_26</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_25</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -9118,7 +10406,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876753296</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -9142,26 +10430,40 @@
 					<Obj>
 						<type>0</type>
 						<id>180</id>
-						<name>layer5_out_27</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_26</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -9174,7 +10476,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876774416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -9198,26 +10500,40 @@
 					<Obj>
 						<type>0</type>
 						<id>181</id>
-						<name>layer5_out_28</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_27</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -9230,7 +10546,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876776072</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -9254,26 +10570,40 @@
 					<Obj>
 						<type>0</type>
 						<id>182</id>
-						<name>layer5_out_29</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_28</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -9286,7 +10616,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876777440</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -9310,26 +10640,40 @@
 					<Obj>
 						<type>0</type>
 						<id>183</id>
-						<name>layer5_out_30</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>46</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<name>layer5_out_29</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>54</lineNumber>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>46</second>
+										<second>48</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;19, 8, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -9342,7 +10686,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876779424</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -9368,15 +10712,15 @@
 						<id>184</id>
 						<name>call_ret4</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9385,7 +10729,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -9398,7 +10742,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413646243</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>186</bitwidth>
@@ -9444,7 +10788,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.12</m_delay>
+				<m_delay>2.27</m_delay>
 				<m_topoIndex>162</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -9455,15 +10799,15 @@
 						<id>185</id>
 						<name>layer7_out</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9472,7 +10816,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -9485,7 +10829,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -9511,15 +10855,15 @@
 						<id>186</id>
 						<name>layer7_out_1</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9528,7 +10872,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -9541,7 +10885,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -9567,15 +10911,15 @@
 						<id>187</id>
 						<name>layer7_out_2</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9584,7 +10928,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -9597,7 +10941,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876786016</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -9623,15 +10967,15 @@
 						<id>188</id>
 						<name>layer7_out_3</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9640,7 +10984,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -9653,7 +10997,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413674532</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -9679,15 +11023,15 @@
 						<id>189</id>
 						<name>layer7_out_4</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9696,7 +11040,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -9709,7 +11053,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -9735,15 +11079,15 @@
 						<id>190</id>
 						<name>layer7_out_5</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9752,7 +11096,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -9765,7 +11109,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413676388</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -9791,15 +11135,15 @@
 						<id>191</id>
 						<name>layer7_out_6</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9808,7 +11152,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -9821,7 +11165,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876788976</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -9847,15 +11191,15 @@
 						<id>192</id>
 						<name>layer7_out_7</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9864,7 +11208,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -9877,7 +11221,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876790352</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -9903,15 +11247,15 @@
 						<id>193</id>
 						<name>layer7_out_8</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9920,7 +11264,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -9933,7 +11277,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -9959,15 +11303,15 @@
 						<id>194</id>
 						<name>layer7_out_9</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9976,7 +11320,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -9989,7 +11333,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876792648</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10013,17 +11357,17 @@
 					<Obj>
 						<type>0</type>
 						<id>195</id>
-						<name>layer7_out_10</name>
+						<name>layer7_out_30</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10032,7 +11376,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10045,7 +11389,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876793832</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10069,17 +11413,17 @@
 					<Obj>
 						<type>0</type>
 						<id>196</id>
-						<name>layer7_out_11</name>
+						<name>layer7_out_10</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10088,7 +11432,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10101,7 +11445,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10125,17 +11469,17 @@
 					<Obj>
 						<type>0</type>
 						<id>197</id>
-						<name>layer7_out_12</name>
+						<name>layer7_out_11</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10144,7 +11488,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10157,7 +11501,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10181,17 +11525,17 @@
 					<Obj>
 						<type>0</type>
 						<id>198</id>
-						<name>layer7_out_13</name>
+						<name>layer7_out_12</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10200,7 +11544,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10213,7 +11557,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876797992</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10237,17 +11581,17 @@
 					<Obj>
 						<type>0</type>
 						<id>199</id>
-						<name>layer7_out_14</name>
+						<name>layer7_out_13</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10256,7 +11600,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10269,7 +11613,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1414114753</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10293,17 +11637,17 @@
 					<Obj>
 						<type>0</type>
 						<id>200</id>
-						<name>layer7_out_15</name>
+						<name>layer7_out_14</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10312,7 +11656,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10325,7 +11669,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876513536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10349,17 +11693,17 @@
 					<Obj>
 						<type>0</type>
 						<id>201</id>
-						<name>layer7_out_16</name>
+						<name>layer7_out_15</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10368,7 +11712,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10381,7 +11725,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876447104</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10405,17 +11749,17 @@
 					<Obj>
 						<type>0</type>
 						<id>202</id>
-						<name>layer7_out_17</name>
+						<name>layer7_out_16</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10424,7 +11768,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10437,7 +11781,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876450784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10461,17 +11805,17 @@
 					<Obj>
 						<type>0</type>
 						<id>203</id>
-						<name>layer7_out_18</name>
+						<name>layer7_out_17</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10480,7 +11824,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10493,7 +11837,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876451920</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10517,17 +11861,17 @@
 					<Obj>
 						<type>0</type>
 						<id>204</id>
-						<name>layer7_out_19</name>
+						<name>layer7_out_18</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10536,7 +11880,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10549,7 +11893,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877103456</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10573,17 +11917,17 @@
 					<Obj>
 						<type>0</type>
 						<id>205</id>
-						<name>layer7_out_20</name>
+						<name>layer7_out_19</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10592,7 +11936,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10605,7 +11949,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876454272</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10629,17 +11973,17 @@
 					<Obj>
 						<type>0</type>
 						<id>206</id>
-						<name>layer7_out_21</name>
+						<name>layer7_out_20</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10648,7 +11992,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10661,7 +12005,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>543519343</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10685,17 +12029,17 @@
 					<Obj>
 						<type>0</type>
 						<id>207</id>
-						<name>layer7_out_22</name>
+						<name>layer7_out_21</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10704,7 +12048,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10717,7 +12061,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1635017060</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10741,17 +12085,17 @@
 					<Obj>
 						<type>0</type>
 						<id>208</id>
-						<name>layer7_out_23</name>
+						<name>layer7_out_22</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10760,7 +12104,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10773,7 +12117,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1414132964</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10797,17 +12141,17 @@
 					<Obj>
 						<type>0</type>
 						<id>209</id>
-						<name>layer7_out_24</name>
+						<name>layer7_out_23</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10816,7 +12160,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10829,7 +12173,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10853,17 +12197,17 @@
 					<Obj>
 						<type>0</type>
 						<id>210</id>
-						<name>layer7_out_25</name>
+						<name>layer7_out_24</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10872,7 +12216,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10885,7 +12229,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>926038900</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10909,17 +12253,17 @@
 					<Obj>
 						<type>0</type>
 						<id>211</id>
-						<name>layer7_out_26</name>
+						<name>layer7_out_25</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10928,7 +12272,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10941,7 +12285,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876461672</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10965,17 +12309,17 @@
 					<Obj>
 						<type>0</type>
 						<id>212</id>
-						<name>layer7_out_27</name>
+						<name>layer7_out_26</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10984,7 +12328,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -10997,7 +12341,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1601463662</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -11021,17 +12365,17 @@
 					<Obj>
 						<type>0</type>
 						<id>213</id>
-						<name>layer7_out_28</name>
+						<name>layer7_out_27</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11040,7 +12384,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -11053,7 +12397,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1702258035</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -11077,17 +12421,17 @@
 					<Obj>
 						<type>0</type>
 						<id>214</id>
-						<name>layer7_out_29</name>
+						<name>layer7_out_28</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11096,7 +12440,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -11109,7 +12453,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>741353829</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -11133,17 +12477,17 @@
 					<Obj>
 						<type>0</type>
 						<id>215</id>
-						<name>layer7_out_30</name>
+						<name>layer7_out_29</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11152,7 +12496,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>50</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -11165,7 +12509,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>126</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -11190,25 +12534,39 @@
 						<type>0</type>
 						<id>216</id>
 						<name>call_ret5</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -11221,7 +12579,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>130</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>486</bitwidth>
@@ -11277,25 +12635,39 @@
 						<type>0</type>
 						<id>217</id>
 						<name>layer8_out</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -11308,7 +12680,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1601463662</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -11333,25 +12705,39 @@
 						<type>0</type>
 						<id>218</id>
 						<name>layer8_out_1</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -11364,7 +12750,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876471984</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -11389,25 +12775,39 @@
 						<type>0</type>
 						<id>219</id>
 						<name>layer8_out_2</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -11420,7 +12820,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>694510703</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -11445,25 +12845,39 @@
 						<type>0</type>
 						<id>220</id>
 						<name>layer8_out_3</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -11476,7 +12890,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -11501,25 +12915,39 @@
 						<type>0</type>
 						<id>221</id>
 						<name>layer8_out_4</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -11532,7 +12960,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -11557,25 +12985,39 @@
 						<type>0</type>
 						<id>222</id>
 						<name>layer8_out_5</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -11588,7 +13030,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876476784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -11613,25 +13055,39 @@
 						<type>0</type>
 						<id>223</id>
 						<name>layer8_out_6</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -11669,25 +13125,39 @@
 						<type>0</type>
 						<id>224</id>
 						<name>layer8_out_7</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -11700,7 +13170,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877330064</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -11725,25 +13195,39 @@
 						<type>0</type>
 						<id>225</id>
 						<name>layer8_out_8</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -11756,7 +13240,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1421485913</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -11781,25 +13265,39 @@
 						<type>0</type>
 						<id>226</id>
 						<name>layer8_out_9</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -11812,7 +13310,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -11836,26 +13334,40 @@
 					<Obj>
 						<type>0</type>
 						<id>227</id>
-						<name>layer8_out_10</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_26</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -11868,7 +13380,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -11892,26 +13404,40 @@
 					<Obj>
 						<type>0</type>
 						<id>228</id>
-						<name>layer8_out_11</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_10</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -11924,7 +13450,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1819113532</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -11948,26 +13474,40 @@
 					<Obj>
 						<type>0</type>
 						<id>229</id>
-						<name>layer8_out_12</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_11</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -11980,7 +13520,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12004,26 +13544,40 @@
 					<Obj>
 						<type>0</type>
 						<id>230</id>
-						<name>layer8_out_13</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_12</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -12036,7 +13590,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12060,26 +13614,40 @@
 					<Obj>
 						<type>0</type>
 						<id>231</id>
-						<name>layer8_out_14</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_13</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -12092,7 +13660,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1421506571</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12116,26 +13684,40 @@
 					<Obj>
 						<type>0</type>
 						<id>232</id>
-						<name>layer8_out_15</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_14</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -12148,7 +13730,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12172,26 +13754,40 @@
 					<Obj>
 						<type>0</type>
 						<id>233</id>
-						<name>layer8_out_16</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_15</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -12204,7 +13800,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>48</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12228,26 +13824,40 @@
 					<Obj>
 						<type>0</type>
 						<id>234</id>
-						<name>layer8_out_17</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_16</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -12260,7 +13870,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876513536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12284,26 +13894,40 @@
 					<Obj>
 						<type>0</type>
 						<id>235</id>
-						<name>layer8_out_18</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_17</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -12316,7 +13940,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877348192</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12340,26 +13964,40 @@
 					<Obj>
 						<type>0</type>
 						<id>236</id>
-						<name>layer8_out_19</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_18</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -12372,7 +14010,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877349920</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12396,26 +14034,40 @@
 					<Obj>
 						<type>0</type>
 						<id>237</id>
-						<name>layer8_out_20</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_19</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -12428,7 +14080,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877352856</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12452,26 +14104,40 @@
 					<Obj>
 						<type>0</type>
 						<id>238</id>
-						<name>layer8_out_21</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_20</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -12484,7 +14150,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877352880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12508,26 +14174,40 @@
 					<Obj>
 						<type>0</type>
 						<id>239</id>
-						<name>layer8_out_22</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_21</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -12540,7 +14220,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>757935405</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12564,26 +14244,40 @@
 					<Obj>
 						<type>0</type>
 						<id>240</id>
-						<name>layer8_out_23</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_22</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -12596,7 +14290,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877358024</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12620,26 +14314,40 @@
 					<Obj>
 						<type>0</type>
 						<id>241</id>
-						<name>layer8_out_24</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_23</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -12652,7 +14360,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12676,26 +14384,40 @@
 					<Obj>
 						<type>0</type>
 						<id>242</id>
-						<name>layer8_out_25</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_24</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -12708,7 +14430,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877359904</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12732,26 +14454,40 @@
 					<Obj>
 						<type>0</type>
 						<id>243</id>
-						<name>layer8_out_26</name>
-						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<name>layer8_out_25</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
-						<contextFuncName>myproject</contextFuncName>
-						<contextNormFuncName>myproject</contextNormFuncName>
+						<contextFuncName>dense</contextFuncName>
+						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense</second>
+										</first>
 										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>dense&amp;lt;ap_ufixed&amp;lt;6, 0, AP_RND_CONV, AP_SAT, 0&amp;gt;, ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
+										</first>
+										<second>45</second>
 									</item>
 								</second>
 							</item>
@@ -12764,7 +14500,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -12790,15 +14526,15 @@
 						<id>244</id>
 						<name>call_ret6</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12807,7 +14543,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -12820,7 +14556,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1421583025</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>162</bitwidth>
@@ -12862,7 +14598,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.12</m_delay>
+				<m_delay>2.27</m_delay>
 				<m_topoIndex>222</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -12873,15 +14609,15 @@
 						<id>245</id>
 						<name>layer10_out</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12890,7 +14626,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -12903,7 +14639,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -12929,15 +14665,15 @@
 						<id>246</id>
 						<name>layer10_out_1</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12946,7 +14682,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -12959,7 +14695,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876715664</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -12985,15 +14721,15 @@
 						<id>247</id>
 						<name>layer10_out_2</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13002,7 +14738,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13015,7 +14751,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876729536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13041,15 +14777,15 @@
 						<id>248</id>
 						<name>layer10_out_3</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13058,7 +14794,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13071,7 +14807,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876731016</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13097,15 +14833,15 @@
 						<id>249</id>
 						<name>layer10_out_4</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13114,7 +14850,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13127,7 +14863,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13153,15 +14889,15 @@
 						<id>250</id>
 						<name>layer10_out_5</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13170,7 +14906,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13183,7 +14919,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13209,15 +14945,15 @@
 						<id>251</id>
 						<name>layer10_out_6</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13226,7 +14962,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13239,7 +14975,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876734872</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13265,15 +15001,15 @@
 						<id>252</id>
 						<name>layer10_out_7</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13282,7 +15018,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13295,7 +15031,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13321,15 +15057,15 @@
 						<id>253</id>
 						<name>layer10_out_8</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13338,7 +15074,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13351,7 +15087,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13377,15 +15113,15 @@
 						<id>254</id>
 						<name>layer10_out_9</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13394,7 +15130,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13407,7 +15143,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13431,17 +15167,17 @@
 					<Obj>
 						<type>0</type>
 						<id>255</id>
-						<name>layer10_out_10</name>
+						<name>layer10_out_26</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13450,7 +15186,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13463,7 +15199,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876739184</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13487,17 +15223,17 @@
 					<Obj>
 						<type>0</type>
 						<id>256</id>
-						<name>layer10_out_11</name>
+						<name>layer10_out_10</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13506,7 +15242,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13519,7 +15255,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13543,17 +15279,17 @@
 					<Obj>
 						<type>0</type>
 						<id>257</id>
-						<name>layer10_out_12</name>
+						<name>layer10_out_11</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13562,7 +15298,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13575,7 +15311,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876723056</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13599,17 +15335,17 @@
 					<Obj>
 						<type>0</type>
 						<id>258</id>
-						<name>layer10_out_13</name>
+						<name>layer10_out_12</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13618,7 +15354,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13631,7 +15367,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876742560</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13655,17 +15391,17 @@
 					<Obj>
 						<type>0</type>
 						<id>259</id>
-						<name>layer10_out_14</name>
+						<name>layer10_out_13</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13674,7 +15410,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13687,7 +15423,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876744112</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13711,17 +15447,17 @@
 					<Obj>
 						<type>0</type>
 						<id>260</id>
-						<name>layer10_out_15</name>
+						<name>layer10_out_14</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13730,7 +15466,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13743,7 +15479,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876745248</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13767,17 +15503,17 @@
 					<Obj>
 						<type>0</type>
 						<id>261</id>
-						<name>layer10_out_16</name>
+						<name>layer10_out_15</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13786,7 +15522,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13799,7 +15535,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13823,17 +15559,17 @@
 					<Obj>
 						<type>0</type>
 						<id>262</id>
-						<name>layer10_out_17</name>
+						<name>layer10_out_16</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13842,7 +15578,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13855,7 +15591,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13879,17 +15615,17 @@
 					<Obj>
 						<type>0</type>
 						<id>263</id>
-						<name>layer10_out_18</name>
+						<name>layer10_out_17</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13898,7 +15634,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13911,7 +15647,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13935,17 +15671,17 @@
 					<Obj>
 						<type>0</type>
 						<id>264</id>
-						<name>layer10_out_19</name>
+						<name>layer10_out_18</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13954,7 +15690,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -13967,7 +15703,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1145981250</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -13991,17 +15727,17 @@
 					<Obj>
 						<type>0</type>
 						<id>265</id>
-						<name>layer10_out_20</name>
+						<name>layer10_out_19</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14010,7 +15746,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -14023,7 +15759,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876751152</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -14047,17 +15783,17 @@
 					<Obj>
 						<type>0</type>
 						<id>266</id>
-						<name>layer10_out_21</name>
+						<name>layer10_out_20</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14066,7 +15802,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -14079,7 +15815,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -14103,17 +15839,17 @@
 					<Obj>
 						<type>0</type>
 						<id>267</id>
-						<name>layer10_out_22</name>
+						<name>layer10_out_21</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14122,7 +15858,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -14135,7 +15871,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>224</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -14159,17 +15895,17 @@
 					<Obj>
 						<type>0</type>
 						<id>268</id>
-						<name>layer10_out_23</name>
+						<name>layer10_out_22</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14178,7 +15914,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -14191,7 +15927,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876740416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -14215,17 +15951,17 @@
 					<Obj>
 						<type>0</type>
 						<id>269</id>
-						<name>layer10_out_24</name>
+						<name>layer10_out_23</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14234,7 +15970,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -14247,7 +15983,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876755584</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -14271,17 +16007,17 @@
 					<Obj>
 						<type>0</type>
 						<id>270</id>
-						<name>layer10_out_25</name>
+						<name>layer10_out_24</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14290,7 +16026,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -14303,7 +16039,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876757136</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -14327,17 +16063,17 @@
 					<Obj>
 						<type>0</type>
 						<id>271</id>
-						<name>layer10_out_26</name>
+						<name>layer10_out_25</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>58</lineNumber>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14346,7 +16082,7 @@
 											<first>firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
-										<second>58</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>
@@ -14359,7 +16095,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>48</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -14385,7 +16121,7 @@
 						<id>272</id>
 						<name>call_ret7</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
@@ -14393,7 +16129,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
@@ -14429,7 +16165,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876759432</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>90</bitwidth>
@@ -14471,7 +16207,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.47</m_delay>
+				<m_delay>3.49</m_delay>
 				<m_topoIndex>250</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -14482,7 +16218,7 @@
 						<id>273</id>
 						<name>layer11_out</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
@@ -14490,7 +16226,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
@@ -14526,7 +16262,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -14552,7 +16288,7 @@
 						<id>274</id>
 						<name>layer11_out_1</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
@@ -14560,7 +16296,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
@@ -14596,7 +16332,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413647470</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -14622,7 +16358,7 @@
 						<id>275</id>
 						<name>layer11_out_2</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
@@ -14630,7 +16366,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
@@ -14666,7 +16402,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1599294536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -14692,7 +16428,7 @@
 						<id>276</id>
 						<name>layer11_out_3</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
@@ -14700,7 +16436,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
@@ -14736,7 +16472,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413932309</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -14762,7 +16498,7 @@
 						<id>277</id>
 						<name>layer11_out_4</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
@@ -14770,7 +16506,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
@@ -14806,7 +16542,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -14832,7 +16568,7 @@
 						<id>278</id>
 						<name>call_ret</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -14840,7 +16576,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -14869,7 +16605,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877054832</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
@@ -14902,7 +16638,7 @@
 						<id>279</id>
 						<name>layer13_out_0_ret</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -14910,7 +16646,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -14939,7 +16675,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877060048</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14965,7 +16701,7 @@
 						<id>280</id>
 						<name>layer13_out_0_write_ln386</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -14973,7 +16709,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -15002,7 +16738,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>448</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -15030,7 +16766,7 @@
 						<id>281</id>
 						<name>layer13_out_1_ret</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -15038,7 +16774,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -15067,7 +16803,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413888393</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15093,7 +16829,7 @@
 						<id>282</id>
 						<name>layer13_out_1_write_ln386</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -15101,7 +16837,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -15130,7 +16866,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -15158,7 +16894,7 @@
 						<id>283</id>
 						<name>layer13_out_2_ret</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -15166,7 +16902,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -15195,7 +16931,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877071056</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15221,7 +16957,7 @@
 						<id>284</id>
 						<name>layer13_out_2_write_ln386</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -15229,7 +16965,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -15258,7 +16994,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877055312</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -15286,7 +17022,7 @@
 						<id>285</id>
 						<name>layer13_out_3_ret</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -15294,7 +17030,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -15323,7 +17059,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15349,7 +17085,7 @@
 						<id>286</id>
 						<name>layer13_out_3_write_ln386</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -15357,7 +17093,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -15386,7 +17122,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -15414,7 +17150,7 @@
 						<id>287</id>
 						<name>layer13_out_4_ret</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -15422,7 +17158,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -15451,7 +17187,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2876510048</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15477,7 +17213,7 @@
 						<id>288</id>
 						<name>layer13_out_4_write_ln386</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -15485,7 +17221,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -15514,7 +17250,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877080280</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -15542,7 +17278,7 @@
 						<id>289</id>
 						<name>_ln68</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -15550,7 +17286,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15572,7 +17308,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -15617,7 +17353,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>131</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1701</bitwidth>
@@ -15648,7 +17384,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877084880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>378</bitwidth>
@@ -15679,7 +17415,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>112</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>589</bitwidth>
@@ -15710,7 +17446,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2877071488</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>186</bitwidth>
@@ -15741,7 +17477,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413985664</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>486</bitwidth>
@@ -15772,7 +17508,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1413985968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>162</bitwidth>
@@ -15803,7 +17539,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1397508187</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>90</bitwidth>
@@ -15834,7 +17570,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1819113532</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
@@ -15868,7 +17604,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>4294967295</coreId>
+					<coreId>688</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -19814,11 +21550,11 @@
 				<item>290</item>
 			</basic_blocks>
 			<mII>1</mII>
-			<mDepth>14</mDepth>
+			<mDepth>15</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>13</mMinLatency>
-			<mMaxLatency>13</mMaxLatency>
+			<mMinLatency>14</mMinLatency>
+			<mMaxLatency>14</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -20958,742 +22694,742 @@
 		<item>
 			<first>184</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>185</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>186</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>187</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>188</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>189</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>190</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>191</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>192</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>193</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>194</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>195</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>196</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>197</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>198</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>199</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>200</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>201</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>202</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>203</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>204</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>205</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>206</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>207</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>208</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>209</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>210</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>211</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>212</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>213</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>214</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>215</first>
 			<second>
-				<first>4</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>216</first>
 			<second>
-				<first>5</first>
+				<first>6</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>217</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>218</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>219</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>220</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>221</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>222</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>223</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>224</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>225</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>226</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>227</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>228</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>229</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>230</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>231</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>232</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>233</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>234</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>235</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>236</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>237</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>238</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>239</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>240</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>241</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>242</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>243</first>
 			<second>
-				<first>6</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>244</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>245</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>246</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>247</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>248</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>249</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>250</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>251</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>252</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>253</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>254</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>255</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>256</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>257</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>258</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>259</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>260</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>261</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>262</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>263</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>264</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>265</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>266</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>267</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>268</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>269</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>270</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>271</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>272</first>
 			<second>
-				<first>7</first>
+				<first>9</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>273</first>
 			<second>
-				<first>8</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>274</first>
 			<second>
-				<first>8</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>275</first>
 			<second>
-				<first>8</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>276</first>
 			<second>
-				<first>8</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>277</first>
 			<second>
-				<first>8</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>278</first>
 			<second>
-				<first>8</first>
-				<second>5</second>
+				<first>10</first>
+				<second>4</second>
 			</second>
 		</item>
 		<item>
 			<first>279</first>
 			<second>
-				<first>13</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>280</first>
 			<second>
-				<first>13</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>281</first>
 			<second>
-				<first>13</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>282</first>
 			<second>
-				<first>13</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>283</first>
 			<second>
-				<first>13</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>284</first>
 			<second>
-				<first>13</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>285</first>
 			<second>
-				<first>13</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>286</first>
 			<second>
-				<first>13</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>287</first>
 			<second>
-				<first>13</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>288</first>
 			<second>
-				<first>13</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>289</first>
 			<second>
-				<first>13</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -21705,7 +23441,7 @@
 			<first>290</first>
 			<second class_id="31" tracking_level="0" version="0">
 				<first>0</first>
-				<second>13</second>
+				<second>14</second>
 			</second>
 		</item>
 	</bblk_ent_exit>
@@ -21726,7 +23462,7 @@
 			<anchor_node>-1</anchor_node>
 			<region_type>8</region_type>
 			<interval>1</interval>
-			<pipe_depth>14</pipe_depth>
+			<pipe_depth>15</pipe_depth>
 			<mDBIIViolationVec class_id="34" tracking_level="0" version="0">
 				<count>0</count>
 				<item_version>0</item_version>

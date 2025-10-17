@@ -1,712 +1,721 @@
 ---
-MainSourceFile:  /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+MainSourceFile:  /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
 Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1207_1:  '
+    FileOffset:      1207
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_base.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          785395
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1207_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_676_1:  '
     FileOffset:      676
-    FilePath:        /home/enlupi/AMD/Vitis/2024.2/common/technology/autopilot/etc/ap_int_ref.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1015714
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1013167
         Length:          0
         ReplacementText: 'VITIS_LOOP_676_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_690_1:  '
     FileOffset:      690
-    FilePath:        /home/enlupi/AMD/Vitis/2024.2/common/technology/autopilot/etc/ap_int_ref.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1016184
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1013635
         Length:          0
         ReplacementText: 'VITIS_LOOP_690_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_704_1:  '
     FileOffset:      704
-    FilePath:        /home/enlupi/AMD/Vitis/2024.2/common/technology/autopilot/etc/ap_int_ref.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1016655
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1014104
         Length:          0
         ReplacementText: 'VITIS_LOOP_704_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_1248_1:  '
-    FileOffset:      1248
-    FilePath:        /home/enlupi/AMD/Vitis/2024.2/common/technology/autopilot/etc/ap_fixed_base.h
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_fixed_base.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1300385
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1297588
         Length:          0
-        ReplacementText: 'VITIS_LOOP_1248_1: '
+        ReplacementText: 'VITIS_LOOP_1247_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_27_1:  '
     FileOffset:      27
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_types.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_types.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1674682
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1671659
         Length:          0
         ReplacementText: 'VITIS_LOOP_27_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_40_1:  '
     FileOffset:      40
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_types.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_types.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1675057
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1672034
         Length:          0
         ReplacementText: 'VITIS_LOOP_40_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_265_1:  '
     FileOffset:      265
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2339835
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336354
         Length:          0
         ReplacementText: 'VITIS_LOOP_265_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_275_1:  '
     FileOffset:      275
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2340222
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336741
         Length:          0
         ReplacementText: 'VITIS_LOOP_275_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_286_1:  '
     FileOffset:      286
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2340557
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2337076
         Length:          0
         ReplacementText: 'VITIS_LOOP_286_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_293_1:  '
     FileOffset:      293
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2340780
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2337299
         Length:          0
         ReplacementText: 'VITIS_LOOP_293_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_295_2:  '
     FileOffset:      295
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2340875
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2337394
         Length:          0
         ReplacementText: 'VITIS_LOOP_295_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_307_1:  '
     FileOffset:      307
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2341239
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2337758
         Length:          0
         ReplacementText: 'VITIS_LOOP_307_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_309_2:  '
     FileOffset:      309
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2341321
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2337840
         Length:          0
         ReplacementText: 'VITIS_LOOP_309_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_324_1:  '
     FileOffset:      324
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2341664
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2338183
         Length:          0
         ReplacementText: 'VITIS_LOOP_324_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_344_1:  '
     FileOffset:      344
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2342117
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2338636
         Length:          0
         ReplacementText: 'VITIS_LOOP_344_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_345_2:  '
     FileOffset:      345
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2342162
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2338681
         Length:          0
         ReplacementText: 'VITIS_LOOP_345_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_360_1:  '
     FileOffset:      360
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2342571
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2339090
         Length:          0
         ReplacementText: 'VITIS_LOOP_360_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_367_1:  '
     FileOffset:      367
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2342784
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2339303
         Length:          0
         ReplacementText: 'VITIS_LOOP_367_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_136_1:  '
     FileOffset:      136
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_conv1d_latency.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_conv1d_latency.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2352302
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2348818
         Length:          0
         ReplacementText: 'VITIS_LOOP_136_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_137_2:  '
     FileOffset:      137
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_conv1d_latency.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_conv1d_latency.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2352386
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2348902
         Length:          0
         ReplacementText: 'VITIS_LOOP_137_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_158_3:  '
     FileOffset:      158
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_conv1d_latency.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_conv1d_latency.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2352928
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2349444
         Length:          0
         ReplacementText: 'VITIS_LOOP_158_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_159_4:  '
     FileOffset:      159
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_conv1d_latency.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_conv1d_latency.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2353012
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2349528
         Length:          0
         ReplacementText: 'VITIS_LOOP_159_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_31_1:  '
     FileOffset:      31
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2356470
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2352984
         Length:          0
         ReplacementText: 'VITIS_LOOP_31_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_43_1:  '
     FileOffset:      43
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2356723
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2353237
         Length:          0
         ReplacementText: 'VITIS_LOOP_43_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_57_1:  '
     FileOffset:      57
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2357084
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2353598
         Length:          0
         ReplacementText: 'VITIS_LOOP_57_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_84_1:  '
     FileOffset:      84
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2357900
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2354414
         Length:          0
         ReplacementText: 'VITIS_LOOP_84_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_114_1:  '
     FileOffset:      114
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2358561
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2355075
         Length:          0
         ReplacementText: 'VITIS_LOOP_114_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_151_1:  '
     FileOffset:      151
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2359695
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2356209
         Length:          0
         ReplacementText: 'VITIS_LOOP_151_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_162_1:  '
     FileOffset:      162
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2360057
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2356571
         Length:          0
         ReplacementText: 'VITIS_LOOP_162_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_195_1:  '
     FileOffset:      195
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2360960
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2357474
         Length:          0
         ReplacementText: 'VITIS_LOOP_195_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_209_2:  '
     FileOffset:      209
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2361479
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2357993
         Length:          0
         ReplacementText: 'VITIS_LOOP_209_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_243_1:  '
     FileOffset:      243
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2362319
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2358833
         Length:          0
         ReplacementText: 'VITIS_LOOP_243_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_252_2:  '
     FileOffset:      252
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2362589
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2359103
         Length:          0
         ReplacementText: 'VITIS_LOOP_252_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_266_3:  '
     FileOffset:      266
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2363113
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2359627
         Length:          0
         ReplacementText: 'VITIS_LOOP_266_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_273_1:  '
     FileOffset:      273
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2363347
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2359861
         Length:          0
         ReplacementText: 'VITIS_LOOP_273_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_286_1:  '
     FileOffset:      286
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2363707
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2360221
         Length:          0
         ReplacementText: 'VITIS_LOOP_286_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_323_1:  '
     FileOffset:      323
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2364636
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2361150
         Length:          0
         ReplacementText: 'VITIS_LOOP_323_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_328_2:  '
     FileOffset:      328
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2364753
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2361267
         Length:          0
         ReplacementText: 'VITIS_LOOP_328_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_329_3:  '
     FileOffset:      329
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2364807
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2361321
         Length:          0
         ReplacementText: 'VITIS_LOOP_329_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_346_4:  '
     FileOffset:      346
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2365388
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2361902
         Length:          0
         ReplacementText: 'VITIS_LOOP_346_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_359_1:  '
     FileOffset:      359
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2365875
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2362389
         Length:          0
         ReplacementText: 'VITIS_LOOP_359_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_367_2:  '
     FileOffset:      367
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2366016
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2362530
         Length:          0
         ReplacementText: 'VITIS_LOOP_367_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_402_1:  '
     FileOffset:      402
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2366981
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2363495
         Length:          0
         ReplacementText: 'VITIS_LOOP_402_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_432_1:  '
     FileOffset:      432
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2367618
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2364132
         Length:          0
         ReplacementText: 'VITIS_LOOP_432_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_459_1:  '
     FileOffset:      459
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2368454
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2364968
         Length:          0
         ReplacementText: 'VITIS_LOOP_459_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_473_1:  '
     FileOffset:      473
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2368796
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2365310
         Length:          0
         ReplacementText: 'VITIS_LOOP_473_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_489_1:  '
     FileOffset:      489
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2369254
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2365768
         Length:          0
         ReplacementText: 'VITIS_LOOP_489_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_507_1:  '
     FileOffset:      507
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2369724
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2366238
         Length:          0
         ReplacementText: 'VITIS_LOOP_507_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_524_1:  '
     FileOffset:      524
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2370127
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2366641
         Length:          0
         ReplacementText: 'VITIS_LOOP_524_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_541_1:  '
     FileOffset:      541
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2370522
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2367036
         Length:          0
         ReplacementText: 'VITIS_LOOP_541_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_571_1:  '
     FileOffset:      571
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2371188
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2367702
         Length:          0
         ReplacementText: 'VITIS_LOOP_571_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_590_1:  '
     FileOffset:      590
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2371762
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2368276
         Length:          0
         ReplacementText: 'VITIS_LOOP_590_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_620_1:  '
     FileOffset:      620
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2372428
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2368942
         Length:          0
         ReplacementText: 'VITIS_LOOP_620_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_639_1:  '
     FileOffset:      639
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2372982
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2369496
         Length:          0
         ReplacementText: 'VITIS_LOOP_639_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_669_1:  '
     FileOffset:      669
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2373631
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2370145
         Length:          0
         ReplacementText: 'VITIS_LOOP_669_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_696_1:  '
     FileOffset:      696
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2374469
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2370983
         Length:          0
         ReplacementText: 'VITIS_LOOP_696_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_725_1:  '
     FileOffset:      725
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2375087
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2371601
         Length:          0
         ReplacementText: 'VITIS_LOOP_725_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_746_1:  '
     FileOffset:      746
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2375714
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2372228
         Length:          0
         ReplacementText: 'VITIS_LOOP_746_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_764_1:  '
     FileOffset:      764
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2376103
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2372617
         Length:          0
         ReplacementText: 'VITIS_LOOP_764_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_784_1:  '
     FileOffset:      784
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2376499
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2373013
         Length:          0
         ReplacementText: 'VITIS_LOOP_784_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_73_1:  '
     FileOffset:      73
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2378575
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2375089
         Length:          0
         ReplacementText: 'VITIS_LOOP_73_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_80_2:  '
     FileOffset:      80
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2378715
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2375229
         Length:          0
         ReplacementText: 'VITIS_LOOP_80_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_89_3:  '
     FileOffset:      89
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2378980
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2375494
         Length:          0
         ReplacementText: 'VITIS_LOOP_89_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_98_4:  '
     FileOffset:      98
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2379174
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2375688
         Length:          0
         ReplacementText: 'VITIS_LOOP_98_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_102_5:  '
     FileOffset:      102
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2379267
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2375781
         Length:          0
         ReplacementText: 'VITIS_LOOP_102_5: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_113_6:  '
     FileOffset:      113
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2379593
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2376107
         Length:          0
         ReplacementText: 'VITIS_LOOP_113_6: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_117_7:  '
     FileOffset:      117
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2379703
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2376217
         Length:          0
         ReplacementText: 'VITIS_LOOP_117_7: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_141_1:  '
     FileOffset:      141
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2380669
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2377183
         Length:          0
         ReplacementText: 'VITIS_LOOP_141_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_145_2:  '
     FileOffset:      145
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2380755
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2377269
         Length:          0
         ReplacementText: 'VITIS_LOOP_145_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_164_1:  '
     FileOffset:      164
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2381431
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2377945
         Length:          0
         ReplacementText: 'VITIS_LOOP_164_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_213_1:  '
     FileOffset:      213
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2387762
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2384274
         Length:          0
         ReplacementText: 'VITIS_LOOP_213_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_222_2:  '
     FileOffset:      222
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2388046
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2384558
         Length:          0
         ReplacementText: 'VITIS_LOOP_222_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_328_1:  '
     FileOffset:      328
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2391259
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2387771
         Length:          0
         ReplacementText: 'VITIS_LOOP_328_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_333_2:  '
     FileOffset:      333
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2391401
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2387913
         Length:          0
         ReplacementText: 'VITIS_LOOP_333_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_341_3:  '
     FileOffset:      341
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2391605
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2388117
         Length:          0
         ReplacementText: 'VITIS_LOOP_341_3: '
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
     FileOffset:      33
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_dense_resource.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_dense_resource.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
     FileOffset:      107
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_dense_resource.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_dense_resource.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
     FileOffset:      189
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_dense_resource.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_dense_resource.h
     Replacements:    
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_14_1:  '
     FileOffset:      14
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_dense_compressed.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_dense_compressed.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2418411
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2414919
         Length:          0
         ReplacementText: 'VITIS_LOOP_14_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_74_1:  '
     FileOffset:      74
-    FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_dense_compressed.h
+    FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/firmware/nnet_utils/nnet_dense_compressed.h
     Replacements:    
-      - FilePath:        /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2420282
+      - FilePath:        /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2416790
         Length:          0
         ReplacementText: 'VITIS_LOOP_74_1: '
 ...

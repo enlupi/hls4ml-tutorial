@@ -1,24 +1,14 @@
 #-----------------------------------------------------------
-# Vivado v2024.2 (64-bit)
-# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
-# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
-# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Tue Oct 14 15:23:06 2025
-# Process ID         : 41340
-# Current directory  : /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj
-# Command line       : vivado -mode batch -source vivado_synth.tcl
-# Log file           : /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/vivado.log
-# Journal file       : /home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/vivado.jou
-# Running On         : kamino
-# Platform           : unknown
-# Operating System   : unknown
-# Processor Detail   : Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
-# CPU Frequency      : 800.203 MHz
-# CPU Physical cores : 6
-# CPU Logical cores  : 6
-# Host memory        : 16358 MB
-# Swap memory        : 8384 MB
-# Total Virtual      : 24743 MB
-# Available Virtual  : 13351 MB
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Oct 17 11:03:58 2025
+# Process ID: 2887369
+# Current directory: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj
+# Command line: vivado -mode batch -source vivado_synth.tcl
+# Log file: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/vivado.log
+# Journal file: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj/vivado.jou
+# Running On: olhsw-01.cern.ch, OS: Linux, CPU Frequency: 3600.000 MHz, CPU Physical cores: 26, Host memory: 134520 MB
 #-----------------------------------------------------------
 source vivado_synth.tcl

@@ -26,7 +26,7 @@
                 <count>0</count>
                 <item_version>0</item_version>
               </inlineStackInfo>
-              <originalName>a</originalName>
+              <originalName/>
               <rtlName/>
               <control/>
               <opType/>
@@ -34,7 +34,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>3621216858</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -62,7 +62,7 @@
                 <count>0</count>
                 <item_version>0</item_version>
               </inlineStackInfo>
-              <originalName>b</originalName>
+              <originalName/>
               <rtlName/>
               <control/>
               <opType/>
@@ -70,7 +70,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -98,7 +98,7 @@
                 <count>0</count>
                 <item_version>0</item_version>
               </inlineStackInfo>
-              <originalName>a</originalName>
+              <originalName/>
               <rtlName/>
               <control/>
               <opType/>
@@ -106,7 +106,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>4294967292</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -134,7 +134,7 @@
                 <count>0</count>
                 <item_version>0</item_version>
               </inlineStackInfo>
-              <originalName>b</originalName>
+              <originalName/>
               <rtlName/>
               <control/>
               <opType/>
@@ -142,7 +142,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2761067856</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -170,7 +170,7 @@
                 <count>0</count>
                 <item_version>0</item_version>
               </inlineStackInfo>
-              <originalName>b</originalName>
+              <originalName/>
               <rtlName/>
               <control/>
               <opType/>
@@ -178,7 +178,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>54</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -210,7 +210,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>5</count>
                     <item_version>0</item_version>
@@ -260,7 +260,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2873737888</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -295,7 +295,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>5</count>
                     <item_version>0</item_version>
@@ -337,7 +337,7 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>b</originalName>
+              <originalName/>
               <rtlName/>
               <control/>
               <opType/>
@@ -345,7 +345,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874075280</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -380,7 +380,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>5</count>
                     <item_version>0</item_version>
@@ -422,7 +422,7 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>a</originalName>
+              <originalName/>
               <rtlName/>
               <control/>
               <opType/>
@@ -430,7 +430,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2873756400</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -465,7 +465,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>5</count>
                     <item_version>0</item_version>
@@ -507,7 +507,7 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>b</originalName>
+              <originalName/>
               <rtlName/>
               <control/>
               <opType/>
@@ -515,7 +515,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1936942336</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -550,7 +550,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>5</count>
                     <item_version>0</item_version>
@@ -592,7 +592,7 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>a</originalName>
+              <originalName/>
               <rtlName/>
               <control/>
               <opType/>
@@ -600,7 +600,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>144</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -635,7 +635,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>5</count>
                     <item_version>0</item_version>
@@ -680,7 +680,7 @@
               <originalName/>
               <rtlName>icmp_ln66_fu_156_p2</rtlName>
               <control>auto</control>
-              <opType>setlt</opType>
+              <opType>icmp</opType>
               <implIndex>auto</implIndex>
               <coreName>Cmp</coreName>
               <isStorage>0</isStorage>
@@ -720,7 +720,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>5</count>
                     <item_version>0</item_version>
@@ -805,7 +805,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>5</count>
                     <item_version>0</item_version>
@@ -847,7 +847,7 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>a</originalName>
+              <originalName/>
               <rtlName>select_ln66_fu_168_p3</rtlName>
               <control>auto</control>
               <opType>select</opType>
@@ -891,7 +891,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>5</count>
                     <item_version>0</item_version>
@@ -936,7 +936,7 @@
               <originalName/>
               <rtlName>icmp_ln66_1_fu_176_p2</rtlName>
               <control>auto</control>
-              <opType>setlt</opType>
+              <opType>icmp</opType>
               <implIndex>auto</implIndex>
               <coreName>Cmp</coreName>
               <isStorage>0</isStorage>
@@ -976,7 +976,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>5</count>
                     <item_version>0</item_version>
@@ -1061,7 +1061,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>5</count>
                     <item_version>0</item_version>
@@ -1103,7 +1103,7 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>b</originalName>
+              <originalName/>
               <rtlName>select_ln66_1_fu_188_p3</rtlName>
               <control>auto</control>
               <opType>select</opType>
@@ -1147,7 +1147,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>4</count>
                     <item_version>0</item_version>
@@ -1185,7 +1185,7 @@
               <originalName/>
               <rtlName>icmp_ln66_2_fu_196_p2</rtlName>
               <control>auto</control>
-              <opType>setlt</opType>
+              <opType>icmp</opType>
               <implIndex>auto</implIndex>
               <coreName>Cmp</coreName>
               <isStorage>0</isStorage>
@@ -1225,7 +1225,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>4</count>
                     <item_version>0</item_version>
@@ -1293,7 +1293,7 @@
             <Obj>
               <type>0</type>
               <id>22</id>
-              <name>a</name>
+              <name>select_ln66_2</name>
               <fileName>firmware/nnet_utils/nnet_common.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>66</lineNumber>
@@ -1303,7 +1303,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>4</count>
                     <item_version>0</item_version>
@@ -1338,8 +1338,8 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>a</originalName>
-              <rtlName>a_fu_208_p3</rtlName>
+              <originalName/>
+              <rtlName>select_ln66_2_fu_208_p3</rtlName>
               <control>auto</control>
               <opType>select</opType>
               <implIndex>auto_sel</implIndex>
@@ -1382,7 +1382,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
@@ -1413,7 +1413,7 @@
               <originalName/>
               <rtlName>icmp_ln66_3_fu_216_p2</rtlName>
               <control>auto</control>
-              <opType>setlt</opType>
+              <opType>icmp</opType>
               <implIndex>auto</implIndex>
               <coreName>Cmp</coreName>
               <isStorage>0</isStorage>
@@ -1453,7 +1453,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
@@ -1524,7 +1524,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
@@ -1586,53 +1586,39 @@
             <Obj>
               <type>0</type>
               <id>26</id>
-              <name>conv36_i</name>
-              <fileName>firmware/nnet_utils/nnet_common.h</fileName>
+              <name>sext_ln245</name>
+              <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>66</lineNumber>
-              <contextFuncName>operator()</contextFuncName>
-              <contextNormFuncName>operator_s</contextNormFuncName>
+              <lineNumber>245</lineNumber>
+              <contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
-                    <count>3</count>
+                    <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
                         <second>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
                       </first>
-                      <second>239</second>
-                    </item>
-                    <item>
-                      <first>
-                        <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>operator()</second>
-                      </first>
-                      <second>66</second>
-                    </item>
-                    <item>
-                      <first>
-                        <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, 5, nnet::Op_max&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
-                      </first>
-                      <second>46</second>
+                      <second>245</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>conv36_i_fu_232_p1</rtlName>
+              <rtlName>sext_ln245_fu_232_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874724864</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -1656,7 +1642,7 @@
             <Obj>
               <type>0</type>
               <id>27</id>
-              <name>sext_ln245</name>
+              <name>sext_ln245_1</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -1666,7 +1652,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1681,14 +1667,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>sext_ln245_fu_236_p1</rtlName>
+              <rtlName>sext_ln245_1_fu_235_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874167712</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -1722,7 +1708,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1769,7 +1755,7 @@
             <Obj>
               <type>0</type>
               <id>29</id>
-              <name>tmp</name>
+              <name>tmp_5</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -1779,7 +1765,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1794,14 +1780,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_fu_245_p3</rtlName>
+              <rtlName>tmp_5_fu_245_p3</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -1827,7 +1813,7 @@
             <Obj>
               <type>0</type>
               <id>30</id>
-              <name>tmp_1</name>
+              <name>tmp_6</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -1837,7 +1823,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1852,14 +1838,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_1_fu_253_p3</rtlName>
+              <rtlName>tmp_6_fu_253_p3</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874980960</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -1895,7 +1881,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1952,7 +1938,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2009,7 +1995,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2056,7 +2042,7 @@
             <Obj>
               <type>0</type>
               <id>34</id>
-              <name>sext_ln245_1</name>
+              <name>sext_ln245_2</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -2066,7 +2052,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2081,14 +2067,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>sext_ln245_1_fu_279_p1</rtlName>
+              <rtlName>sext_ln245_2_fu_279_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1952541791</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -2122,7 +2108,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2169,7 +2155,7 @@
             <Obj>
               <type>0</type>
               <id>36</id>
-              <name>tmp_2</name>
+              <name>tmp_7</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -2179,7 +2165,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2194,14 +2180,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_2_fu_288_p3</rtlName>
+              <rtlName>tmp_7_fu_288_p3</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874133408</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -2227,7 +2213,7 @@
             <Obj>
               <type>0</type>
               <id>37</id>
-              <name>tmp_3</name>
+              <name>tmp_8</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -2237,7 +2223,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2252,14 +2238,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_3_fu_296_p3</rtlName>
+              <rtlName>tmp_8_fu_296_p3</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1752440832</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -2295,7 +2281,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2352,7 +2338,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2409,7 +2395,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2456,7 +2442,7 @@
             <Obj>
               <type>0</type>
               <id>41</id>
-              <name>sext_ln245_2</name>
+              <name>sext_ln245_3</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -2466,7 +2452,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2481,14 +2467,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>sext_ln245_2_fu_322_p1</rtlName>
+              <rtlName>sext_ln245_3_fu_322_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -2522,7 +2508,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2569,7 +2555,7 @@
             <Obj>
               <type>0</type>
               <id>43</id>
-              <name>tmp_4</name>
+              <name>tmp_9</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -2579,7 +2565,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2594,14 +2580,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_4_fu_331_p3</rtlName>
+              <rtlName>tmp_9_fu_331_p3</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2873745376</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -2627,7 +2613,7 @@
             <Obj>
               <type>0</type>
               <id>44</id>
-              <name>tmp_5</name>
+              <name>tmp_10</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -2637,7 +2623,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2652,14 +2638,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_5_fu_339_p3</rtlName>
+              <rtlName>tmp_10_fu_339_p3</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2873756736</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -2695,7 +2681,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2752,7 +2738,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2809,7 +2795,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2856,7 +2842,7 @@
             <Obj>
               <type>0</type>
               <id>48</id>
-              <name>sext_ln245_3</name>
+              <name>sext_ln245_4</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -2866,7 +2852,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2881,14 +2867,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>sext_ln245_3_fu_365_p1</rtlName>
+              <rtlName>sext_ln245_4_fu_365_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2875470352</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -2922,7 +2908,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2969,7 +2955,7 @@
             <Obj>
               <type>0</type>
               <id>50</id>
-              <name>tmp_6</name>
+              <name>tmp_11</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -2979,7 +2965,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2994,14 +2980,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_6_fu_374_p3</rtlName>
+              <rtlName>tmp_11_fu_374_p3</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1210203513</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -3027,7 +3013,7 @@
             <Obj>
               <type>0</type>
               <id>51</id>
-              <name>tmp_7</name>
+              <name>tmp_12</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -3037,7 +3023,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3052,14 +3038,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_7_fu_382_p3</rtlName>
+              <rtlName>tmp_12_fu_382_p3</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1965178228</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -3095,7 +3081,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3152,7 +3138,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3209,7 +3195,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3256,7 +3242,7 @@
             <Obj>
               <type>0</type>
               <id>55</id>
-              <name>sext_ln245_4</name>
+              <name>sext_ln245_5</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -3266,7 +3252,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3281,14 +3267,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>sext_ln245_4_fu_408_p1</rtlName>
+              <rtlName>sext_ln245_5_fu_408_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874725024</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -3322,7 +3308,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3369,7 +3355,7 @@
             <Obj>
               <type>0</type>
               <id>57</id>
-              <name>tmp_8</name>
+              <name>tmp_13</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -3379,7 +3365,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3394,14 +3380,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_8_fu_417_p3</rtlName>
+              <rtlName>tmp_13_fu_417_p3</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2875105088</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -3427,7 +3413,7 @@
             <Obj>
               <type>0</type>
               <id>58</id>
-              <name>tmp_9</name>
+              <name>tmp_14</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
@@ -3437,7 +3423,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3452,14 +3438,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_9_fu_425_p3</rtlName>
+              <rtlName>tmp_14_fu_425_p3</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -3495,7 +3481,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3552,7 +3538,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3609,7 +3595,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3666,7 +3652,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3714,7 +3700,7 @@
             <Obj>
               <type>0</type>
               <id>63</id>
-              <name>tmp_10</name>
+              <name>tmp</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
@@ -3724,7 +3710,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3746,14 +3732,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_10_fu_459_p4</rtlName>
+              <rtlName>tmp_fu_459_p4</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -3790,7 +3776,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3848,7 +3834,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3870,7 +3856,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -3904,7 +3890,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3926,7 +3912,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2875396992</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -3952,7 +3938,7 @@
             <Obj>
               <type>0</type>
               <id>67</id>
-              <name>a_1</name>
+              <name>exp_table_load</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>255</lineNumber>
@@ -3962,7 +3948,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3976,7 +3962,7 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>a</originalName>
+              <originalName/>
               <rtlName/>
               <control>auto</control>
               <opType>rom</opType>
@@ -3984,7 +3970,7 @@
               <coreName>ROM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>100</coreId>
+              <coreId>101</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -4018,7 +4004,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4066,7 +4052,7 @@
             <Obj>
               <type>0</type>
               <id>69</id>
-              <name>tmp_11</name>
+              <name>tmp_1</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
@@ -4076,7 +4062,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -4098,14 +4084,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_11_fu_485_p4</rtlName>
+              <rtlName>tmp_1_fu_485_p4</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874587504</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -4142,7 +4128,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4200,7 +4186,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4222,7 +4208,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874810699</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -4256,7 +4242,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4278,7 +4264,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874592768</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -4304,7 +4290,7 @@
             <Obj>
               <type>0</type>
               <id>73</id>
-              <name>b</name>
+              <name>exp_table_load_1</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>255</lineNumber>
@@ -4314,7 +4300,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4328,7 +4314,7 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>b</originalName>
+              <originalName/>
               <rtlName/>
               <control>auto</control>
               <opType>rom</opType>
@@ -4336,7 +4322,7 @@
               <coreName>ROM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>100</coreId>
+              <coreId>101</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -4370,7 +4356,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4418,7 +4404,7 @@
             <Obj>
               <type>0</type>
               <id>75</id>
-              <name>tmp_12</name>
+              <name>tmp_2</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
@@ -4428,7 +4414,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -4450,14 +4436,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_12_fu_511_p4</rtlName>
+              <rtlName>tmp_2_fu_511_p4</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -4494,7 +4480,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4552,7 +4538,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4574,7 +4560,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -4608,7 +4594,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4630,7 +4616,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>842346041</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -4656,7 +4642,7 @@
             <Obj>
               <type>0</type>
               <id>79</id>
-              <name>a_2</name>
+              <name>exp_table_load_2</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>255</lineNumber>
@@ -4666,7 +4652,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4680,7 +4666,7 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>a</originalName>
+              <originalName/>
               <rtlName/>
               <control>auto</control>
               <opType>rom</opType>
@@ -4688,7 +4674,7 @@
               <coreName>ROM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>100</coreId>
+              <coreId>101</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -4722,7 +4708,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4770,7 +4756,7 @@
             <Obj>
               <type>0</type>
               <id>81</id>
-              <name>tmp_13</name>
+              <name>tmp_3</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
@@ -4780,7 +4766,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -4802,14 +4788,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_13_fu_542_p4</rtlName>
+              <rtlName>tmp_3_fu_542_p4</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874161440</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -4846,7 +4832,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4904,7 +4890,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4926,7 +4912,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -4960,7 +4946,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4982,7 +4968,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>112</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -5008,7 +4994,7 @@
             <Obj>
               <type>0</type>
               <id>85</id>
-              <name>b_1</name>
+              <name>exp_table_load_3</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>255</lineNumber>
@@ -5018,7 +5004,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5032,7 +5018,7 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>b</originalName>
+              <originalName/>
               <rtlName/>
               <control>auto</control>
               <opType>rom</opType>
@@ -5040,7 +5026,7 @@
               <coreName>ROM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>100</coreId>
+              <coreId>101</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -5074,7 +5060,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5122,7 +5108,7 @@
             <Obj>
               <type>0</type>
               <id>87</id>
-              <name>tmp_14</name>
+              <name>tmp_4</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
@@ -5132,7 +5118,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -5154,14 +5140,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_14_fu_573_p4</rtlName>
+              <rtlName>tmp_4_fu_573_p4</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2875129904</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -5198,7 +5184,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5256,7 +5242,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5278,7 +5264,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1948283493</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -5312,7 +5298,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5334,7 +5320,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -5360,7 +5346,7 @@
             <Obj>
               <type>0</type>
               <id>91</id>
-              <name>b_2</name>
+              <name>exp_table_load_4</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>255</lineNumber>
@@ -5370,7 +5356,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5384,7 +5370,7 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>b</originalName>
+              <originalName/>
               <rtlName/>
               <control>auto</control>
               <opType>rom</opType>
@@ -5392,7 +5378,7 @@
               <coreName>ROM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>100</coreId>
+              <coreId>101</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -5426,7 +5412,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
@@ -5497,7 +5483,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
@@ -5568,7 +5554,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
@@ -5639,7 +5625,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
@@ -5710,7 +5696,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -5739,7 +5725,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874956256</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -5776,7 +5762,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5798,7 +5784,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -5832,7 +5818,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5854,7 +5840,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1416030886</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -5890,7 +5876,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5912,7 +5898,7 @@
               <coreName>ROM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>100</coreId>
+              <coreId>101</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>18</bitwidth>
@@ -5946,7 +5932,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5968,7 +5954,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -6002,7 +5988,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6024,7 +6010,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874963504</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -6058,7 +6044,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6073,7 +6059,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_18s_30_1_0_U386</rtlName>
+              <rtlName>mul_18s_18s_30_1_1_U385</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -6105,7 +6091,7 @@
             <Obj>
               <type>0</type>
               <id>103</id>
-              <name>res_write_assign</name>
+              <name>trunc_ln1</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>268</lineNumber>
@@ -6115,7 +6101,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6129,15 +6115,15 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>res</originalName>
-              <rtlName>ap_return_0_int_reg</rtlName>
+              <originalName/>
+              <rtlName>ap_return_0</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6174,7 +6160,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6196,7 +6182,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874966368</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -6230,7 +6216,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6245,7 +6231,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_18s_30_1_0_U387</rtlName>
+              <rtlName>mul_18s_18s_30_1_1_U386</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -6277,7 +6263,7 @@
             <Obj>
               <type>0</type>
               <id>106</id>
-              <name>res_write_assign_1</name>
+              <name>trunc_ln268_1</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>268</lineNumber>
@@ -6287,7 +6273,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6301,15 +6287,15 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>res</originalName>
-              <rtlName>ap_return_1_int_reg</rtlName>
+              <originalName/>
+              <rtlName>ap_return_1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2875239264</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6346,7 +6332,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6368,7 +6354,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2875226032</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -6402,7 +6388,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6417,7 +6403,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_18s_30_1_0_U388</rtlName>
+              <rtlName>mul_18s_18s_30_1_1_U387</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -6449,7 +6435,7 @@
             <Obj>
               <type>0</type>
               <id>109</id>
-              <name>res_write_assign_2</name>
+              <name>trunc_ln268_2</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>268</lineNumber>
@@ -6459,7 +6445,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6473,15 +6459,15 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>res</originalName>
-              <rtlName>ap_return_2_int_reg</rtlName>
+              <originalName/>
+              <rtlName>ap_return_2</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874029328</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6518,7 +6504,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6540,7 +6526,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -6574,7 +6560,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6589,7 +6575,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_18s_30_1_0_U389</rtlName>
+              <rtlName>mul_18s_18s_30_1_1_U388</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -6621,7 +6607,7 @@
             <Obj>
               <type>0</type>
               <id>112</id>
-              <name>res_write_assign_3</name>
+              <name>trunc_ln268_3</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>268</lineNumber>
@@ -6631,7 +6617,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6645,15 +6631,15 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>res</originalName>
-              <rtlName>ap_return_3_int_reg</rtlName>
+              <originalName/>
+              <rtlName>ap_return_3</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2875247968</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6690,7 +6676,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6712,7 +6698,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1599294536</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -6746,7 +6732,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6761,7 +6747,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_18s_30_1_0_U390</rtlName>
+              <rtlName>mul_18s_18s_30_1_1_U389</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -6793,7 +6779,7 @@
             <Obj>
               <type>0</type>
               <id>115</id>
-              <name>res_write_assign_4</name>
+              <name>trunc_ln268_4</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>268</lineNumber>
@@ -6803,7 +6789,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6817,15 +6803,15 @@
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>res</originalName>
-              <rtlName>ap_return_4_int_reg</rtlName>
+              <originalName/>
+              <rtlName>ap_return_4</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2875462944</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6862,7 +6848,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6884,7 +6870,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>80</bitwidth>
@@ -6919,7 +6905,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6941,7 +6927,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2875329944</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>80</bitwidth>
@@ -6976,7 +6962,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6998,7 +6984,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>80</bitwidth>
@@ -7033,7 +7019,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7055,7 +7041,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>80</bitwidth>
@@ -7090,7 +7076,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7112,7 +7098,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>80</bitwidth>
@@ -7147,7 +7133,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+                  <first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7169,7 +7155,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2875336752</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -7211,7 +7197,7 @@
               <coreName>ROM</coreName>
               <isStorage>1</isStorage>
               <storageDepth>1024</storageDepth>
-              <coreId>100</coreId>
+              <coreId>101</coreId>
               <rtlModuleName>myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table_ROM_bkb</rtlModuleName>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -7252,7 +7238,7 @@
               <coreName>ROM</coreName>
               <isStorage>1</isStorage>
               <storageDepth>1024</storageDepth>
-              <coreId>100</coreId>
+              <coreId>101</coreId>
               <rtlModuleName>myproject_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table_Rcud</rtlModuleName>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -7297,7 +7283,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>64</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -7328,7 +7314,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>480</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -7359,7 +7345,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -7390,7 +7376,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2875341920</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -7421,7 +7407,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -7452,7 +7438,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2875344560</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -7483,7 +7469,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2875345344</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -7514,7 +7500,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -7545,7 +7531,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -7576,7 +7562,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2874973488</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>80</bitwidth>
@@ -7610,7 +7596,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>4294967295</coreId>
+            <coreId>0</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -7969,28 +7955,28 @@
         <item class_id_reference="20" object_id="_165">
           <id>163</id>
           <edge_type>1</edge_type>
-          <source_obj>25</source_obj>
+          <source_obj>13</source_obj>
           <sink_obj>26</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_166">
           <id>164</id>
           <edge_type>1</edge_type>
-          <source_obj>13</source_obj>
+          <source_obj>25</source_obj>
           <sink_obj>27</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_167">
           <id>165</id>
           <edge_type>1</edge_type>
-          <source_obj>27</source_obj>
+          <source_obj>26</source_obj>
           <sink_obj>28</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_168">
           <id>166</id>
           <edge_type>1</edge_type>
-          <source_obj>26</source_obj>
+          <source_obj>27</source_obj>
           <sink_obj>28</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
@@ -8081,7 +8067,7 @@
         <item class_id_reference="20" object_id="_181">
           <id>184</id>
           <edge_type>1</edge_type>
-          <source_obj>26</source_obj>
+          <source_obj>27</source_obj>
           <sink_obj>35</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
@@ -8172,7 +8158,7 @@
         <item class_id_reference="20" object_id="_194">
           <id>199</id>
           <edge_type>1</edge_type>
-          <source_obj>26</source_obj>
+          <source_obj>27</source_obj>
           <sink_obj>42</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
@@ -8263,7 +8249,7 @@
         <item class_id_reference="20" object_id="_207">
           <id>214</id>
           <edge_type>1</edge_type>
-          <source_obj>26</source_obj>
+          <source_obj>27</source_obj>
           <sink_obj>49</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
@@ -8354,7 +8340,7 @@
         <item class_id_reference="20" object_id="_220">
           <id>229</id>
           <edge_type>1</edge_type>
-          <source_obj>26</source_obj>
+          <source_obj>27</source_obj>
           <sink_obj>56</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
@@ -10063,7 +10049,7 @@
         <count>5</count>
         <item_version>0</item_version>
         <item class_id="36" tracking_level="0" version="0">
-          <first>mul_18s_18s_30_1_0_U386 (mul_18s_18s_30_1_0)</first>
+          <first>mul_18s_18s_30_1_1_U385 (mul_18s_18s_30_1_1)</first>
           <second class_id="37" tracking_level="0" version="0">
             <count>3</count>
             <item_version>0</item_version>
@@ -10082,7 +10068,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_18s_30_1_0_U387 (mul_18s_18s_30_1_0)</first>
+          <first>mul_18s_18s_30_1_1_U386 (mul_18s_18s_30_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -10101,7 +10087,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_18s_30_1_0_U388 (mul_18s_18s_30_1_0)</first>
+          <first>mul_18s_18s_30_1_1_U387 (mul_18s_18s_30_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -10120,7 +10106,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_18s_30_1_0_U389 (mul_18s_18s_30_1_0)</first>
+          <first>mul_18s_18s_30_1_1_U388 (mul_18s_18s_30_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -10139,7 +10125,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_18s_30_1_0_U390 (mul_18s_18s_30_1_0)</first>
+          <first>mul_18s_18s_30_1_1_U389 (mul_18s_18s_30_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -10159,35 +10145,8 @@
         </item>
       </dp_component_resource>
       <dp_expression_resource>
-        <count>46</count>
+        <count>47</count>
         <item_version>0</item_version>
-        <item>
-          <first>a_fu_208_p3 ( select ) </first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>(2P2)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>18</second>
-            </item>
-          </second>
-        </item>
         <item>
           <first>add_ln51_1_fu_610_p2 ( + ) </first>
           <second>
@@ -10361,6 +10320,29 @@
             <item>
               <first>(1P1)</first>
               <second>1</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>2</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>ap_enable_pp0 ( xor ) </first>
+          <second>
+            <count>4</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>2</second>
             </item>
             <item>
               <first>FF</first>
@@ -10759,6 +10741,33 @@
         </item>
         <item>
           <first>select_ln66_1_fu_188_p3 ( select ) </first>
+          <second>
+            <count>5</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>18</second>
+            </item>
+            <item>
+              <first>(2P2)</first>
+              <second>18</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>18</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>select_ln66_2_fu_208_p3 ( select ) </first>
           <second>
             <count>5</count>
             <item_version>0</item_version>
@@ -11355,225 +11364,14 @@
         </item>
       </dp_memory_resource>
       <dp_multiplexer_resource>
-        <count>5</count>
+        <count>0</count>
         <item_version>0</item_version>
-        <item>
-          <first>ap_return_0</first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0Size)</first>
-              <second>3</second>
-            </item>
-            <item>
-              <first>(1Bits)</first>
-              <second>16</second>
-            </item>
-            <item>
-              <first>(2Count)</first>
-              <second>48</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>14</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>ap_return_1</first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0Size)</first>
-              <second>3</second>
-            </item>
-            <item>
-              <first>(1Bits)</first>
-              <second>16</second>
-            </item>
-            <item>
-              <first>(2Count)</first>
-              <second>48</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>14</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>ap_return_2</first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0Size)</first>
-              <second>3</second>
-            </item>
-            <item>
-              <first>(1Bits)</first>
-              <second>16</second>
-            </item>
-            <item>
-              <first>(2Count)</first>
-              <second>48</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>14</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>ap_return_3</first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0Size)</first>
-              <second>3</second>
-            </item>
-            <item>
-              <first>(1Bits)</first>
-              <second>16</second>
-            </item>
-            <item>
-              <first>(2Count)</first>
-              <second>48</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>14</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>ap_return_4</first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0Size)</first>
-              <second>3</second>
-            </item>
-            <item>
-              <first>(1Bits)</first>
-              <second>16</second>
-            </item>
-            <item>
-              <first>(2Count)</first>
-              <second>48</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>14</second>
-            </item>
-          </second>
-        </item>
       </dp_multiplexer_resource>
       <dp_register_resource>
-        <count>27</count>
+        <count>21</count>
         <item_version>0</item_version>
         <item>
-          <first>a_1_reg_855</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>18</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>a_2_reg_837</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>18</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>a_2_reg_837_pp0_iter3_reg</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>18</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>a_reg_796</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>18</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>ap_ce_reg</first>
+          <first>ap_CS_fsm</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -11592,13 +11390,13 @@
           </second>
         </item>
         <item>
-          <first>ap_return_0_int_reg</first>
+          <first>ap_enable_reg_pp0_iter1</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>16</second>
+              <second>1</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -11606,18 +11404,18 @@
             </item>
             <item>
               <first>FF</first>
-              <second>16</second>
+              <second>1</second>
             </item>
           </second>
         </item>
         <item>
-          <first>ap_return_1_int_reg</first>
+          <first>ap_enable_reg_pp0_iter2</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>16</second>
+              <second>1</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -11625,18 +11423,18 @@
             </item>
             <item>
               <first>FF</first>
-              <second>16</second>
+              <second>1</second>
             </item>
           </second>
         </item>
         <item>
-          <first>ap_return_2_int_reg</first>
+          <first>ap_enable_reg_pp0_iter3</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>16</second>
+              <second>1</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -11644,18 +11442,18 @@
             </item>
             <item>
               <first>FF</first>
-              <second>16</second>
+              <second>1</second>
             </item>
           </second>
         </item>
         <item>
-          <first>ap_return_3_int_reg</first>
+          <first>ap_enable_reg_pp0_iter4</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>16</second>
+              <second>1</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -11663,164 +11461,12 @@
             </item>
             <item>
               <first>FF</first>
-              <second>16</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>ap_return_4_int_reg</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>16</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>16</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>b_1_reg_843</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>18</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>b_1_reg_843_pp0_iter3_reg</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>18</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>b_2_reg_849</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>18</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>b_2_reg_849_pp0_iter3_reg</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>18</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>b_reg_860</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>18</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>data_0_val_int_reg</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>18</second>
+              <second>1</second>
             </item>
           </second>
         </item>
         <item>
           <first>data_0_val_read_reg_791</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>18</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>data_1_val_int_reg</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -11858,45 +11504,7 @@
           </second>
         </item>
         <item>
-          <first>data_2_val_int_reg</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>18</second>
-            </item>
-          </second>
-        </item>
-        <item>
           <first>data_2_val_read_reg_781</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>18</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>18</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>data_3_val_int_reg</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -11934,7 +11542,7 @@
           </second>
         </item>
         <item>
-          <first>data_4_val_int_reg</first>
+          <first>data_4_val_read_reg_769</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -11953,7 +11561,140 @@
           </second>
         </item>
         <item>
-          <first>data_4_val_read_reg_769</first>
+          <first>exp_table_load_1_reg_860</first>
+          <second>
+            <count>3</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(Bits)</first>
+              <second>18</second>
+            </item>
+            <item>
+              <first>(Consts)</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>18</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>exp_table_load_2_reg_837</first>
+          <second>
+            <count>3</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(Bits)</first>
+              <second>18</second>
+            </item>
+            <item>
+              <first>(Consts)</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>18</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>exp_table_load_2_reg_837_pp0_iter3_reg</first>
+          <second>
+            <count>3</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(Bits)</first>
+              <second>18</second>
+            </item>
+            <item>
+              <first>(Consts)</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>18</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>exp_table_load_3_reg_843</first>
+          <second>
+            <count>3</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(Bits)</first>
+              <second>18</second>
+            </item>
+            <item>
+              <first>(Consts)</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>18</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>exp_table_load_3_reg_843_pp0_iter3_reg</first>
+          <second>
+            <count>3</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(Bits)</first>
+              <second>18</second>
+            </item>
+            <item>
+              <first>(Consts)</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>18</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>exp_table_load_4_reg_849</first>
+          <second>
+            <count>3</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(Bits)</first>
+              <second>18</second>
+            </item>
+            <item>
+              <first>(Consts)</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>18</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>exp_table_load_4_reg_849_pp0_iter3_reg</first>
+          <second>
+            <count>3</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(Bits)</first>
+              <second>18</second>
+            </item>
+            <item>
+              <first>(Consts)</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>18</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>exp_table_load_reg_855</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -12009,40 +11750,59 @@
             </item>
           </second>
         </item>
+        <item>
+          <first>select_ln66_2_reg_796</first>
+          <second>
+            <count>3</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(Bits)</first>
+              <second>18</second>
+            </item>
+            <item>
+              <first>(Consts)</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>18</second>
+            </item>
+          </second>
+        </item>
       </dp_register_resource>
       <dp_dsp_resource>
         <count>5</count>
         <item_version>0</item_version>
         <item>
-          <first>mul_18s_18s_30_1_0_U386</first>
+          <first>mul_18s_18s_30_1_1_U385</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
           </second>
         </item>
         <item>
-          <first>mul_18s_18s_30_1_0_U387</first>
+          <first>mul_18s_18s_30_1_1_U386</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
           </second>
         </item>
         <item>
-          <first>mul_18s_18s_30_1_0_U388</first>
+          <first>mul_18s_18s_30_1_1_U387</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
           </second>
         </item>
         <item>
-          <first>mul_18s_18s_30_1_0_U389</first>
+          <first>mul_18s_18s_30_1_1_U388</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
           </second>
         </item>
         <item>
-          <first>mul_18s_18s_30_1_0_U390</first>
+          <first>mul_18s_18s_30_1_1_U389</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
@@ -12053,7 +11813,7 @@
         <count>5</count>
         <item_version>0</item_version>
         <item class_id="40" tracking_level="0" version="0">
-          <first>mul_18s_18s_30_1_0_U386 (mul_18s_18s_30_1_0)</first>
+          <first>mul_18s_18s_30_1_1_U385 (mul_18s_18s_30_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -12061,7 +11821,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_18s_30_1_0_U387 (mul_18s_18s_30_1_0)</first>
+          <first>mul_18s_18s_30_1_1_U386 (mul_18s_18s_30_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -12069,7 +11829,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_18s_30_1_0_U388 (mul_18s_18s_30_1_0)</first>
+          <first>mul_18s_18s_30_1_1_U387 (mul_18s_18s_30_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -12077,7 +11837,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_18s_30_1_0_U389 (mul_18s_18s_30_1_0)</first>
+          <first>mul_18s_18s_30_1_1_U388 (mul_18s_18s_30_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -12085,7 +11845,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_18s_30_1_0_U390 (mul_18s_18s_30_1_0)</first>
+          <first>mul_18s_18s_30_1_1_U389 (mul_18s_18s_30_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -12096,14 +11856,6 @@
       <dp_expression_map>
         <count>46</count>
         <item_version>0</item_version>
-        <item>
-          <first>a_fu_208_p3 ( select ) </first>
-          <second>
-            <count>1</count>
-            <item_version>0</item_version>
-            <item>22</item>
-          </second>
-        </item>
         <item>
           <first>add_ln51_1_fu_610_p2 ( + ) </first>
           <second>
@@ -12297,6 +12049,14 @@
           </second>
         </item>
         <item>
+          <first>select_ln66_2_fu_208_p3 ( select ) </first>
+          <second>
+            <count>1</count>
+            <item_version>0</item_version>
+            <item>22</item>
+          </second>
+        </item>
+        <item>
           <first>select_ln66_fu_168_p3 ( select ) </first>
           <second>
             <count>1</count>
@@ -12477,7 +12237,7 @@
           <second>
             <count>1</count>
             <item_version>0</item_version>
-            <item>12</item>
+            <item>54</item>
           </second>
         </item>
         <item>
@@ -12485,7 +12245,7 @@
           <second>
             <count>1</count>
             <item_version>0</item_version>
-            <item>35</item>
+            <item>77</item>
           </second>
         </item>
       </dp_memory_map>
@@ -13556,7 +13316,7 @@
         </second>
       </item>
       <item>
-        <first>236</first>
+        <first>235</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -14216,14 +13976,6 @@
       <count>101</count>
       <item_version>0</item_version>
       <item class_id="54" tracking_level="0" version="0">
-        <first>a_fu_208</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>22</item>
-        </second>
-      </item>
-      <item>
         <first>add_ln51_1_fu_610</first>
         <second>
           <count>1</count>
@@ -14285,14 +14037,6 @@
           <count>1</count>
           <item_version>0</item_version>
           <item>32</item>
-        </second>
-      </item>
-      <item>
-        <first>conv36_i_fu_232</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>26</item>
         </second>
       </item>
       <item>
@@ -14464,46 +14208,6 @@
         </second>
       </item>
       <item>
-        <first>res_write_assign_1_fu_672</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>106</item>
-        </second>
-      </item>
-      <item>
-        <first>res_write_assign_2_fu_691</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>109</item>
-        </second>
-      </item>
-      <item>
-        <first>res_write_assign_3_fu_710</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>112</item>
-        </second>
-      </item>
-      <item>
-        <first>res_write_assign_4_fu_729</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>115</item>
-        </second>
-      </item>
-      <item>
-        <first>res_write_assign_fu_653</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>103</item>
-        </second>
-      </item>
-      <item>
         <first>select_ln245_1_fu_469</first>
         <second>
           <count>1</count>
@@ -14592,6 +14296,14 @@
         </second>
       </item>
       <item>
+        <first>select_ln66_2_fu_208</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>22</item>
+        </second>
+      </item>
+      <item>
         <first>select_ln66_fu_168</first>
         <second>
           <count>1</count>
@@ -14600,7 +14312,15 @@
         </second>
       </item>
       <item>
-        <first>sext_ln245_1_fu_279</first>
+        <first>sext_ln245_1_fu_235</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>27</item>
+        </second>
+      </item>
+      <item>
+        <first>sext_ln245_2_fu_279</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -14608,7 +14328,7 @@
         </second>
       </item>
       <item>
-        <first>sext_ln245_2_fu_322</first>
+        <first>sext_ln245_3_fu_322</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -14616,7 +14336,7 @@
         </second>
       </item>
       <item>
-        <first>sext_ln245_3_fu_365</first>
+        <first>sext_ln245_4_fu_365</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -14624,7 +14344,7 @@
         </second>
       </item>
       <item>
-        <first>sext_ln245_4_fu_408</first>
+        <first>sext_ln245_5_fu_408</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -14632,11 +14352,11 @@
         </second>
       </item>
       <item>
-        <first>sext_ln245_fu_236</first>
+        <first>sext_ln245_fu_232</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>27</item>
+          <item>26</item>
         </second>
       </item>
       <item>
@@ -14728,79 +14448,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_10_fu_459</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>63</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_11_fu_485</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>69</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_12_fu_511</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>75</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_13_fu_542</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>81</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_14_fu_573</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>87</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_1_fu_253</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>30</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_2_fu_288</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>36</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_3_fu_296</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>37</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_4_fu_331</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>43</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_5_fu_339</first>
+        <first>tmp_10_fu_339</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -14808,7 +14456,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_6_fu_374</first>
+        <first>tmp_11_fu_374</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -14816,7 +14464,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_7_fu_382</first>
+        <first>tmp_12_fu_382</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -14824,7 +14472,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_8_fu_417</first>
+        <first>tmp_13_fu_417</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -14832,7 +14480,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_9_fu_425</first>
+        <first>tmp_14_fu_425</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -14840,11 +14488,83 @@
         </second>
       </item>
       <item>
-        <first>tmp_fu_245</first>
+        <first>tmp_1_fu_485</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>69</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_2_fu_511</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>75</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_3_fu_542</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>81</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_4_fu_573</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>87</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_5_fu_245</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
           <item>29</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_6_fu_253</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>30</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_7_fu_288</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>36</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_8_fu_296</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>37</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_9_fu_331</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>43</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_fu_459</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>63</item>
         </second>
       </item>
       <item>
@@ -14853,6 +14573,46 @@
           <count>1</count>
           <item_version>0</item_version>
           <item>96</item>
+        </second>
+      </item>
+      <item>
+        <first>trunc_ln1_fu_653</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>103</item>
+        </second>
+      </item>
+      <item>
+        <first>trunc_ln268_1_fu_672</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>106</item>
+        </second>
+      </item>
+      <item>
+        <first>trunc_ln268_2_fu_691</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>109</item>
+        </second>
+      </item>
+      <item>
+        <first>trunc_ln268_3_fu_710</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>112</item>
+        </second>
+      </item>
+      <item>
+        <first>trunc_ln268_4_fu_729</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>115</item>
         </second>
       </item>
       <item>
@@ -15352,54 +15112,6 @@
       <count>19</count>
       <item_version>0</item_version>
       <item>
-        <first>a_1_reg_855</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>67</item>
-        </second>
-      </item>
-      <item>
-        <first>a_2_reg_837</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>79</item>
-        </second>
-      </item>
-      <item>
-        <first>a_reg_796</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>22</item>
-        </second>
-      </item>
-      <item>
-        <first>b_1_reg_843</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>85</item>
-        </second>
-      </item>
-      <item>
-        <first>b_2_reg_849</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>91</item>
-        </second>
-      </item>
-      <item>
-        <first>b_reg_860</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>73</item>
-        </second>
-      </item>
-      <item>
         <first>data_0_val_read_reg_791</first>
         <second>
           <count>1</count>
@@ -15480,6 +15192,46 @@
         </second>
       </item>
       <item>
+        <first>exp_table_load_1_reg_860</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>73</item>
+        </second>
+      </item>
+      <item>
+        <first>exp_table_load_2_reg_837</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>79</item>
+        </second>
+      </item>
+      <item>
+        <first>exp_table_load_3_reg_843</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>85</item>
+        </second>
+      </item>
+      <item>
+        <first>exp_table_load_4_reg_849</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>91</item>
+        </second>
+      </item>
+      <item>
+        <first>exp_table_load_reg_855</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>67</item>
+        </second>
+      </item>
+      <item>
         <first>invert_table_addr_reg_865</first>
         <second>
           <count>1</count>
@@ -15501,6 +15253,14 @@
           <count>1</count>
           <item_version>0</item_version>
           <item>70</item>
+        </second>
+      </item>
+      <item>
+        <first>select_ln66_2_reg_796</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>22</item>
         </second>
       </item>
     </dp_regname_nodes>
@@ -15601,7 +15361,7 @@
       <item>
         <first>14</first>
         <second>
-          <first>530</first>
+          <first>45</first>
           <second>0</second>
         </second>
       </item>
@@ -15622,7 +15382,7 @@
       <item>
         <first>17</first>
         <second>
-          <first>530</first>
+          <first>45</first>
           <second>0</second>
         </second>
       </item>
@@ -15643,7 +15403,7 @@
       <item>
         <first>20</first>
         <second>
-          <first>530</first>
+          <first>45</first>
           <second>0</second>
         </second>
       </item>
@@ -15664,7 +15424,7 @@
       <item>
         <first>23</first>
         <second>
-          <first>530</first>
+          <first>45</first>
           <second>0</second>
         </second>
       </item>

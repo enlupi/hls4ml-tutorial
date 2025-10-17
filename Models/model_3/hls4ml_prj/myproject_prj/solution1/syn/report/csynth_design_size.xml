@@ -2,112 +2,112 @@
     <item name="Total Instructions per Compilation Phase">
         <table>
             <keys size="4">Phase, Step, Instructions, Description</keys>
-            <column name="Compile/Link">,   8225, After all functions are compiled and linked into a single design</column>
+            <column name="Compile/Link">,   8522, After all functions are compiled and linked into a single design</column>
             <column name="">, , </column>
             <column name="Unroll/Inline">, , After user unroll and inline pragmas are applied</column>
-            <column name="">(1) unroll, 243995 *, user unroll pragmas are applied</column>
-            <column name="">(2) simplification,  73099, simplification of applied user unroll pragmas</column>
-            <column name="">(3) inline,  72499, user inline pragmas are applied</column>
-            <column name="">(4) simplification,  72141, simplification of applied user inline pragmas</column>
+            <column name="">(1) unroll, 258173 *, user unroll pragmas are applied</column>
+            <column name="">(2) simplification,  74161, simplification of applied user unroll pragmas</column>
+            <column name="">(3) inline,  74554, user inline pragmas are applied</column>
+            <column name="">(4) simplification,  73445, simplification of applied user inline pragmas</column>
             <column name="">, , </column>
             <column name="Array/Struct">, , After user array partition and struct aggregate/disaggregate pragmas are applied</column>
-            <column name="">(1) array partition,  45943, user array partition pragmas are applied</column>
-            <column name="">(2) simplification,  21767, simplification of applied user array partition &amp; struct aggregate/disaggregate pragmas</column>
-            <column name="">(3) aggregate/disaggregate ,  21767, user struct aggregate/disaggregate pragmas are applied</column>
-            <column name="">(4) array reshape,  14404, apply array reshape pragmas</column>
-            <column name="">(5) access patterns,  14352, array access pattern optmizations</column>
+            <column name="">(1) array partition,  51755, user array partition pragmas are applied</column>
+            <column name="">(2) simplification,  17149, simplification of applied user array partition &amp; struct aggregate/disaggregate pragmas</column>
+            <column name="">(3) aggregate/disaggregate ,  17149, user struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(4) array reshape,  17181, apply array reshape pragmas</column>
+            <column name="">(5) access patterns,  17133, array access pattern optmizations</column>
             <column name="">, , </column>
             <column name="Performance">, , After transformations are applied to meet performance pragma targets</column>
-            <column name="">(1) loop simplification,  14352, loop and instruction simplification</column>
-            <column name="">(2) parallelization,  14160, loops are unrolled or pipelined to meet performance targets</column>
-            <column name="">(3) array partition,  13966, arrays are partitioned to meet performance targets</column>
-            <column name="">(4) simplification,  13966, simplification of design after performance transformations</column>
+            <column name="">(1) loop simplification,  17004, loop and instruction simplification</column>
+            <column name="">(2) parallelization,  16618, loops are unrolled or pipelined to meet performance targets</column>
+            <column name="">(3) array partition,  16618, arrays are partitioned to meet performance targets</column>
+            <column name="">(4) simplification,  16618, simplification of design after performance transformations</column>
             <column name="">, , </column>
             <column name="HW Transforms">, , After hardware transfomations</column>
-            <column name="">(1) lowering,  13685, initial conversion to HW specific instructions</column>
-            <column name="">(2) optimizations,  13681, high level synthesis optimizations</column>
+            <column name="">(1) lowering,  16624, initial conversion to HW specific instructions</column>
+            <column name="">(2) optimizations,  16634, high level synthesis optimizations</column>
         </table>
     </item>
     <item name="Instructions per Function for each Compilation Phase">
         <hiertable>
             <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
             <rows>
-                <row id="0" col0="myproject" col1="myproject.cpp:7" col2="8225" col3="72141" col4="14352" col5="13966" col6="13681">
-                    <row id="25" col0="dense&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;27, 12, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_dense.h:41" col2="595" col3="" col4="" col5="" col6="">
-                        <row id="34" col0="dense" col1="nnet_dense.h:50" col2="593" col3="" col4="" col5="" col6="">
-                            <row id="26" col0="dense_latency&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;27, 12, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_dense_latency.h:13" col2="591" col3="" col4="" col5="" col6="">
-                                <row id="10" col0="product" col1="nnet_mult.h:70" col2="141" col3="" col4="" col5="" col6=""/>
-                                <row id="43" col0="cast&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;27, 12, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_mult.h:110" col2="3" col3="" col4="" col5="" col6=""/>
+                <row id="0" col0="myproject" col1="myproject.cpp:7" col2="8522" col3="73445" col4="17133" col5="16618" col6="16634">
+                    <row id="31" col0="dense&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;27, 12, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_dense.h:41" col2="590" col3="" col4="" col5="" col6="">
+                        <row id="22" col0="dense" col1="nnet_dense.h:50" col2="588" col3="" col4="" col5="" col6="">
+                            <row id="26" col0="dense_latency&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;27, 12, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_dense_latency.h:13" col2="586" col3="" col4="" col5="" col6="">
+                                <row id="17" col0="product" col1="nnet_mult.h:70" col2="141" col3="" col4="" col5="" col6=""/>
+                                <row id="12" col0="cast&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;27, 12, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_mult.h:110" col2="3" col3="" col4="" col5="" col6=""/>
                             </row>
                         </row>
                     </row>
-                    <row id="7" col0="relu&lt;ap_fixed&lt;27, 12, AP_TRN, AP_WRAP, 0&gt;, ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, relu_config4&gt;" col1="nnet_activation.h:39" col2="819" col3="2749" col4="2561" col5="2497" col6=""/>
-                    <row id="11" col0="dense&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;19, 8, AP_TRN, AP_WRAP, 0&gt;, config5&gt;" col1="nnet_dense.h:41" col2="595" col3="" col4="" col5="" col6="">
-                        <row id="34" col0="dense" col1="nnet_dense.h:50" col2="593" col3="" col4="" col5="" col6="">
-                            <row id="32" col0="dense_latency&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;19, 8, AP_TRN, AP_WRAP, 0&gt;, config5&gt;" col1="nnet_dense_latency.h:13" col2="591" col3="" col4="" col5="" col6="">
-                                <row id="10" col0="product" col1="nnet_mult.h:70" col2="141" col3="" col4="" col5="" col6=""/>
-                                <row id="33" col0="cast&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;19, 8, AP_TRN, AP_WRAP, 0&gt;, config5&gt;" col1="nnet_mult.h:110" col2="3" col3="" col4="" col5="" col6=""/>
+                    <row id="41" col0="relu&lt;ap_fixed&lt;27, 12, AP_TRN, AP_WRAP, 0&gt;, ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, relu_config4&gt;" col1="nnet_activation.h:39" col2="811" col3="3326" col4="3393" col5="3329" col6="3330"/>
+                    <row id="42" col0="dense&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;19, 8, AP_TRN, AP_WRAP, 0&gt;, config5&gt;" col1="nnet_dense.h:41" col2="590" col3="" col4="" col5="" col6="">
+                        <row id="22" col0="dense" col1="nnet_dense.h:50" col2="588" col3="" col4="" col5="" col6="">
+                            <row id="24" col0="dense_latency&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;19, 8, AP_TRN, AP_WRAP, 0&gt;, config5&gt;" col1="nnet_dense_latency.h:13" col2="586" col3="" col4="" col5="" col6="">
+                                <row id="17" col0="product" col1="nnet_mult.h:70" col2="141" col3="" col4="" col5="" col6=""/>
+                                <row id="23" col0="cast&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;19, 8, AP_TRN, AP_WRAP, 0&gt;, config5&gt;" col1="nnet_mult.h:110" col2="3" col3="" col4="" col5="" col6=""/>
                             </row>
                         </row>
                     </row>
-                    <row id="20" col0="relu&lt;ap_fixed&lt;19, 8, AP_TRN, AP_WRAP, 0&gt;, ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, relu_config7&gt;" col1="nnet_activation.h:39" col2="819" col3="1373" col4="1281" col5="1249" col6=""/>
-                    <row id="40" col0="dense&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config8&gt;" col1="nnet_dense.h:41" col2="595" col3="" col4="" col5="" col6="">
-                        <row id="34" col0="dense" col1="nnet_dense.h:50" col2="593" col3="" col4="" col5="" col6="">
-                            <row id="35" col0="dense_latency&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config8&gt;" col1="nnet_dense_latency.h:13" col2="591" col3="" col4="" col5="" col6="">
-                                <row id="10" col0="product" col1="nnet_mult.h:70" col2="141" col3="" col4="" col5="" col6=""/>
-                                <row id="12" col0="cast&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config8&gt;" col1="nnet_mult.h:110" col2="3" col3="" col4="" col5="" col6=""/>
+                    <row id="1" col0="relu&lt;ap_fixed&lt;19, 8, AP_TRN, AP_WRAP, 0&gt;, ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, relu_config7&gt;" col1="nnet_activation.h:39" col2="811" col3="1662" col4="1697" col5="1665" col6="1666"/>
+                    <row id="14" col0="dense&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config8&gt;" col1="nnet_dense.h:41" col2="590" col3="" col4="" col5="" col6="">
+                        <row id="22" col0="dense" col1="nnet_dense.h:50" col2="588" col3="" col4="" col5="" col6="">
+                            <row id="25" col0="dense_latency&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config8&gt;" col1="nnet_dense_latency.h:13" col2="586" col3="" col4="" col5="" col6="">
+                                <row id="17" col0="product" col1="nnet_mult.h:70" col2="141" col3="" col4="" col5="" col6=""/>
+                                <row id="28" col0="cast&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config8&gt;" col1="nnet_mult.h:110" col2="3" col3="" col4="" col5="" col6=""/>
                             </row>
                         </row>
                     </row>
-                    <row id="24" col0="relu&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, relu_config10&gt;" col1="nnet_activation.h:39" col2="819" col3="1373" col4="1281" col5="1249" col6=""/>
-                    <row id="17" col0="dense&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config11&gt;" col1="nnet_dense.h:41" col2="595" col3="" col4="" col5="" col6="">
-                        <row id="34" col0="dense" col1="nnet_dense.h:50" col2="593" col3="" col4="" col5="" col6="">
-                            <row id="16" col0="dense_latency&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config11&gt;" col1="nnet_dense_latency.h:13" col2="591" col3="" col4="" col5="" col6="">
-                                <row id="10" col0="product" col1="nnet_mult.h:70" col2="141" col3="" col4="" col5="" col6=""/>
-                                <row id="31" col0="cast&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config11&gt;" col1="nnet_mult.h:110" col2="3" col3="" col4="" col5="" col6=""/>
+                    <row id="44" col0="relu&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, relu_config10&gt;" col1="nnet_activation.h:39" col2="811" col3="1662" col4="1697" col5="1665" col6="1666"/>
+                    <row id="7" col0="dense&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config11&gt;" col1="nnet_dense.h:41" col2="590" col3="" col4="" col5="" col6="">
+                        <row id="22" col0="dense" col1="nnet_dense.h:50" col2="588" col3="" col4="" col5="" col6="">
+                            <row id="35" col0="dense_latency&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config11&gt;" col1="nnet_dense_latency.h:13" col2="586" col3="" col4="" col5="" col6="">
+                                <row id="17" col0="product" col1="nnet_mult.h:70" col2="141" col3="" col4="" col5="" col6=""/>
+                                <row id="13" col0="cast&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config11&gt;" col1="nnet_mult.h:110" col2="3" col3="" col4="" col5="" col6=""/>
                             </row>
                         </row>
                     </row>
-                    <row id="15" col0="softmax&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:379" col2="3319" col3="" col4="" col5="" col6="">
-                        <row id="13" col0="softmax_stable&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:216" col2="3317" col3="" col4="" col5="" col6="">
-                            <row id="5" col0="init_exp_table&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:149" col2="656" col3="" col4="" col5="" col6="">
-                                <row id="14" col0="softmax_real_val_from_idx&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:133" col2="233" col3="" col4="" col5="" col6=""/>
-                                <row id="18" col0="exp_fcn_float" col1="nnet_activation.h:131" col2="4" col3="" col4="" col5="" col6=""/>
+                    <row id="18" col0="softmax&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:379" col2="3660" col3="" col4="" col5="" col6="">
+                        <row id="21" col0="softmax_stable&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:216" col2="3658" col3="" col4="" col5="" col6="">
+                            <row id="20" col0="init_exp_table&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:149" col2="836" col3="" col4="" col5="" col6="">
+                                <row id="29" col0="softmax_real_val_from_idx&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:133" col2="414" col3="" col4="" col5="" col6=""/>
+                                <row id="32" col0="exp_fcn_float" col1="nnet_activation.h:131" col2="4" col3="" col4="" col5="" col6=""/>
                             </row>
-                            <row id="3" col0="init_invert_table&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:160" col2="652" col3="" col4="" col5="" col6="">
-                                <row id="36" col0="softmax_real_val_from_idx&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:133" col2="233" col3="" col4="" col5="" col6=""/>
+                            <row id="39" col0="init_invert_table&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:160" col2="832" col3="" col4="" col5="" col6="">
+                                <row id="43" col0="softmax_real_val_from_idx&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:133" col2="414" col3="" col4="" col5="" col6=""/>
                             </row>
-                            <row id="23" col0="reduce&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, 5, nnet::Op_max&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="122" col3="" col4="" col5="" col6="">
-                                <row id="2" col0="reduce&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, 4, nnet::Op_max&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="89" col3="" col4="" col5="" col6="">
-                                    <row id="38" col0="reduce&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, 2, nnet::Op_max&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="60" col2_disp="  60 (2 calls)" col3="" col4="" col5="" col6="">
-                                        <row id="41" col0="operator()" col1="nnet_common.h:66" col2="40" col2_disp="  40 (2 calls)" col3="" col4="" col5="" col6=""/>
+                            <row id="33" col0="reduce&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, 5, nnet::Op_max&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="122" col3="" col4="" col5="" col6="">
+                                <row id="15" col0="reduce&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, 4, nnet::Op_max&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="89" col3="" col4="" col5="" col6="">
+                                    <row id="10" col0="reduce&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, 2, nnet::Op_max&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="60" col2_disp="  60 (2 calls)" col3="" col4="" col5="" col6="">
+                                        <row id="2" col0="operator()" col1="nnet_common.h:66" col2="40" col2_disp="  40 (2 calls)" col3="" col4="" col5="" col6=""/>
                                     </row>
-                                    <row id="41" col0="operator()" col1="nnet_common.h:66" col2="20" col3="" col4="" col5="" col6=""/>
+                                    <row id="2" col0="operator()" col1="nnet_common.h:66" col2="20" col3="" col4="" col5="" col6=""/>
                                 </row>
-                                <row id="4" col0="reduce&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, 1, nnet::Op_max&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="4" col3="" col4="" col5="" col6=""/>
-                                <row id="41" col0="operator()" col1="nnet_common.h:66" col2="20" col3="" col4="" col5="" col6=""/>
+                                <row id="6" col0="reduce&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, 1, nnet::Op_max&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="4" col3="" col4="" col5="" col6=""/>
+                                <row id="2" col0="operator()" col1="nnet_common.h:66" col2="20" col3="" col4="" col5="" col6=""/>
                             </row>
-                            <row id="22" col0="softmax_idx_from_real_val&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:141" col2="98" col3="" col4="" col5="" col6=""/>
-                            <row id="39" col0="reduce&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt;, 5, nnet::Op_add&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="938" col3="" col4="" col5="" col6="">
-                                <row id="1" col0="reduce&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt;, 4, nnet::Op_add&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="701" col3="" col4="" col5="" col6="">
-                                    <row id="21" col0="reduce&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt;, 2, nnet::Op_add&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="468" col2_disp=" 468 (2 calls)" col3="" col4="" col5="" col6="">
-                                        <row id="6" col0="operator()" col1="nnet_common.h:51" col2="448" col2_disp=" 448 (2 calls)" col3="" col4="" col5="" col6=""/>
+                            <row id="11" col0="softmax_idx_from_real_val&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:141" col2="98" col3="" col4="" col5="" col6=""/>
+                            <row id="4" col0="reduce&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt;, 5, nnet::Op_add&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="926" col3="" col4="" col5="" col6="">
+                                <row id="9" col0="reduce&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt;, 4, nnet::Op_add&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="692" col3="" col4="" col5="" col6="">
+                                    <row id="19" col0="reduce&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt;, 2, nnet::Op_add&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="462" col2_disp=" 462 (2 calls)" col3="" col4="" col5="" col6="">
+                                        <row id="30" col0="operator()" col1="nnet_common.h:51" col2="442" col2_disp=" 442 (2 calls)" col3="" col4="" col5="" col6=""/>
                                     </row>
-                                    <row id="6" col0="operator()" col1="nnet_common.h:51" col2="224" col3="" col4="" col5="" col6=""/>
+                                    <row id="30" col0="operator()" col1="nnet_common.h:51" col2="221" col3="" col4="" col5="" col6=""/>
                                 </row>
-                                <row id="44" col0="reduce&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt;, 1, nnet::Op_add&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="4" col3="" col4="" col5="" col6=""/>
-                                <row id="6" col0="operator()" col1="nnet_common.h:51" col2="224" col3="" col4="" col5="" col6=""/>
+                                <row id="8" col0="reduce&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt;, 1, nnet::Op_add&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt; &gt; &gt;" col1="nnet_common.h:37" col2="4" col3="" col4="" col5="" col6=""/>
+                                <row id="30" col0="operator()" col1="nnet_common.h:51" col2="221" col3="" col4="" col5="" col6=""/>
                             </row>
-                            <row id="37" col0="softmax_idx_from_real_val&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:141" col2="98" col3="" col4="" col5="" col6=""/>
+                            <row id="3" col0="softmax_idx_from_real_val&lt;ap_fixed&lt;18, 8, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:141" col2="98" col3="" col4="" col5="" col6=""/>
                         </row>
                     </row>
-                    <row id="26" col0="dense_latency&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;27, 12, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_dense_latency.h:13" col2="" col3="16495" col4="2293" col5="1906" col6="">
-                        <row id="43" col0="cast&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;27, 12, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_mult.h:110" col2="" col3="128" col3_disp="  128 (64 calls)" col4="128" col4_disp="  128 (64 calls)" col5="" col6=""/>
+                    <row id="26" col0="dense_latency&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;27, 12, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_dense_latency.h:13" col2="" col3="16624" col4="2659" col5="2143" col6="2144">
+                        <row id="12" col0="cast&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;27, 12, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_mult.h:110" col2="" col3="192" col3_disp="  192 (64 calls)" col4="192" col4_disp="  192 (64 calls)" col5="" col6=""/>
                     </row>
-                    <row id="32" col0="dense_latency&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;19, 8, AP_TRN, AP_WRAP, 0&gt;, config5&gt;" col1="nnet_dense_latency.h:13" col2="" col3="32153" col4="3899" col5="3836" col6=""/>
-                    <row id="35" col0="dense_latency&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config8&gt;" col1="nnet_dense_latency.h:13" col2="" col3="16190" col4="2136" col5="2105" col6=""/>
-                    <row id="16" col0="dense_latency&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config11&gt;" col1="nnet_dense_latency.h:13" col2="" col3="1506" col4="428" col5="401" col6="402"/>
-                    <row id="13" col0="softmax_stable&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:216" col2="" col3="266" col4="197" col5="192" col6="193"/>
+                    <row id="24" col0="dense_latency&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;19, 8, AP_TRN, AP_WRAP, 0&gt;, config5&gt;" col1="nnet_dense_latency.h:13" col2="" col3="32153" col4="4348" col5="4285" col6="4286"/>
+                    <row id="25" col0="dense_latency&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config8&gt;" col1="nnet_dense_latency.h:13" col2="" col3="16190" col4="2378" col5="2347" col6="2348"/>
+                    <row id="35" col0="dense_latency&lt;ap_ufixed&lt;6, 0, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, config11&gt;" col1="nnet_dense_latency.h:13" col2="" col3="1506" col4="468" col5="441" col6="442"/>
+                    <row id="21" col0="softmax_stable&lt;ap_fixed&lt;18, 7, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, softmax_config13&gt;" col1="nnet_activation.h:216" col2="" col3="286" col4="217" col5="212" col6="213"/>
                 </row>
             </rows>
             <notes/>

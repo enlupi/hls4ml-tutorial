@@ -26,7 +26,7 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>a</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -34,7 +34,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3621216858</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -62,7 +62,7 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>b</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -70,7 +70,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -98,7 +98,7 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>a</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -106,7 +106,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>4294967292</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -134,7 +134,7 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>b</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -142,7 +142,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2761067856</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -170,7 +170,7 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>b</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -178,7 +178,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>54</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -202,7 +202,7 @@
 						<id>9</id>
 						<name>data_4_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -210,7 +210,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>5</count>
 									<item_version>0</item_version>
@@ -260,7 +260,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2873737888</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -287,7 +287,7 @@
 						<id>10</id>
 						<name>data_3_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -295,7 +295,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
@@ -337,7 +337,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>b</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -345,7 +345,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874075280</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -372,7 +372,7 @@
 						<id>11</id>
 						<name>data_2_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -380,7 +380,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
@@ -422,7 +422,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>a</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -430,7 +430,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2873756400</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -457,7 +457,7 @@
 						<id>12</id>
 						<name>data_1_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -465,7 +465,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
@@ -507,7 +507,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>b</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -515,7 +515,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1936942336</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -542,7 +542,7 @@
 						<id>13</id>
 						<name>data_0_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -550,7 +550,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
@@ -592,7 +592,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>a</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -600,7 +600,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>144</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -627,7 +627,7 @@
 						<id>14</id>
 						<name>icmp_ln66</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -635,7 +635,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
@@ -680,7 +680,7 @@
 						<originalName></originalName>
 						<rtlName></rtlName>
 						<control>auto</control>
-						<opType>setlt</opType>
+						<opType>icmp</opType>
 						<implIndex>auto</implIndex>
 						<coreName>Cmp</coreName>
 						<isStorage>0</isStorage>
@@ -712,7 +712,7 @@
 						<id>15</id>
 						<name>xor_ln66</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -720,7 +720,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
@@ -797,7 +797,7 @@
 						<id>16</id>
 						<name>select_ln66</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -805,93 +805,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
-								<second>
-									<count>5</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_activation.h</first>
-											<second>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
-										</first>
-										<second>239</second>
-									</item>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_common.h</first>
-											<second>operator()</second>
-										</first>
-										<second>66</second>
-									</item>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_common.h</first>
-											<second>reduce&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
-										</first>
-										<second>44</second>
-									</item>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_common.h</first>
-											<second>reduce&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
-										</first>
-										<second>46</second>
-									</item>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_common.h</first>
-											<second>reduce&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, 5, nnet::Op_max&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
-										</first>
-										<second>46</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>a</originalName>
-						<rtlName></rtlName>
-						<control>auto</control>
-						<opType>select</opType>
-						<implIndex>auto_sel</implIndex>
-						<coreName>Sel</coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>73</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>18</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>139</item>
-					<item>140</item>
-					<item>141</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.29</m_delay>
-				<m_topoIndex>8</m_topoIndex>
-				<m_clusterGroupNumber>1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_14">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>17</id>
-						<name>icmp_ln66_1</name>
-						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>66</lineNumber>
-						<contextFuncName>operator()</contextFuncName>
-						<contextNormFuncName>operator_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
@@ -936,7 +850,93 @@
 						<originalName></originalName>
 						<rtlName></rtlName>
 						<control>auto</control>
-						<opType>setlt</opType>
+						<opType>select</opType>
+						<implIndex>auto_sel</implIndex>
+						<coreName>Sel</coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>73</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>18</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>139</item>
+					<item>140</item>
+					<item>141</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.29</m_delay>
+				<m_topoIndex>8</m_topoIndex>
+				<m_clusterGroupNumber>1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_14">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>17</id>
+						<name>icmp_ln66_1</name>
+						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>66</lineNumber>
+						<contextFuncName>operator()</contextFuncName>
+						<contextNormFuncName>operator_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<second>
+									<count>5</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_activation.h</first>
+											<second>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
+										</first>
+										<second>239</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_common.h</first>
+											<second>operator()</second>
+										</first>
+										<second>66</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_common.h</first>
+											<second>reduce&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+										</first>
+										<second>44</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_common.h</first>
+											<second>reduce&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+										</first>
+										<second>46</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_common.h</first>
+											<second>reduce&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, 5, nnet::Op_max&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+										</first>
+										<second>46</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control>auto</control>
+						<opType>icmp</opType>
 						<implIndex>auto</implIndex>
 						<coreName>Cmp</coreName>
 						<isStorage>0</isStorage>
@@ -968,7 +968,7 @@
 						<id>18</id>
 						<name>xor_ln66_1</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -976,7 +976,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
@@ -1053,7 +1053,7 @@
 						<id>19</id>
 						<name>select_ln66_1</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -1061,7 +1061,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
@@ -1103,7 +1103,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>b</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control>auto</control>
 						<opType>select</opType>
@@ -1139,7 +1139,7 @@
 						<id>20</id>
 						<name>icmp_ln66_2</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -1147,7 +1147,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
@@ -1185,7 +1185,7 @@
 						<originalName></originalName>
 						<rtlName></rtlName>
 						<control>auto</control>
-						<opType>setlt</opType>
+						<opType>icmp</opType>
 						<implIndex>auto</implIndex>
 						<coreName>Cmp</coreName>
 						<isStorage>0</isStorage>
@@ -1217,7 +1217,7 @@
 						<id>21</id>
 						<name>xor_ln66_2</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -1225,7 +1225,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
@@ -1293,9 +1293,9 @@
 					<Obj>
 						<type>0</type>
 						<id>22</id>
-						<name>a</name>
+						<name>select_ln66_2</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -1303,7 +1303,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
@@ -1338,7 +1338,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>a</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control>auto</control>
 						<opType>select</opType>
@@ -1374,7 +1374,7 @@
 						<id>23</id>
 						<name>icmp_ln66_3</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -1382,7 +1382,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
@@ -1413,7 +1413,7 @@
 						<originalName></originalName>
 						<rtlName></rtlName>
 						<control>auto</control>
-						<opType>setlt</opType>
+						<opType>icmp</opType>
 						<implIndex>auto</implIndex>
 						<coreName>Cmp</coreName>
 						<isStorage>0</isStorage>
@@ -1445,7 +1445,7 @@
 						<id>24</id>
 						<name>xor_ln66_3</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -1453,7 +1453,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
@@ -1516,7 +1516,7 @@
 						<id>25</id>
 						<name>x_max</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -1524,7 +1524,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
@@ -1586,40 +1586,26 @@
 					<Obj>
 						<type>0</type>
 						<id>26</id>
-						<name>conv36_i</name>
-						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
-						<lineNumber>66</lineNumber>
-						<contextFuncName>operator()</contextFuncName>
-						<contextNormFuncName>operator_s</contextNormFuncName>
+						<name>sext_ln245</name>
+						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<lineNumber>245</lineNumber>
+						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
+						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
-									<count>3</count>
+									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
-										<second>239</second>
-									</item>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_common.h</first>
-											<second>operator()</second>
-										</first>
-										<second>66</second>
-									</item>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_common.h</first>
-											<second>reduce&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, 5, nnet::Op_max&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
-										</first>
-										<second>46</second>
+										<second>245</second>
 									</item>
 								</second>
 							</item>
@@ -1632,7 +1618,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874724864</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -1656,9 +1642,9 @@
 					<Obj>
 						<type>0</type>
 						<id>27</id>
-						<name>sext_ln245</name>
+						<name>sext_ln245_1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -1666,7 +1652,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1688,7 +1674,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874167712</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -1714,7 +1700,7 @@
 						<id>28</id>
 						<name>sub_ln245</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -1722,7 +1708,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1769,9 +1755,9 @@
 					<Obj>
 						<type>0</type>
 						<id>29</id>
-						<name>tmp</name>
+						<name>tmp_5</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -1779,7 +1765,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1801,7 +1787,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -1827,9 +1813,9 @@
 					<Obj>
 						<type>0</type>
 						<id>30</id>
-						<name>tmp_1</name>
+						<name>tmp_6</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -1837,7 +1823,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1859,7 +1845,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874980960</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -1887,7 +1873,7 @@
 						<id>31</id>
 						<name>xor_ln245</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -1895,7 +1881,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1944,7 +1930,7 @@
 						<id>32</id>
 						<name>and_ln245</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -1952,7 +1938,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2001,7 +1987,7 @@
 						<id>33</id>
 						<name>xor_ln245_1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2009,7 +1995,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2056,9 +2042,9 @@
 					<Obj>
 						<type>0</type>
 						<id>34</id>
-						<name>sext_ln245_1</name>
+						<name>sext_ln245_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2066,7 +2052,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2088,7 +2074,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1952541791</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2114,7 +2100,7 @@
 						<id>35</id>
 						<name>sub_ln245_1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2122,7 +2108,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2169,9 +2155,9 @@
 					<Obj>
 						<type>0</type>
 						<id>36</id>
-						<name>tmp_2</name>
+						<name>tmp_7</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2179,7 +2165,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2201,7 +2187,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874133408</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -2227,9 +2213,9 @@
 					<Obj>
 						<type>0</type>
 						<id>37</id>
-						<name>tmp_3</name>
+						<name>tmp_8</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2237,7 +2223,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2259,7 +2245,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1752440832</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -2287,7 +2273,7 @@
 						<id>38</id>
 						<name>xor_ln245_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2295,7 +2281,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2344,7 +2330,7 @@
 						<id>39</id>
 						<name>and_ln245_1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2352,7 +2338,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2401,7 +2387,7 @@
 						<id>40</id>
 						<name>xor_ln245_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2409,7 +2395,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2456,9 +2442,9 @@
 					<Obj>
 						<type>0</type>
 						<id>41</id>
-						<name>sext_ln245_2</name>
+						<name>sext_ln245_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2466,7 +2452,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2488,7 +2474,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2514,7 +2500,7 @@
 						<id>42</id>
 						<name>sub_ln245_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2522,7 +2508,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2569,9 +2555,9 @@
 					<Obj>
 						<type>0</type>
 						<id>43</id>
-						<name>tmp_4</name>
+						<name>tmp_9</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2579,7 +2565,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2601,7 +2587,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2873745376</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -2627,9 +2613,9 @@
 					<Obj>
 						<type>0</type>
 						<id>44</id>
-						<name>tmp_5</name>
+						<name>tmp_10</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2637,7 +2623,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2659,7 +2645,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2873756736</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -2687,7 +2673,7 @@
 						<id>45</id>
 						<name>xor_ln245_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2695,7 +2681,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2744,7 +2730,7 @@
 						<id>46</id>
 						<name>and_ln245_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2752,7 +2738,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2801,7 +2787,7 @@
 						<id>47</id>
 						<name>xor_ln245_5</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2809,7 +2795,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2856,9 +2842,9 @@
 					<Obj>
 						<type>0</type>
 						<id>48</id>
-						<name>sext_ln245_3</name>
+						<name>sext_ln245_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2866,7 +2852,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2888,7 +2874,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2875470352</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2914,7 +2900,7 @@
 						<id>49</id>
 						<name>sub_ln245_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2922,7 +2908,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2969,9 +2955,9 @@
 					<Obj>
 						<type>0</type>
 						<id>50</id>
-						<name>tmp_6</name>
+						<name>tmp_11</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -2979,7 +2965,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3001,7 +2987,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1210203513</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -3027,9 +3013,9 @@
 					<Obj>
 						<type>0</type>
 						<id>51</id>
-						<name>tmp_7</name>
+						<name>tmp_12</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3037,7 +3023,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3059,7 +3045,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1965178228</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -3087,7 +3073,7 @@
 						<id>52</id>
 						<name>xor_ln245_6</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3095,7 +3081,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3144,7 +3130,7 @@
 						<id>53</id>
 						<name>and_ln245_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3152,7 +3138,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3201,7 +3187,7 @@
 						<id>54</id>
 						<name>xor_ln245_7</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3209,7 +3195,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3256,9 +3242,9 @@
 					<Obj>
 						<type>0</type>
 						<id>55</id>
-						<name>sext_ln245_4</name>
+						<name>sext_ln245_5</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3266,7 +3252,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3288,7 +3274,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874725024</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -3314,7 +3300,7 @@
 						<id>56</id>
 						<name>sub_ln245_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3322,7 +3308,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3369,9 +3355,9 @@
 					<Obj>
 						<type>0</type>
 						<id>57</id>
-						<name>tmp_8</name>
+						<name>tmp_13</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3379,7 +3365,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3401,7 +3387,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2875105088</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -3427,9 +3413,9 @@
 					<Obj>
 						<type>0</type>
 						<id>58</id>
-						<name>tmp_9</name>
+						<name>tmp_14</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3437,7 +3423,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3459,7 +3445,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -3487,7 +3473,7 @@
 						<id>59</id>
 						<name>xor_ln245_8</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3495,7 +3481,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3544,7 +3530,7 @@
 						<id>60</id>
 						<name>and_ln245_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3552,7 +3538,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3601,7 +3587,7 @@
 						<id>61</id>
 						<name>xor_ln245_9</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3609,7 +3595,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3658,7 +3644,7 @@
 						<id>62</id>
 						<name>select_ln245</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3666,7 +3652,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3714,9 +3700,9 @@
 					<Obj>
 						<type>0</type>
 						<id>63</id>
-						<name>tmp_10</name>
+						<name>tmp</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>145</lineNumber>
 						<contextFuncName>softmax_idx_from_real_val&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_idx_from_real_val_ap_fixed_18_7_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3724,7 +3710,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -3753,7 +3739,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -3782,7 +3768,7 @@
 						<id>64</id>
 						<name>select_ln245_1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3790,7 +3776,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3840,7 +3826,7 @@
 						<id>65</id>
 						<name>zext_ln255</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3848,7 +3834,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3870,7 +3856,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -3896,7 +3882,7 @@
 						<id>66</id>
 						<name>exp_table_addr</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3904,7 +3890,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3926,7 +3912,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2875396992</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -3952,9 +3938,9 @@
 					<Obj>
 						<type>0</type>
 						<id>67</id>
-						<name>a_1</name>
+						<name>exp_table_load</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -3962,7 +3948,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3976,7 +3962,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>a</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control>auto</control>
 						<opType>rom</opType>
@@ -3984,7 +3970,7 @@
 						<coreName>ROM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>100</coreId>
+						<coreId>101</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -4010,7 +3996,7 @@
 						<id>68</id>
 						<name>select_ln245_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4018,7 +4004,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4066,9 +4052,9 @@
 					<Obj>
 						<type>0</type>
 						<id>69</id>
-						<name>tmp_11</name>
+						<name>tmp_1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>145</lineNumber>
 						<contextFuncName>softmax_idx_from_real_val&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_idx_from_real_val_ap_fixed_18_7_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4076,7 +4062,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -4105,7 +4091,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874587504</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -4134,7 +4120,7 @@
 						<id>70</id>
 						<name>select_ln245_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4142,7 +4128,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4192,7 +4178,7 @@
 						<id>71</id>
 						<name>zext_ln255_1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4200,7 +4186,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4222,7 +4208,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874810699</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -4248,7 +4234,7 @@
 						<id>72</id>
 						<name>exp_table_addr_1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4256,7 +4242,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4278,7 +4264,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874592768</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -4304,9 +4290,9 @@
 					<Obj>
 						<type>0</type>
 						<id>73</id>
-						<name>b</name>
+						<name>exp_table_load_1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4314,7 +4300,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4328,7 +4314,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>b</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control>auto</control>
 						<opType>rom</opType>
@@ -4336,7 +4322,7 @@
 						<coreName>ROM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>100</coreId>
+						<coreId>101</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -4362,7 +4348,7 @@
 						<id>74</id>
 						<name>select_ln245_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4370,7 +4356,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4418,9 +4404,9 @@
 					<Obj>
 						<type>0</type>
 						<id>75</id>
-						<name>tmp_12</name>
+						<name>tmp_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>145</lineNumber>
 						<contextFuncName>softmax_idx_from_real_val&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_idx_from_real_val_ap_fixed_18_7_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4428,7 +4414,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -4457,7 +4443,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -4486,7 +4472,7 @@
 						<id>76</id>
 						<name>select_ln245_5</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4494,7 +4480,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4544,7 +4530,7 @@
 						<id>77</id>
 						<name>zext_ln255_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4552,7 +4538,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4574,7 +4560,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -4600,7 +4586,7 @@
 						<id>78</id>
 						<name>exp_table_addr_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4608,7 +4594,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4630,7 +4616,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>842346041</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -4656,9 +4642,9 @@
 					<Obj>
 						<type>0</type>
 						<id>79</id>
-						<name>a_2</name>
+						<name>exp_table_load_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4666,7 +4652,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4680,7 +4666,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>a</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control>auto</control>
 						<opType>rom</opType>
@@ -4688,7 +4674,7 @@
 						<coreName>ROM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>100</coreId>
+						<coreId>101</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -4714,7 +4700,7 @@
 						<id>80</id>
 						<name>select_ln245_6</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4722,7 +4708,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4770,9 +4756,9 @@
 					<Obj>
 						<type>0</type>
 						<id>81</id>
-						<name>tmp_13</name>
+						<name>tmp_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>145</lineNumber>
 						<contextFuncName>softmax_idx_from_real_val&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_idx_from_real_val_ap_fixed_18_7_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4780,7 +4766,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -4809,7 +4795,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874161440</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -4838,7 +4824,7 @@
 						<id>82</id>
 						<name>select_ln245_7</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4846,7 +4832,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4896,7 +4882,7 @@
 						<id>83</id>
 						<name>zext_ln255_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4904,7 +4890,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4926,7 +4912,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -4952,7 +4938,7 @@
 						<id>84</id>
 						<name>exp_table_addr_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -4960,7 +4946,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4982,7 +4968,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>112</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -5008,9 +4994,9 @@
 					<Obj>
 						<type>0</type>
 						<id>85</id>
-						<name>b_1</name>
+						<name>exp_table_load_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -5018,7 +5004,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5032,7 +5018,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>b</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control>auto</control>
 						<opType>rom</opType>
@@ -5040,7 +5026,7 @@
 						<coreName>ROM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>100</coreId>
+						<coreId>101</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -5066,7 +5052,7 @@
 						<id>86</id>
 						<name>select_ln245_8</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -5074,7 +5060,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5122,9 +5108,9 @@
 					<Obj>
 						<type>0</type>
 						<id>87</id>
-						<name>tmp_14</name>
+						<name>tmp_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>145</lineNumber>
 						<contextFuncName>softmax_idx_from_real_val&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_idx_from_real_val_ap_fixed_18_7_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -5132,7 +5118,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -5161,7 +5147,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2875129904</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -5190,7 +5176,7 @@
 						<id>88</id>
 						<name>select_ln245_9</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>245</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -5198,7 +5184,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5248,7 +5234,7 @@
 						<id>89</id>
 						<name>zext_ln255_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -5256,7 +5242,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5278,7 +5264,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1948283493</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -5304,7 +5290,7 @@
 						<id>90</id>
 						<name>exp_table_addr_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -5312,7 +5298,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5334,7 +5320,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -5360,9 +5346,9 @@
 					<Obj>
 						<type>0</type>
 						<id>91</id>
-						<name>b_2</name>
+						<name>exp_table_load_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>255</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -5370,7 +5356,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5384,7 +5370,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>b</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control>auto</control>
 						<opType>rom</opType>
@@ -5392,7 +5378,7 @@
 						<coreName>ROM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>100</coreId>
+						<coreId>101</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -5418,7 +5404,7 @@
 						<id>92</id>
 						<name>add_ln51</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>51</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -5426,7 +5412,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
@@ -5489,7 +5475,7 @@
 						<id>93</id>
 						<name>add_ln51_1</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>51</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -5497,7 +5483,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
@@ -5560,7 +5546,7 @@
 						<id>94</id>
 						<name>add_ln51_2</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>51</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -5568,7 +5554,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
@@ -5631,7 +5617,7 @@
 						<id>95</id>
 						<name>exp_sum</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>51</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -5639,7 +5625,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
@@ -5702,7 +5688,7 @@
 						<id>96</id>
 						<name>tmp_s</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>145</lineNumber>
 						<contextFuncName>softmax_idx_from_real_val&amp;lt;ap_fixed&amp;lt;18, 8, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_idx_from_real_val_ap_fixed_18_8_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -5710,7 +5696,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -5739,7 +5725,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874956256</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -5768,7 +5754,7 @@
 						<id>97</id>
 						<name>zext_ln265</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>265</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -5776,7 +5762,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5798,7 +5784,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -5824,7 +5810,7 @@
 						<id>98</id>
 						<name>invert_table_addr</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>265</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -5832,7 +5818,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5854,7 +5840,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1416030886</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -5882,7 +5868,7 @@
 						<id>99</id>
 						<name>inv_exp_sum</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>265</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -5890,7 +5876,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5912,7 +5898,7 @@
 						<coreName>ROM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>100</coreId>
+						<coreId>101</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -5938,7 +5924,7 @@
 						<id>100</id>
 						<name>sext_ln268</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -5946,7 +5932,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5968,7 +5954,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>30</bitwidth>
@@ -5994,7 +5980,7 @@
 						<id>101</id>
 						<name>sext_ln268_1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6002,7 +5988,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6024,7 +6010,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874963504</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>30</bitwidth>
@@ -6050,7 +6036,7 @@
 						<id>102</id>
 						<name>mul_ln268</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6058,7 +6044,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6105,9 +6091,9 @@
 					<Obj>
 						<type>0</type>
 						<id>103</id>
-						<name>res_write_assign</name>
+						<name>trunc_ln1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6115,7 +6101,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6129,7 +6115,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -6137,7 +6123,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6166,7 +6152,7 @@
 						<id>104</id>
 						<name>sext_ln268_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6174,7 +6160,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6196,7 +6182,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874966368</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>30</bitwidth>
@@ -6222,7 +6208,7 @@
 						<id>105</id>
 						<name>mul_ln268_1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6230,7 +6216,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6277,9 +6263,9 @@
 					<Obj>
 						<type>0</type>
 						<id>106</id>
-						<name>res_write_assign_1</name>
+						<name>trunc_ln268_1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6287,7 +6273,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6301,7 +6287,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -6309,7 +6295,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2875239264</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6338,7 +6324,7 @@
 						<id>107</id>
 						<name>sext_ln268_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6346,7 +6332,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6368,7 +6354,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2875226032</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>30</bitwidth>
@@ -6394,7 +6380,7 @@
 						<id>108</id>
 						<name>mul_ln268_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6402,7 +6388,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6449,9 +6435,9 @@
 					<Obj>
 						<type>0</type>
 						<id>109</id>
-						<name>res_write_assign_2</name>
+						<name>trunc_ln268_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6459,7 +6445,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6473,7 +6459,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -6481,7 +6467,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874029328</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6510,7 +6496,7 @@
 						<id>110</id>
 						<name>sext_ln268_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6518,7 +6504,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6540,7 +6526,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>30</bitwidth>
@@ -6566,7 +6552,7 @@
 						<id>111</id>
 						<name>mul_ln268_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6574,7 +6560,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6621,9 +6607,9 @@
 					<Obj>
 						<type>0</type>
 						<id>112</id>
-						<name>res_write_assign_3</name>
+						<name>trunc_ln268_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6631,7 +6617,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6645,7 +6631,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -6653,7 +6639,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2875247968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6682,7 +6668,7 @@
 						<id>113</id>
 						<name>sext_ln268_5</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6690,7 +6676,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6712,7 +6698,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1599294536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>30</bitwidth>
@@ -6738,7 +6724,7 @@
 						<id>114</id>
 						<name>mul_ln268_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6746,7 +6732,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6793,9 +6779,9 @@
 					<Obj>
 						<type>0</type>
 						<id>115</id>
-						<name>res_write_assign_4</name>
+						<name>trunc_ln268_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>268</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6803,7 +6789,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6817,7 +6803,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -6825,7 +6811,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2875462944</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6854,7 +6840,7 @@
 						<id>116</id>
 						<name>mrv</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>270</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6862,7 +6848,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6884,7 +6870,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
@@ -6911,7 +6897,7 @@
 						<id>117</id>
 						<name>mrv_1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>270</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6919,7 +6905,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6941,7 +6927,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2875329944</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
@@ -6968,7 +6954,7 @@
 						<id>118</id>
 						<name>mrv_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>270</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -6976,7 +6962,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6998,7 +6984,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
@@ -7025,7 +7011,7 @@
 						<id>119</id>
 						<name>mrv_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>270</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -7033,7 +7019,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7055,7 +7041,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
@@ -7082,7 +7068,7 @@
 						<id>120</id>
 						<name>mrv_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>270</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -7090,7 +7076,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7112,7 +7098,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
@@ -7139,7 +7125,7 @@
 						<id>121</id>
 						<name>_ln270</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</fileDirectory>
 						<lineNumber>270</lineNumber>
 						<contextFuncName>softmax_stable&amp;lt;ap_fixed&amp;lt;18, 7, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_stable_ap_fixed_18_7_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -7147,7 +7133,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
+								<first>/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7169,7 +7155,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2875336752</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -7215,7 +7201,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>64</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -7246,7 +7232,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>480</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -7277,7 +7263,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -7308,7 +7294,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2875341920</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -7339,7 +7325,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -7370,7 +7356,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2875344560</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -7401,7 +7387,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2875345344</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -7432,7 +7418,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -7463,7 +7449,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -7494,7 +7480,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2874973488</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
@@ -7528,7 +7514,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>4294967295</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -7887,28 +7873,28 @@
 			<item class_id_reference="20" object_id="_163">
 				<id>163</id>
 				<edge_type>1</edge_type>
-				<source_obj>25</source_obj>
+				<source_obj>13</source_obj>
 				<sink_obj>26</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_164">
 				<id>164</id>
 				<edge_type>1</edge_type>
-				<source_obj>13</source_obj>
+				<source_obj>25</source_obj>
 				<sink_obj>27</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_165">
 				<id>165</id>
 				<edge_type>1</edge_type>
-				<source_obj>27</source_obj>
+				<source_obj>26</source_obj>
 				<sink_obj>28</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_166">
 				<id>166</id>
 				<edge_type>1</edge_type>
-				<source_obj>26</source_obj>
+				<source_obj>27</source_obj>
 				<sink_obj>28</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -7999,7 +7985,7 @@
 			<item class_id_reference="20" object_id="_179">
 				<id>184</id>
 				<edge_type>1</edge_type>
-				<source_obj>26</source_obj>
+				<source_obj>27</source_obj>
 				<sink_obj>35</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -8090,7 +8076,7 @@
 			<item class_id_reference="20" object_id="_192">
 				<id>199</id>
 				<edge_type>1</edge_type>
-				<source_obj>26</source_obj>
+				<source_obj>27</source_obj>
 				<sink_obj>42</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -8181,7 +8167,7 @@
 			<item class_id_reference="20" object_id="_205">
 				<id>214</id>
 				<edge_type>1</edge_type>
-				<source_obj>26</source_obj>
+				<source_obj>27</source_obj>
 				<sink_obj>49</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -8272,7 +8258,7 @@
 			<item class_id_reference="20" object_id="_218">
 				<id>229</id>
 				<edge_type>1</edge_type>
-				<source_obj>26</source_obj>
+				<source_obj>27</source_obj>
 				<sink_obj>56</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -11029,7 +11015,7 @@
 			</second>
 		</item>
 		<item>
-			<first>236</first>
+			<first>235</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -11689,14 +11675,6 @@
 		<count>101</count>
 		<item_version>0</item_version>
 		<item class_id="48" tracking_level="0" version="0">
-			<first>a_fu_208</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>22</item>
-			</second>
-		</item>
-		<item>
 			<first>add_ln51_1_fu_610</first>
 			<second>
 				<count>1</count>
@@ -11758,14 +11736,6 @@
 				<count>1</count>
 				<item_version>0</item_version>
 				<item>32</item>
-			</second>
-		</item>
-		<item>
-			<first>conv36_i_fu_232</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>26</item>
 			</second>
 		</item>
 		<item>
@@ -11937,46 +11907,6 @@
 			</second>
 		</item>
 		<item>
-			<first>res_write_assign_1_fu_672</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>106</item>
-			</second>
-		</item>
-		<item>
-			<first>res_write_assign_2_fu_691</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>109</item>
-			</second>
-		</item>
-		<item>
-			<first>res_write_assign_3_fu_710</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>112</item>
-			</second>
-		</item>
-		<item>
-			<first>res_write_assign_4_fu_729</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>115</item>
-			</second>
-		</item>
-		<item>
-			<first>res_write_assign_fu_653</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>103</item>
-			</second>
-		</item>
-		<item>
 			<first>select_ln245_1_fu_469</first>
 			<second>
 				<count>1</count>
@@ -12065,6 +11995,14 @@
 			</second>
 		</item>
 		<item>
+			<first>select_ln66_2_fu_208</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>22</item>
+			</second>
+		</item>
+		<item>
 			<first>select_ln66_fu_168</first>
 			<second>
 				<count>1</count>
@@ -12073,7 +12011,15 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln245_1_fu_279</first>
+			<first>sext_ln245_1_fu_235</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>27</item>
+			</second>
+		</item>
+		<item>
+			<first>sext_ln245_2_fu_279</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12081,7 +12027,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln245_2_fu_322</first>
+			<first>sext_ln245_3_fu_322</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12089,7 +12035,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln245_3_fu_365</first>
+			<first>sext_ln245_4_fu_365</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12097,7 +12043,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln245_4_fu_408</first>
+			<first>sext_ln245_5_fu_408</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12105,11 +12051,11 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln245_fu_236</first>
+			<first>sext_ln245_fu_232</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>27</item>
+				<item>26</item>
 			</second>
 		</item>
 		<item>
@@ -12201,79 +12147,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_10_fu_459</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>63</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_11_fu_485</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>69</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_12_fu_511</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>75</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_13_fu_542</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>81</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_14_fu_573</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>87</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_1_fu_253</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>30</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_2_fu_288</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>36</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_3_fu_296</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>37</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_4_fu_331</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>43</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_5_fu_339</first>
+			<first>tmp_10_fu_339</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12281,7 +12155,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_6_fu_374</first>
+			<first>tmp_11_fu_374</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12289,7 +12163,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_7_fu_382</first>
+			<first>tmp_12_fu_382</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12297,7 +12171,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_8_fu_417</first>
+			<first>tmp_13_fu_417</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12305,7 +12179,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_9_fu_425</first>
+			<first>tmp_14_fu_425</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12313,11 +12187,83 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_fu_245</first>
+			<first>tmp_1_fu_485</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>69</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_2_fu_511</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>75</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_3_fu_542</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>81</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_4_fu_573</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>87</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_5_fu_245</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
 				<item>29</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_6_fu_253</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>30</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_7_fu_288</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>36</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_8_fu_296</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>37</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_9_fu_331</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>43</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_fu_459</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>63</item>
 			</second>
 		</item>
 		<item>
@@ -12326,6 +12272,46 @@
 				<count>1</count>
 				<item_version>0</item_version>
 				<item>96</item>
+			</second>
+		</item>
+		<item>
+			<first>trunc_ln1_fu_653</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>103</item>
+			</second>
+		</item>
+		<item>
+			<first>trunc_ln268_1_fu_672</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>106</item>
+			</second>
+		</item>
+		<item>
+			<first>trunc_ln268_2_fu_691</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>109</item>
+			</second>
+		</item>
+		<item>
+			<first>trunc_ln268_3_fu_710</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>112</item>
+			</second>
+		</item>
+		<item>
+			<first>trunc_ln268_4_fu_729</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>115</item>
 			</second>
 		</item>
 		<item>
@@ -12785,54 +12771,6 @@
 		<count>19</count>
 		<item_version>0</item_version>
 		<item>
-			<first>a_1_reg_855</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>67</item>
-			</second>
-		</item>
-		<item>
-			<first>a_2_reg_837</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>79</item>
-			</second>
-		</item>
-		<item>
-			<first>a_reg_796</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>22</item>
-			</second>
-		</item>
-		<item>
-			<first>b_1_reg_843</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>85</item>
-			</second>
-		</item>
-		<item>
-			<first>b_2_reg_849</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>91</item>
-			</second>
-		</item>
-		<item>
-			<first>b_reg_860</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>73</item>
-			</second>
-		</item>
-		<item>
 			<first>data_0_val_read_reg_791</first>
 			<second>
 				<count>1</count>
@@ -12913,6 +12851,46 @@
 			</second>
 		</item>
 		<item>
+			<first>exp_table_load_1_reg_860</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>73</item>
+			</second>
+		</item>
+		<item>
+			<first>exp_table_load_2_reg_837</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>79</item>
+			</second>
+		</item>
+		<item>
+			<first>exp_table_load_3_reg_843</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>85</item>
+			</second>
+		</item>
+		<item>
+			<first>exp_table_load_4_reg_849</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>91</item>
+			</second>
+		</item>
+		<item>
+			<first>exp_table_load_reg_855</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>67</item>
+			</second>
+		</item>
+		<item>
 			<first>invert_table_addr_reg_865</first>
 			<second>
 				<count>1</count>
@@ -12934,6 +12912,14 @@
 				<count>1</count>
 				<item_version>0</item_version>
 				<item>70</item>
+			</second>
+		</item>
+		<item>
+			<first>select_ln66_2_reg_796</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>22</item>
 			</second>
 		</item>
 	</dp_regname_nodes>
@@ -13034,7 +13020,7 @@
 		<item>
 			<first>14</first>
 			<second>
-				<first>530</first>
+				<first>45</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -13055,7 +13041,7 @@
 		<item>
 			<first>17</first>
 			<second>
-				<first>530</first>
+				<first>45</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -13076,7 +13062,7 @@
 		<item>
 			<first>20</first>
 			<second>
-				<first>530</first>
+				<first>45</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -13097,7 +13083,7 @@
 		<item>
 			<first>23</first>
 			<second>
-				<first>530</first>
+				<first>45</first>
 				<second>0</second>
 			</second>
 		</item>
