@@ -1,0 +1,1032 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /opt/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/opt/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'enlupi' on host 'olhsw-01.cern.ch' (Linux_x86_64 version 5.14.0-427.42.1.el9_4.x86_64) on Fri Oct 17 12:06:22 CEST 2025
+INFO: [HLS 200-10] On os "AlmaLinux release 9.3 (Shamrock Pampas Cat)"
+INFO: [HLS 200-10] In directory '/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj'
+INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script 'build_prj.tcl'
+INFO: [HLS 200-1510] Running: open_project myproject_prj 
+INFO: [HLS 200-10] Opening project '/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj'.
+INFO: [HLS 200-1510] Running: set_top myproject 
+INFO: [HLS 200-1510] Running: add_files firmware/myproject.cpp -cflags -std=c++0x 
+INFO: [HLS 200-10] Adding design file 'firmware/myproject.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb myproject_test.cpp -cflags -std=c++0x 
+INFO: [HLS 200-10] Adding test bench file 'myproject_test.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb firmware/weights 
+INFO: [HLS 200-10] Adding test bench file 'firmware/weights' to the project
+INFO: [HLS 200-1510] Running: add_files -tb tb_data 
+INFO: [HLS 200-10] Adding test bench file 'tb_data' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 
+INFO: [HLS 200-10] Opening solution '/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 1.35ns.
+INFO: [HLS 200-1611] Setting target device to 'xcu250-figd2104-2L-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_compile -name_max_length=80
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+INFO: [HLS 200-1464] Running solution command: config_schedule -enable_dsp_full_reg=0
+INFO: [HLS 200-1510] Running: config_array_partition -maximum_size 4096 
+INFO: [XFORM 203-101] Allowed max sub elements number after partition is 4096.
+ERROR: [HLS 200-642] The 'config_array_partition -maximum_size' command is not supported.
+INFO: [HLS 200-1510] Running: config_compile -name_max_length 80 
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+INFO: [HLS 200-1510] Running: set_part xcu250-figd2104-2L-e 
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+INFO: [HLS 200-1510] Running: config_schedule -enable_dsp_full_reg=false 
+INFO: [HLS 200-1510] Running: create_clock -period 5 -name default 
+INFO: [HLS 200-1510] Running: set_clock_uncertainty 27% default 
+***** C SIMULATION *****
+INFO: [HLS 200-1510] Running: csim_design 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../myproject_test.cpp in debug mode
+   Compiling ../../../../firmware/myproject.cpp in debug mode
+   Generating csim.exe
+INFO: Unable to open input/predictions file, using default input.
+-0.375 -0.5625 1.21875 -1.21875 -1.1875 
+-0.375 -0.5625 1.21875 -1.21875 -1.1875 
+-0.375 -0.5625 1.21875 -1.21875 -1.1875 
+-0.375 -0.5625 1.21875 -1.21875 -1.1875 
+-0.375 -0.5625 1.21875 -1.21875 -1.1875 
+INFO: Saved inference results to file: tb_data/csim_results.log
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 6.62 seconds. CPU system time: 0.73 seconds. Elapsed time: 7.82 seconds; current allocated memory: 0.000 MB.
+***** C SIMULATION COMPLETED IN 0h0m7s *****
+***** C/RTL SYNTHESIS *****
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 283.098 MB.
+INFO: [HLS 200-10] Analyzing design file 'firmware/myproject.cpp' ... 
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (firmware/nnet_utils/nnet_dense_resource.h:33:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (firmware/nnet_utils/nnet_dense_resource.h:107:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (firmware/nnet_utils/nnet_dense_resource.h:189:9)
+WARNING: [HLS 207-5292] unused parameter 'keep' (firmware/nnet_utils/nnet_helpers.h:285:99)
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_function_stubs.h:14:36)
+WARNING: [HLS 207-5292] unused parameter 'buffer' (firmware/nnet_utils/nnet_function_stubs.h:15:36)
+WARNING: [HLS 207-5292] unused parameter 'partition' (firmware/nnet_utils/nnet_function_stubs.h:16:44)
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_function_stubs.h:24:24)
+WARNING: [HLS 207-5292] unused parameter 'buffer' (firmware/nnet_utils/nnet_function_stubs.h:25:24)
+WARNING: [HLS 207-5292] unused parameter 'partition' (firmware/nnet_utils/nnet_function_stubs.h:26:32)
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_function_stubs.h:33:30)
+WARNING: [HLS 207-5292] unused parameter 'res' (firmware/nnet_utils/nnet_function_stubs.h:33:58)
+WARNING: [HLS 207-5292] unused parameter 'weights' (firmware/nnet_utils/nnet_function_stubs.h:34:51)
+WARNING: [HLS 207-5292] unused parameter 'biases' (firmware/nnet_utils/nnet_function_stubs.h:35:49)
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_function_stubs.h:42:30)
+WARNING: [HLS 207-5292] unused parameter 'res' (firmware/nnet_utils/nnet_function_stubs.h:42:58)
+WARNING: [HLS 207-5292] unused parameter 'weights' (firmware/nnet_utils/nnet_function_stubs.h:43:51)
+WARNING: [HLS 207-5292] unused parameter 'biases' (firmware/nnet_utils/nnet_function_stubs.h:44:49)
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_function_stubs.h:51:29)
+WARNING: [HLS 207-5292] unused parameter 'res' (firmware/nnet_utils/nnet_function_stubs.h:51:80)
+WARNING: [HLS 207-5292] unused parameter 'weights' (firmware/nnet_utils/nnet_function_stubs.h:52:50)
+WARNING: [HLS 207-5292] unused parameter 'biases' (firmware/nnet_utils/nnet_function_stubs.h:53:48)
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_code_gen.h:16:39)
+WARNING: [HLS 207-5292] unused parameter 'res' (firmware/nnet_utils/nnet_code_gen.h:17:38)
+WARNING: [HLS 207-5292] unused parameter 'weights' (firmware/nnet_utils/nnet_code_gen.h:18:60)
+WARNING: [HLS 207-5292] unused parameter 'biases' (firmware/nnet_utils/nnet_code_gen.h:19:58)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 11.9 seconds. CPU system time: 1.07 seconds. Elapsed time: 13.8 seconds; current allocated memory: 289.680 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 17,668 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 250,375 instructions in the design after the 'Unroll/Inline' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 68,242 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 68,567 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 67,534 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 45,442 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 9,488 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 9,488 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 9,504 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 9,369 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 8,733 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 8,072 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 8,072 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 8,072 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 8,078 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 8,087 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config3::weight_t*, config3::bias_t*)' (firmware/nnet_utils/nnet_dense_latency.h:42:27)
+INFO: [HLS 214-131] Inlining function 'nnet::DenseLatency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>::dense(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' into 'void nnet::dense<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config3::weight_t*, config3::bias_t*)' (firmware/nnet_utils/nnet_dense.h:45:2)
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config8::weight_t*, config8::bias_t*)' (firmware/nnet_utils/nnet_dense_latency.h:42:27)
+INFO: [HLS 214-131] Inlining function 'nnet::DenseLatency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>::dense(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' into 'void nnet::dense<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config8::weight_t*, config8::bias_t*)' (firmware/nnet_utils/nnet_dense.h:45:2)
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config13>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config13::weight_t*, config13::bias_t*)' (firmware/nnet_utils/nnet_dense_latency.h:42:27)
+INFO: [HLS 214-131] Inlining function 'nnet::DenseLatency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config13>::dense(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' into 'void nnet::dense<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config13>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config13::weight_t*, config13::bias_t*)' (firmware/nnet_utils/nnet_dense.h:45:2)
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config18>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config18::weight_t*, config18::bias_t*)' (firmware/nnet_utils/nnet_dense_latency.h:42:27)
+INFO: [HLS 214-131] Inlining function 'nnet::DenseLatency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config18>::dense(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' into 'void nnet::dense<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config18>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config18::weight_t*, config18::bias_t*)' (firmware/nnet_utils/nnet_dense.h:45:2)
+INFO: [HLS 214-131] Inlining function 'void nnet::h_quantize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' into 'myproject(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (firmware/myproject.cpp:40:2)
+INFO: [HLS 214-131] Inlining function 'void nnet::h_dense_3_quantizer<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' into 'myproject(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (firmware/myproject.cpp:82:5)
+INFO: [HLS 214-131] Inlining function 'void nnet::dense<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config18>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config18::weight_t*, config18::bias_t*)' into 'myproject(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (firmware/myproject.cpp:80:2)
+INFO: [HLS 214-131] Inlining function 'void nnet::dense<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config3::weight_t*, config3::bias_t*)' into 'myproject(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (firmware/myproject.cpp:44:2)
+INFO: [HLS 214-131] Inlining function 'void nnet::h_dense_relu_quantizer<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' into 'myproject(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (firmware/myproject.cpp:52:2)
+INFO: [HLS 214-131] Inlining function 'void nnet::h_dense_2_relu_quantizer<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' into 'myproject(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (firmware/myproject.cpp:76:2)
+INFO: [HLS 214-131] Inlining function 'void nnet::dense<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config8::weight_t*, config8::bias_t*)' into 'myproject(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (firmware/myproject.cpp:56:2)
+INFO: [HLS 214-131] Inlining function 'void nnet::h_dense_1_relu_quantizer<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' into 'myproject(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (firmware/myproject.cpp:64:2)
+INFO: [HLS 214-131] Inlining function 'void nnet::dense<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config13>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config13::weight_t*, config13::bias_t*)' into 'myproject(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (firmware/myproject.cpp:68:2)
+INFO: [HLS 214-291] Loop 'Result' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_dense_latency.h:64:5)
+INFO: [HLS 214-291] Loop 'Accum1' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_dense_latency.h:54:5)
+INFO: [HLS 214-291] Loop 'Accum2' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_dense_latency.h:56:9)
+INFO: [HLS 214-291] Loop 'ResetAccum' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_dense_latency.h:48:5)
+INFO: [HLS 214-291] Loop 'Product1' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_dense_latency.h:37:5)
+INFO: [HLS 214-291] Loop 'Product2' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_dense_latency.h:40:9)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_43_1' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_activation.h:43:22)
+INFO: [HLS 214-186] Unrolling loop 'Result' (firmware/nnet_utils/nnet_dense_latency.h:64:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config18>' completely with a factor of 5 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Accum1' (firmware/nnet_utils/nnet_dense_latency.h:54:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config18>' completely with a factor of 32 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Accum2' (firmware/nnet_utils/nnet_dense_latency.h:56:9) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config18>' completely with a factor of 5 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'ResetAccum' (firmware/nnet_utils/nnet_dense_latency.h:48:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config18>' completely with a factor of 5 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Product1' (firmware/nnet_utils/nnet_dense_latency.h:37:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config18>' completely with a factor of 32 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Product2' (firmware/nnet_utils/nnet_dense_latency.h:40:9) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config18>' completely with a factor of 5 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_43_1' (firmware/nnet_utils/nnet_activation.h:43:22) in function 'nnet::relu<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ReLU_config16>' completely with a factor of 32 (firmware/nnet_utils/nnet_activation.h:39:0)
+INFO: [HLS 214-186] Unrolling loop 'Result' (firmware/nnet_utils/nnet_dense_latency.h:64:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config13>' completely with a factor of 32 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Accum1' (firmware/nnet_utils/nnet_dense_latency.h:54:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config13>' completely with a factor of 32 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Accum2' (firmware/nnet_utils/nnet_dense_latency.h:56:9) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config13>' completely with a factor of 32 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'ResetAccum' (firmware/nnet_utils/nnet_dense_latency.h:48:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config13>' completely with a factor of 32 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Product1' (firmware/nnet_utils/nnet_dense_latency.h:37:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config13>' completely with a factor of 32 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Product2' (firmware/nnet_utils/nnet_dense_latency.h:40:9) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config13>' completely with a factor of 32 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_43_1' (firmware/nnet_utils/nnet_activation.h:43:22) in function 'nnet::relu<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ReLU_config11>' completely with a factor of 32 (firmware/nnet_utils/nnet_activation.h:39:0)
+INFO: [HLS 214-186] Unrolling loop 'Result' (firmware/nnet_utils/nnet_dense_latency.h:64:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>' completely with a factor of 32 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Accum1' (firmware/nnet_utils/nnet_dense_latency.h:54:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>' completely with a factor of 64 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Accum2' (firmware/nnet_utils/nnet_dense_latency.h:56:9) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>' completely with a factor of 32 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'ResetAccum' (firmware/nnet_utils/nnet_dense_latency.h:48:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>' completely with a factor of 32 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Product1' (firmware/nnet_utils/nnet_dense_latency.h:37:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>' completely with a factor of 64 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Product2' (firmware/nnet_utils/nnet_dense_latency.h:40:9) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>' completely with a factor of 32 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_43_1' (firmware/nnet_utils/nnet_activation.h:43:22) in function 'nnet::relu<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ReLU_config6>' completely with a factor of 64 (firmware/nnet_utils/nnet_activation.h:39:0)
+INFO: [HLS 214-186] Unrolling loop 'Result' (firmware/nnet_utils/nnet_dense_latency.h:64:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>' completely with a factor of 64 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Accum1' (firmware/nnet_utils/nnet_dense_latency.h:54:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>' completely with a factor of 16 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Accum2' (firmware/nnet_utils/nnet_dense_latency.h:56:9) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>' completely with a factor of 64 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'ResetAccum' (firmware/nnet_utils/nnet_dense_latency.h:48:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>' completely with a factor of 64 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Product1' (firmware/nnet_utils/nnet_dense_latency.h:37:5) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>' completely with a factor of 16 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-186] Unrolling loop 'Product2' (firmware/nnet_utils/nnet_dense_latency.h:40:9) in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>' completely with a factor of 64 (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-178] Inlining function 'std::enable_if<!(std::is_same<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_uint<1> >::value), ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::type nnet::cast<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>(config8::accum_t)' into 'void nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config8::weight_t*, config8::bias_t*)' (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-178] Inlining function 'std::enable_if<!(std::is_same<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_uint<1> >::value), ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::type nnet::cast<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config13>(config13::accum_t)' into 'void nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config13>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config13::weight_t*, config13::bias_t*)' (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-178] Inlining function 'std::enable_if<!(std::is_same<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_uint<1> >::value), ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::type nnet::cast<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config18>(config18::accum_t)' into 'void nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config18>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config18::weight_t*, config18::bias_t*)' (firmware/nnet_utils/nnet_dense_latency.h:15:0)
+INFO: [HLS 214-248] Applying array_partition to 'b18': Complete partitioning on dimension 1. (firmware/weights/b18.h:12:0)
+INFO: [HLS 214-248] Applying array_partition to 'b13': Complete partitioning on dimension 1. (firmware/weights/b13.h:12:0)
+INFO: [HLS 214-248] Applying array_partition to 'b8': Complete partitioning on dimension 1. (firmware/weights/b8.h:12:0)
+INFO: [HLS 214-248] Applying array_partition to 'b3': Complete partitioning on dimension 1. (firmware/weights/b3.h:12:0)
+INFO: [HLS 214-248] Applying array_partition to 'mult': Complete partitioning on dimension 1. (firmware/nnet_utils/nnet_dense_latency.h:17:32)
+INFO: [HLS 214-248] Applying array_partition to 'layer2_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:38:11)
+INFO: [HLS 214-248] Applying array_partition to 'layer3_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:42:14)
+INFO: [HLS 214-248] Applying array_partition to 'layer6_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:46:14)
+INFO: [HLS 214-248] Applying array_partition to 'layer7_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:50:14)
+INFO: [HLS 214-248] Applying array_partition to 'layer8_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:54:14)
+INFO: [HLS 214-248] Applying array_partition to 'layer11_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:58:15)
+INFO: [HLS 214-248] Applying array_partition to 'layer12_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:62:15)
+INFO: [HLS 214-248] Applying array_partition to 'layer13_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:66:15)
+INFO: [HLS 214-248] Applying array_partition to 'layer16_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:70:15)
+INFO: [HLS 214-248] Applying array_partition to 'layer17_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:74:15)
+INFO: [HLS 214-248] Applying array_partition to 'layer18_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:78:15)
+INFO: [HLS 214-248] Applying array_partition to 'layer20_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:10:0)
+INFO: [HLS 214-248] Applying array_reshape to 'input_1': Complete reshaping on dimension 1. (firmware/myproject.cpp:10:0)
+INFO: [HLS 214-364] Automatically inlining function 'std::enable_if<!(std::is_same<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_uint<1> >::value), ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::type nnet::cast<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>(config3::accum_t)' to improve effectiveness of pipeline pragma in function 'void nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config3::weight_t*, config3::bias_t*)' (firmware/nnet_utils/nnet_dense_latency.h:66:21)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 71.76 seconds. CPU system time: 0.89 seconds. Elapsed time: 75.57 seconds; current allocated memory: 295.750 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 295.750 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.2 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.3 seconds; current allocated memory: 302.551 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.18 seconds. CPU system time: 0 seconds. Elapsed time: 0.19 seconds; current allocated memory: 305.449 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>' (firmware/nnet_utils/nnet_dense_latency.h:33:21)...242 expression(s) balanced.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>' (firmware/nnet_utils/nnet_dense_latency.h:33:27)...307 expression(s) balanced.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config18>' (firmware/nnet_utils/nnet_dense_latency.h:33:1)...61 expression(s) balanced.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config13>' (firmware/nnet_utils/nnet_dense_latency.h:33:21)...130 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.43 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.44 seconds; current allocated memory: 333.840 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.46 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.49 seconds; current allocated memory: 410.129 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'myproject' ...
+WARNING: [SYN 201-103] Legalizing function name 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>' to 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s'.
+WARNING: [SYN 201-103] Legalizing function name 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, ReLU_config6>' to 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config6_s'.
+WARNING: [SYN 201-103] Legalizing function name 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>' to 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s'.
+WARNING: [SYN 201-103] Legalizing function name 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, ReLU_config11>' to 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config11_s'.
+WARNING: [SYN 201-103] Legalizing function name 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config13>' to 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s'.
+WARNING: [SYN 201-103] Legalizing function name 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, ReLU_config16>' to 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config16_s'.
+WARNING: [SYN 201-103] Legalizing function name 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config18>' to 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s'.
+WARNING: [SYN 201-223] Checking resource limit in 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>': cannot find any operation of 'mul'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.71 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.79 seconds; current allocated memory: 418.480 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Starting global binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.18 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.2 seconds; current allocated memory: 418.480 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config6_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, ReLU_config6>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, ReLU_config6>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.15 seconds. CPU system time: 0 seconds. Elapsed time: 0.17 seconds; current allocated memory: 418.637 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 418.883 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.46 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.47 seconds; current allocated memory: 425.070 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.12 seconds. CPU system time: 0 seconds. Elapsed time: 0.13 seconds; current allocated memory: 425.070 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config11_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, ReLU_config11>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, ReLU_config11>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.12 seconds; current allocated memory: 425.219 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 425.398 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config13>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config13>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.29 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.31 seconds; current allocated memory: 429.625 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Starting global binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 429.625 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config16_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, ReLU_config16>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, ReLU_config16>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 429.707 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 429.941 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config18>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config18>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.2 seconds. CPU system time: 0 seconds. Elapsed time: 0.2 seconds; current allocated memory: 432.578 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Starting global binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 432.578 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'myproject' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'myproject'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 9, function 'myproject'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.22 seconds. CPU system time: 0 seconds. Elapsed time: 0.22 seconds; current allocated memory: 434.043 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 434.840 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mul_14s_11ns_25_1_0': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_14s_12ns_26_1_0': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_15s_14s_26_1_0': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.21 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.24 seconds; current allocated memory: 443.938 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config6_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config6_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.39 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.45 seconds; current allocated memory: 461.660 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.19 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.21 seconds; current allocated memory: 469.418 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config11_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config11_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.31 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.35 seconds; current allocated memory: 485.305 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_10ns_26_1_0': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.13 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.14 seconds; current allocated memory: 488.016 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config16_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config16_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.2 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.24 seconds; current allocated memory: 497.441 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mul_15ns_10ns_24_1_0': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_15ns_10s_25_1_0': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_15ns_9ns_23_1_0': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_15ns_9s_24_1_0': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.13 seconds; current allocated memory: 500.957 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'myproject' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/input_1' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer20_out_0' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer20_out_1' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer20_out_2' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer20_out_3' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer20_out_4' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'myproject' to 'ap_ctrl_hs'.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'myproject' pipeline 'myproject' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'myproject'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.24 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.27 seconds; current allocated memory: 513.160 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.34 seconds. CPU system time: 0.06 seconds. Elapsed time: 0.4 seconds; current allocated memory: 519.203 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.68 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.71 seconds; current allocated memory: 532.586 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for myproject.
+INFO: [VLOG 209-307] Generating Verilog RTL for myproject.
+INFO: [HLS 200-789] **** Estimated Fmax: 276.63 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 90.64 seconds. CPU system time: 2.45 seconds. Elapsed time: 97.09 seconds; current allocated memory: 249.582 MB.
+***** C/RTL SYNTHESIS COMPLETED IN 0h1m37s *****
+***** VIVADO SYNTHESIS *****
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source vivado_synth.tcl
+# set tcldir [file dirname [info script]]
+# source [file join $tcldir project.tcl]
+## variable project_name
+## set project_name "myproject"
+## variable backend
+## set backend "vitis"
+## variable part
+## set part "xcu250-figd2104-2L-e"
+## variable clock_period
+## set clock_period 5
+## variable clock_uncertainty
+## set clock_uncertainty 27%
+## variable version
+## set version "1.0.0"
+## variable maximum_size
+## set maximum_size 4096
+# add_files ${project_name}_prj/solution1/syn/verilog
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1554.152 ; gain = 129.836 ; free physical = 69622 ; free virtual = 118572
+# synth_design -top ${project_name} -part $part
+Command: synth_design -top myproject -part xcu250-figd2104-2L-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcu250'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcu250'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2932188
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1977.742 ; gain = 412.668 ; free physical = 68905 ; free virtual = 117869
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'myproject' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_14s_11ns_25_1_0' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_14s_11ns_25_1_0.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 14 - type: integer 
+	Parameter din1_WIDTH bound to: 11 - type: integer 
+	Parameter dout_WIDTH bound to: 25 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_14s_11ns_25_1_0' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_14s_11ns_25_1_0.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_15s_14s_26_1_0' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_15s_14s_26_1_0.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 15 - type: integer 
+	Parameter din1_WIDTH bound to: 14 - type: integer 
+	Parameter dout_WIDTH bound to: 26 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_15s_14s_26_1_0' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_15s_14s_26_1_0.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_14s_12ns_26_1_0' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_14s_12ns_26_1_0.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 14 - type: integer 
+	Parameter din1_WIDTH bound to: 12 - type: integer 
+	Parameter dout_WIDTH bound to: 26 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_14s_12ns_26_1_0' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_14s_12ns_26_1_0.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config6_s' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config6_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config6_s' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config6_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config11_s' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config11_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config11_s' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config11_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_16s_10ns_26_1_0' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_10ns_26_1_0.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 10 - type: integer 
+	Parameter dout_WIDTH bound to: 26 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_16s_10ns_26_1_0' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_16s_10ns_26_1_0.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config16_s' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config16_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config16_s' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config16_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_15ns_9ns_23_1_0' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_15ns_9ns_23_1_0.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 15 - type: integer 
+	Parameter din1_WIDTH bound to: 9 - type: integer 
+	Parameter dout_WIDTH bound to: 23 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_15ns_9ns_23_1_0' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_15ns_9ns_23_1_0.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_15ns_10ns_24_1_0' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_15ns_10ns_24_1_0.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 15 - type: integer 
+	Parameter din1_WIDTH bound to: 10 - type: integer 
+	Parameter dout_WIDTH bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_15ns_10ns_24_1_0' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_15ns_10ns_24_1_0.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_15ns_9s_24_1_0' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_15ns_9s_24_1_0.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 15 - type: integer 
+	Parameter din1_WIDTH bound to: 9 - type: integer 
+	Parameter dout_WIDTH bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_15ns_9s_24_1_0' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_15ns_9s_24_1_0.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_15ns_10s_25_1_0' [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_15ns_10s_25_1_0.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 15 - type: integer 
+	Parameter din1_WIDTH bound to: 10 - type: integer 
+	Parameter dout_WIDTH bound to: 25 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_15ns_10s_25_1_0' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_mul_15ns_10s_25_1_0.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject' (0#1) [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject.v:9]
+WARNING: [Synth 8-3936] Found unconnected internal register 'input_1_in_sig_reg' and it is trimmed from '256' to '254' bits. [/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/myproject_prj/solution1/syn/verilog/myproject.v:1017]
+WARNING: [Synth 8-3917] design myproject has port layer20_out_0[4] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_0[3] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_0[2] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_0[1] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_0[0] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_1[3] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_1[2] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_1[1] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_1[0] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_2[4] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_2[3] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_2[2] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_2[1] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_2[0] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_3[3] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_3[2] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_3[1] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_3[0] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_4[4] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_4[3] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_4[2] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_4[1] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_4[0] driven by constant 0
+WARNING: [Synth 8-7129] Port ap_rst in module myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_1_val[1] in module myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_1_val[0] in module myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ap_rst in module myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ap_rst in module myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_60_val[1] in module myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_60_val[0] in module myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ap_rst in module myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2084.680 ; gain = 519.605 ; free physical = 68789 ; free virtual = 117756
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2102.492 ; gain = 537.418 ; free physical = 68780 ; free virtual = 117748
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcu250-figd2104-2L-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+INFO: [Device 21-403] Loading part xcu250-figd2104-2L-e
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2116.434 ; gain = 551.359 ; free physical = 68773 ; free virtual = 117740
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2217.941 ; gain = 652.867 ; free physical = 68651 ; free virtual = 117630
+---------------------------------------------------------------------------------
+# Minor page faults: 224360 Major page faults: 6303
+# Thrashing Detected!
+# Process may be trying to use more memory than is available
+# (memory might be consumed by other processes or file cache).
+# Minor page faults: 224363 Major page faults: 6303
+# Thrashing Detected!
+# Process may be trying to use more memory than is available
+# (memory might be consumed by other processes or file cache).
+# Minor page faults: 224363 Major page faults: 6303
+# Thrashing Detected!
+# Process may be trying to use more memory than is available
+# (memory might be consumed by other processes or file cache).
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   26 Bit       Adders := 33    
+	   2 Input   26 Bit       Adders := 10    
+	   3 Input   25 Bit       Adders := 17    
+	   2 Input   25 Bit       Adders := 6     
+	   3 Input   24 Bit       Adders := 14    
+	   2 Input   24 Bit       Adders := 5     
+	   3 Input   23 Bit       Adders := 17    
+	   2 Input   23 Bit       Adders := 2     
+	   3 Input   22 Bit       Adders := 1     
+	   5 Input   16 Bit       Adders := 7     
+	  10 Input   16 Bit       Adders := 6     
+	   7 Input   16 Bit       Adders := 5     
+	   3 Input   16 Bit       Adders := 17    
+	   2 Input   16 Bit       Adders := 9     
+	   9 Input   16 Bit       Adders := 7     
+	   6 Input   16 Bit       Adders := 11    
+	   8 Input   16 Bit       Adders := 5     
+	  11 Input   16 Bit       Adders := 9     
+	   4 Input   16 Bit       Adders := 9     
+	  12 Input   16 Bit       Adders := 3     
+	  15 Input   16 Bit       Adders := 2     
+	  14 Input   16 Bit       Adders := 1     
+	  19 Input   16 Bit       Adders := 1     
+	  17 Input   16 Bit       Adders := 1     
+	  18 Input   16 Bit       Adders := 2     
+	   2 Input   15 Bit       Adders := 47    
+	   3 Input   15 Bit       Adders := 5     
+	   6 Input   15 Bit       Adders := 1     
+	   2 Input   14 Bit       Adders := 46    
+	   3 Input   14 Bit       Adders := 4     
+	   2 Input   13 Bit       Adders := 29    
+	   3 Input   13 Bit       Adders := 3     
+	   2 Input   12 Bit       Adders := 14    
+	   3 Input   12 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 9     
+	   2 Input   10 Bit       Adders := 9     
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    7 Bit       Adders := 4     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 3     
++---Registers : 
+	              256 Bit    Registers := 1     
+	               16 Bit    Registers := 138   
+	               15 Bit    Registers := 6     
+	               14 Bit    Registers := 1     
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 4     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 8     
+	                7 Bit    Registers := 15    
+	                6 Bit    Registers := 18    
+	                5 Bit    Registers := 14    
+	                4 Bit    Registers := 8     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input  254 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 60    
+	   2 Input   15 Bit        Muxes := 55    
+	   2 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 12288 (col length:96)
+BRAMs: 5376 (col length: RAMB18 384 RAMB36 192)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP mul_14s_11ns_25_1_0_U1/tmp_product, operation Mode is: A*(B:0x260).
+DSP Report: operator mul_14s_11ns_25_1_0_U1/tmp_product is absorbed into DSP mul_14s_11ns_25_1_0_U1/tmp_product.
+DSP Report: Generating DSP mul_14s_12ns_26_1_0_U3/tmp_product, operation Mode is: A*(B:0x580).
+DSP Report: operator mul_14s_12ns_26_1_0_U3/tmp_product is absorbed into DSP mul_14s_12ns_26_1_0_U3/tmp_product.
+DSP Report: Generating DSP mul_15s_14s_26_1_0_U2/tmp_product, operation Mode is: A*(B:0x3ee80).
+DSP Report: operator mul_15s_14s_26_1_0_U2/tmp_product is absorbed into DSP mul_15s_14s_26_1_0_U2/tmp_product.
+DSP Report: Generating DSP mul_16s_10ns_26_1_0_U93/tmp_product, operation Mode is: A*(B:0x1a0).
+DSP Report: operator mul_16s_10ns_26_1_0_U93/tmp_product is absorbed into DSP mul_16s_10ns_26_1_0_U93/tmp_product.
+DSP Report: Generating DSP mul_15ns_10s_25_1_0_U125/tmp_product, operation Mode is: A2*(B:0x3fe60).
+DSP Report: register mul_15ns_10s_25_1_0_U125/tmp_product is absorbed into DSP mul_15ns_10s_25_1_0_U125/tmp_product.
+DSP Report: operator mul_15ns_10s_25_1_0_U125/tmp_product is absorbed into DSP mul_15ns_10s_25_1_0_U125/tmp_product.
+DSP Report: Generating DSP mul_15ns_10ns_24_1_0_U123/tmp_product, operation Mode is: A*(B:0x160).
+DSP Report: operator mul_15ns_10ns_24_1_0_U123/tmp_product is absorbed into DSP mul_15ns_10ns_24_1_0_U123/tmp_product.
+DSP Report: Generating DSP mul_15ns_9ns_23_1_0_U122/tmp_product, operation Mode is: A2*(B:0xb0).
+DSP Report: register mul_15ns_9ns_23_1_0_U122/tmp_product is absorbed into DSP mul_15ns_9ns_23_1_0_U122/tmp_product.
+DSP Report: operator mul_15ns_9ns_23_1_0_U122/tmp_product is absorbed into DSP mul_15ns_9ns_23_1_0_U122/tmp_product.
+DSP Report: Generating DSP mul_15ns_9s_24_1_0_U124/tmp_product, operation Mode is: A*(B:0x3ff30).
+DSP Report: operator mul_15ns_9s_24_1_0_U124/tmp_product is absorbed into DSP mul_15ns_9s_24_1_0_U124/tmp_product.
+WARNING: [Synth 8-3917] design myproject has port layer20_out_0[4] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_0[3] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_0[2] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_0[1] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_0[0] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_1[3] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_1[2] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_1[1] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_1[0] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_2[4] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_2[3] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_2[2] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_2[1] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_2[0] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_3[3] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_3[2] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_3[1] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_3[0] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_4[4] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_4[3] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_4[2] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_4[1] driven by constant 0
+WARNING: [Synth 8-3917] design myproject has port layer20_out_4[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 3274.699 ; gain = 1709.625 ; free physical = 67481 ; free virtual = 116570
+---------------------------------------------------------------------------------
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s mul_15s_14s_26_1_0_U2/tmp_product_0 : 0 0 : 406 406 : Used 1 time 0
+ Sort Area is myproject__GB0 mul_15ns_10s_25_1_0_U125/tmp_product_9 : 0 0 : 289 289 : Used 1 time 0
+ Sort Area is myproject__GB0 mul_15ns_9ns_23_1_0_U122/tmp_product_b : 0 0 : 261 261 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s mul_14s_12ns_26_1_0_U3/tmp_product_2 : 0 0 : 239 239 : Used 1 time 0
+ Sort Area is myproject__GB0 mul_15ns_9s_24_1_0_U124/tmp_product_d : 0 0 : 222 222 : Used 1 time 0
+ Sort Area is myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s mul_14s_11ns_25_1_0_U1/tmp_product_4 : 0 0 : 208 208 : Used 1 time 0
+ Sort Area is myproject__GB0 mul_15ns_10ns_24_1_0_U123/tmp_product_8 : 0 0 : 187 187 : Used 1 time 0
+ Sort Area is myproject__GB0 mul_16s_10ns_26_1_0_U93/tmp_product_6 : 0 0 : 187 187 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++---------------------------------------------------------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                                                                | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++---------------------------------------------------------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|myproject_mul_14s_11ns_25_1_0                                              | A*(B:0x260)    | 14     | 11     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_14s_12ns_26_1_0                                              | A*(B:0x580)    | 14     | 12     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_15s_14s_26_1_0                                               | A*(B:0x3ee80)  | 15     | 14     | -      | -      | 29     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_16s_10ns_26_1_0                                              | A*(B:0x1a0)    | 16     | 10     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s | A2*(B:0x3fe60) | 16     | 10     | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_15ns_10ns_24_1_0                                             | A*(B:0x160)    | 16     | 10     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s | A2*(B:0xb0)    | 16     | 9      | -      | -      | 25     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_15ns_9s_24_1_0                                               | A*(B:0x3ff30)  | 16     | 9      | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++---------------------------------------------------------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:48 . Memory (MB): peak = 3274.699 ; gain = 1709.625 ; free physical = 67481 ; free virtual = 116570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:50 ; elapsed = 00:00:50 . Memory (MB): peak = 3274.699 ; gain = 1709.625 ; free physical = 67478 ; free virtual = 116567
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:54 ; elapsed = 00:00:54 . Memory (MB): peak = 3274.699 ; gain = 1709.625 ; free physical = 67479 ; free virtual = 116568
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:54 ; elapsed = 00:00:54 . Memory (MB): peak = 3274.699 ; gain = 1709.625 ; free physical = 67479 ; free virtual = 116568
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 3274.699 ; gain = 1709.625 ; free physical = 67478 ; free virtual = 116566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 3274.699 ; gain = 1709.625 ; free physical = 67478 ; free virtual = 116566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 3274.699 ; gain = 1709.625 ; free physical = 67478 ; free virtual = 116566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 3274.699 ; gain = 1709.625 ; free physical = 67478 ; free virtual = 116566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++---------------------------------------------------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                                                                | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++---------------------------------------------------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|myproject_mul_16s_10ns_26_1_0                                              | A'*B        | 15     | 9      | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_15ns_10ns_24_1_0                                             | A'*B        | 15     | 9      | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s | A'*B        | 15     | 18     | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s | A'*B        | 15     | 8      | -      | -      | 25     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_15ns_9s_24_1_0                                               | A'*B        | 15     | 18     | -      | -      | 25     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_14s_11ns_25_1_0                                              | A'*B        | 30     | 10     | -      | -      | 25     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_14s_12ns_26_1_0                                              | A'*B        | 30     | 11     | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_15s_14s_26_1_0                                               | A'*B        | 30     | 18     | -      | -      | 29     | 1    | 0    | -    | -    | -     | 0    | 0    | 
++---------------------------------------------------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |BUFG            |     1|
+|2     |CARRY8          |   870|
+|3     |DSP48E2         |     4|
+|4     |DSP_ALU         |     4|
+|5     |DSP_A_B_DATA    |     4|
+|6     |DSP_C_DATA      |     4|
+|7     |DSP_MULTIPLIER  |     4|
+|8     |DSP_M_DATA      |     4|
+|9     |DSP_OUTPUT      |     4|
+|10    |DSP_PREADD      |     4|
+|11    |DSP_PREADD_DATA |     4|
+|12    |LUT1            |   319|
+|13    |LUT2            |  1589|
+|14    |LUT3            |  1927|
+|15    |LUT4            |  1880|
+|16    |LUT5            |  1835|
+|17    |LUT6            |  1613|
+|18    |FDRE            |  2336|
+|19    |IBUF            |   144|
+|20    |OBUF            |    88|
++------+----------------+------+
+
+Report Instance Areas: 
++------+--------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------+
+|      |Instance                                                                        |Module                                                                                                                      |Cells |
++------+--------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------+
+|1     |top                                                                             |                                                                                                                            | 12638|
+|2     |  call_ret5_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config16_s_fu_423 |myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config16_s                                                      |    13|
+|3     |  call_ret3_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config11_s_fu_387 |myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config11_s                                                      |    14|
+|4     |  call_ret_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config6_s_fu_323   |myproject_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_ReLU_config6_s                                                       |    28|
+|5     |  grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s_fu_405   |myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s                                                  |  1988|
+|6     |    mul_16s_10ns_26_1_0_U93                                                     |myproject_mul_16s_10ns_26_1_0                                                                                               |    46|
+|7     |      tmp_product                                                               |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s_fu_405/mul_16s_10ns_26_1_0_U93/tmp_product_funnel     |     8|
+|8     |  grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s_fu_440   |myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config18_s                                                  |  1021|
+|9     |    mul_15ns_10ns_24_1_0_U123                                                   |myproject_mul_15ns_10ns_24_1_0                                                                                              |    38|
+|10    |    mul_15ns_10s_25_1_0_U125                                                    |myproject_mul_15ns_10s_25_1_0                                                                                               |    36|
+|11    |    mul_15ns_9ns_23_1_0_U122                                                    |myproject_mul_15ns_9ns_23_1_0                                                                                               |    25|
+|12    |    mul_15ns_9s_24_1_0_U124                                                     |myproject_mul_15ns_9s_24_1_0                                                                                                |    12|
+|13    |  grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s_fu_303    |myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s                                                   |  5329|
+|14    |    mul_14s_11ns_25_1_0_U1                                                      |myproject_mul_14s_11ns_25_1_0                                                                                               |    65|
+|15    |      tmp_product                                                               |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s_fu_405/mul_16s_10ns_26_1_0_U93/tmp_product_funnel__3  |     8|
+|16    |    mul_14s_12ns_26_1_0_U3                                                      |myproject_mul_14s_12ns_26_1_0                                                                                               |    58|
+|17    |      tmp_product                                                               |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s_fu_405/mul_16s_10ns_26_1_0_U93/tmp_product_funnel__2  |     8|
+|18    |    mul_15s_14s_26_1_0_U2                                                       |myproject_mul_15s_14s_26_1_0                                                                                                |    62|
+|19    |      tmp_product                                                               |\grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config13_s_fu_405/mul_16s_10ns_26_1_0_U93/tmp_product_funnel__1  |     8|
+|20    |  grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_fu_355    |myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s                                                   |  3211|
++------+--------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 3274.699 ; gain = 1709.625 ; free physical = 67478 ; free virtual = 116566
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 56 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 3274.699 ; gain = 1709.625 ; free physical = 67478 ; free virtual = 116566
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 3274.707 ; gain = 1709.625 ; free physical = 67477 ; free virtual = 116566
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.08 . Memory (MB): peak = 3274.707 ; gain = 0.000 ; free physical = 67754 ; free virtual = 116847
+INFO: [Netlist 29-17] Analyzing 1023 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3360.477 ; gain = 0.000 ; free physical = 67704 ; free virtual = 116818
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 153 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 8 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 144 instances
+
+Synth Design complete | Checksum: 41a4e427
+INFO: [Common 17-83] Releasing license: Synthesis
+45 Infos, 56 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:04 ; elapsed = 00:01:01 . Memory (MB): peak = 3360.512 ; gain = 1806.359 ; free physical = 67697 ; free virtual = 116811
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2627.756; main = 2371.301; forked = 430.320
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4875.168; main = 3360.480; forked = 1600.465
+# opt_design -retarget -propconst -sweep -bram_power_opt -shift_register_opt
+Command: opt_design -retarget -propconst -sweep -bram_power_opt -shift_register_opt
+Attempting to get a license for feature 'Implementation' and/or device 'xcu250'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcu250'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3424.508 ; gain = 63.996 ; free physical = 67696 ; free virtual = 116811
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 13e709586
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3482.898 ; gain = 58.391 ; free physical = 67656 ; free virtual = 116790
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 13e709586
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116612
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 13e709586
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116612
+Phase 1 Initialization | Checksum: 13e709586
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116612
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 13e709586
+
+Time (s): cpu = 00:00:00.42 ; elapsed = 00:00:00.14 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116613
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 13e709586
+
+Time (s): cpu = 00:00:00.44 ; elapsed = 00:00:00.16 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116613
+Phase 2 Timer Update And Timing Data Collection | Checksum: 13e709586
+
+Time (s): cpu = 00:00:00.44 ; elapsed = 00:00:00.17 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116613
+
+Phase 3 Retarget
+INFO: [Opt 31-1566] Pulled 12 inverters resulting in an inversion of 203 pins
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 1179a5543
+
+Time (s): cpu = 00:00:00.8 ; elapsed = 00:00:00.5 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116613
+Retarget | Checksum: 1179a5543
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 21 cells
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 106a21188
+
+Time (s): cpu = 00:00:00.9 ; elapsed = 00:00:00.6 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116613
+Constant propagation | Checksum: 106a21188
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 95dbdb3e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.74 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116613
+Sweep | Checksum: 95dbdb3e
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 6 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 6 Shift Register Optimization | Checksum: 95dbdb3e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.76 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116613
+Shift Register Optimization | Checksum: 95dbdb3e
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 7 Post Processing Netlist
+Phase 7 Post Processing Netlist | Checksum: 95dbdb3e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.79 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116613
+Post Processing Netlist | Checksum: 95dbdb3e
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 8 Finalization
+
+Phase 8.1 Finalizing Design Cores and Updating Shapes
+Phase 8.1 Finalizing Design Cores and Updating Shapes | Checksum: 19ad6d82c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67479 ; free virtual = 116613
+
+Phase 8.2 Verifying Netlist Connectivity
+Phase 8.2 Verifying Netlist Connectivity | Checksum: 19ad6d82c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67479 ; free virtual = 116613
+Phase 8 Finalization | Checksum: 19ad6d82c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67479 ; free virtual = 116613
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |              21  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 19ad6d82c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67479 ; free virtual = 116613
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116613
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 19ad6d82c
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116613
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 19ad6d82c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116613
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116613
+Ending Netlist Obfuscation Task | Checksum: 19ad6d82c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3661.711 ; gain = 0.000 ; free physical = 67478 ; free virtual = 116613
+INFO: [Common 17-83] Releasing license: Implementation
+18 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3661.711 ; gain = 301.199 ; free physical = 67478 ; free virtual = 116613
+# report_utilization -file vivado_synth.rpt
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 17 12:09:34 2025...
+***** VIVADO SYNTHESIS COMPLETED IN 0h1m36s *****
+INFO: [HLS 200-112] Total CPU user time: 184.65 seconds. Total CPU system time: 8.13 seconds. Total elapsed time: 204.66 seconds; peak allocated memory: 532.680 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Fri Oct 17 12:09:45 2025...

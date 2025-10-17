@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "myproject",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "myproject"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_3.1/hls4ml_prj/build_prj.tcl",
+    "sourceLine": 184,
+    "success": true
+  }
+]
