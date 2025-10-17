@@ -1,6 +1,6 @@
 # This script segment is generated automatically by AutoPilot
 
-set name myproject_mul_16s_7s_23_1_1
+set name myproject_mul_16s_11ns_26_1_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
@@ -18,7 +18,7 @@ if {${::AESL::PGuard_rtl_comp_handler}} {
 }
 
 
-set name myproject_mul_16s_6ns_22_1_1
+set name myproject_mul_16s_12s_26_1_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
@@ -36,12 +36,6 @@ if {${::AESL::PGuard_rtl_comp_handler}} {
 }
 
 
-set name myproject_mul_16s_10ns_26_1_1
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
-}
-
-
 set name myproject_mul_16s_8ns_24_1_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
@@ -49,6 +43,18 @@ if {${::AESL::PGuard_rtl_comp_handler}} {
 
 
 set name myproject_mul_16s_8s_24_1_1
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
+}
+
+
+set name myproject_mul_16s_6ns_22_1_1
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
+}
+
+
+set name myproject_mul_16s_10ns_26_1_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
@@ -66,25 +72,19 @@ if {${::AESL::PGuard_rtl_comp_handler}} {
 }
 
 
-set name myproject_mul_16s_11ns_26_1_1
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
-}
-
-
 set name myproject_mul_16s_7ns_23_1_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
-set name myproject_mul_16s_5s_21_1_1
+set name myproject_mul_16s_7s_23_1_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
-set name myproject_mul_16s_9s_24_1_1
+set name myproject_mul_16s_5s_21_1_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
@@ -102,7 +102,7 @@ if {${::AESL::PGuard_rtl_comp_handler}} {
 }
 
 
-set name myproject_mul_16s_12s_26_1_1
+set name myproject_mul_16s_9s_24_1_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }

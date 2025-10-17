@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'myproject'" level="0">
-<item name = "Date">Tue Oct 14 14:45:55 2025
+<item name = "Date">Fri Oct 17 10:43:32 2025
 </item>
-<item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
+<item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
 <item name = "Solution">solution1 (Vivado IP Flow Target)</item>
 <item name = "Product family">virtexuplus</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">15, 15, 75.000 ns, 75.000 ns, 1, 1, yes</column>
+<column name="">14, 14, 70.000 ns, 70.000 ns, 1, 1, yes</column>
 </table>
 </item>
 <item name = "Detail">
@@ -57,10 +57,10 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 14, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">8, 2415, 18070, 122650, -</column>
+<column name="Instance">8, 2415, 19927, 123571, -</column>
 <column name="Memory">-, -, -, -, -</column>
-<column name="Multiplexer">-, -, 0, 36, -</column>
-<column name="Register">-, -, 3429, -, -</column>
+<column name="Multiplexer">-, -, -, 36, -</column>
+<column name="Register">-, -, 3425, -, -</column>
 <specialColumn name="Available SLR">1344, 3072, 864000, 432000, 320</specialColumn>
 <specialColumn name="Utilization SLR (%)">~0, 78, 2, 28, 0</specialColumn>
 <specialColumn name="Available">5376, 12288, 3456000, 1728000, 1280</specialColumn>
@@ -71,14 +71,14 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s_fu_345">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s, 0, 125, 823, 4183, 0</column>
-<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_95">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s, 0, 680, 4466, 28830, 0</column>
-<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s_fu_169">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s, 0, 1017, 8036, 57255, 0</column>
-<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_fu_273">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s, 0, 588, 4308, 26748, 0</column>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s_fu_345">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s, 0, 125, 902, 4237, 0</column>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_95">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s, 0, 680, 5454, 29535, 0</column>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s_fu_169">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s, 0, 1017, 8502, 57159, 0</column>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_fu_273">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s, 0, 588, 4785, 27046, 0</column>
 <column name="call_ret6_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s_fu_309">relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s, 0, 0, 0, 1216, 0</column>
 <column name="call_ret2_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s_fu_101">relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s, 0, 0, 0, 2432, 0</column>
 <column name="call_ret4_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s_fu_237">relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s, 0, 0, 0, 1216, 0</column>
-<column name="grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_381">softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s, 8, 5, 437, 770, 0</column>
+<column name="grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_381">softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s, 8, 5, 284, 730, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -95,12 +95,12 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="ap_block_pp0_stage0_11001">and, 0, 0, 2, 1, 1</column>
-<column name="ap_block_pp0_stage0_11001_ignoreCallOp149">and, 0, 0, 2, 1, 1</column>
-<column name="ap_block_pp0_stage0_11001_ignoreCallOp18">and, 0, 0, 2, 1, 1</column>
-<column name="ap_block_pp0_stage0_11001_ignoreCallOp216">and, 0, 0, 2, 1, 1</column>
-<column name="ap_block_pp0_stage0_11001_ignoreCallOp283">and, 0, 0, 2, 1, 1</column>
-<column name="ap_block_pp0_stage0_11001_ignoreCallOp290">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_01001">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_11001_ignoreCallOp148">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_11001_ignoreCallOp17">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_11001_ignoreCallOp215">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_11001_ignoreCallOp282">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_11001_ignoreCallOp289">and, 0, 0, 2, 1, 1</column>
 <column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
 </table>
 </item>
@@ -115,14 +115,12 @@
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
 <column name="ap_CS_fsm">1, 0, 1, 0</column>
-<column name="ap_block_pp0_stage0_subdone_grp0_done_reg">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter10">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter11">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter12">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter13">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter14">1, 0, 1, 0</column>
-<column name="ap_enable_reg_pp0_iter15">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter3">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter4">1, 0, 1, 0</column>
@@ -133,9 +131,7 @@
 <column name="ap_enable_reg_pp0_iter9">1, 0, 1, 0</column>
 <column name="fc1_input_ap_vld_preg">1, 0, 1, 0</column>
 <column name="fc1_input_preg">256, 0, 256, 0</column>
-<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s_fu_345_ap_start_reg">1, 0, 1, 0</column>
-<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s_fu_169_ap_start_reg">1, 0, 1, 0</column>
-<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_fu_273_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_381_ap_start_reg">1, 0, 1, 0</column>
 <column name="layer10_out_10_reg_2377">16, 0, 16, 0</column>
 <column name="layer10_out_11_reg_2382">16, 0, 16, 0</column>
 <column name="layer10_out_12_reg_2387">16, 0, 16, 0</column>

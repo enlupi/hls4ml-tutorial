@@ -2,7 +2,6 @@
 set TopModule "myproject"
 set ClockPeriod 5
 set ClockList ap_clk
-set AxiliteClockList {}
 set HasVivadoClockPeriod 0
 set CombLogicFlag 0
 set PipelineFlag 1

@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s'" level="0">
-<item name = "Date">Tue Oct 14 14:55:24 2025
+<item name = "Date">Fri Oct 17 10:50:00 2025
 </item>
-<item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
+<item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
 <item name = "Solution">solution1 (Vivado IP Flow Target)</item>
 <item name = "Product family">virtexuplus</item>

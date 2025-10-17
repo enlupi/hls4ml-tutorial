@@ -80,7 +80,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_dense_latency.h:13</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_dense_latency.h:33</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -88,10 +88,10 @@
 <DSP>680</DSP>
 <AVAIL_DSP>12288</AVAIL_DSP>
 <UTIL_DSP>5</UTIL_DSP>
-<FF>4466</FF>
+<FF>5454</FF>
 <AVAIL_FF>3456000</AVAIL_FF>
 <UTIL_FF>~0</UTIL_FF>
-<LUT>28830</LUT>
+<LUT>29535</LUT>
 <AVAIL_LUT>1728000</AVAIL_LUT>
 <UTIL_LUT>1</UTIL_LUT>
 <BRAM_18K>0</BRAM_18K>
@@ -116,61 +116,6 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config2&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_start</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config2&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_done</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config2&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_idle</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config2&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_ready</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config2&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_ce</name>
 <Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config2&gt;</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -885,6 +830,17 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
+<name>ap_ce</name>
+<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
 <name>data_val</name>
 <Object>data_val</Object>
 <Type>scalar</Type>
@@ -920,7 +876,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_activation.h:39</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_activation.h:42</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -1659,17 +1615,6 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>ap_rst</name>
-<Object>relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, relu_config4&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
 <name>data_0_val</name>
 <Object>data_0_val</Object>
 <Type>scalar</Type>
@@ -2398,7 +2343,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_dense_latency.h:13</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_dense_latency.h:33</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -2406,10 +2351,10 @@
 <DSP>1017</DSP>
 <AVAIL_DSP>12288</AVAIL_DSP>
 <UTIL_DSP>8</UTIL_DSP>
-<FF>8036</FF>
+<FF>8502</FF>
 <AVAIL_FF>3456000</AVAIL_FF>
 <UTIL_FF>~0</UTIL_FF>
-<LUT>57255</LUT>
+<LUT>57159</LUT>
 <AVAIL_LUT>1728000</AVAIL_LUT>
 <UTIL_LUT>3</UTIL_LUT>
 <BRAM_18K>0</BRAM_18K>
@@ -2434,61 +2379,6 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config5&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_start</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config5&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_done</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config5&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_idle</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config5&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_ready</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config5&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_ce</name>
 <Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config5&gt;</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -2849,6 +2739,17 @@
 <Dir>out</Dir>
 <Bits>16</Bits>
 <Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_ce</name>
+<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config5&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
 <name>data_0_val</name>
@@ -3579,7 +3480,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_activation.h:39</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_activation.h:42</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -3964,17 +3865,6 @@
 <Dir>out</Dir>
 <Bits>16</Bits>
 <Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_rst</name>
-<Object>relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, relu_config7&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
 <name>data_0_val</name>
@@ -4353,7 +4243,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_dense_latency.h:13</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_dense_latency.h:33</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -4361,10 +4251,10 @@
 <DSP>588</DSP>
 <AVAIL_DSP>12288</AVAIL_DSP>
 <UTIL_DSP>4</UTIL_DSP>
-<FF>4308</FF>
+<FF>4785</FF>
 <AVAIL_FF>3456000</AVAIL_FF>
 <UTIL_FF>~0</UTIL_FF>
-<LUT>26748</LUT>
+<LUT>27046</LUT>
 <AVAIL_LUT>1728000</AVAIL_LUT>
 <UTIL_LUT>1</UTIL_LUT>
 <BRAM_18K>0</BRAM_18K>
@@ -4389,61 +4279,6 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config8&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_start</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config8&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_done</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config8&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_idle</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config8&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_ready</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config8&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_ce</name>
 <Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config8&gt;</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -4804,6 +4639,17 @@
 <Dir>out</Dir>
 <Bits>16</Bits>
 <Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_ce</name>
+<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config8&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
 <name>data_0_val</name>
@@ -5182,7 +5028,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_activation.h:39</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_activation.h:42</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -5569,17 +5415,6 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>ap_rst</name>
-<Object>relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, relu_config10&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
 <name>data_0_val</name>
 <Object>data_0_val</Object>
 <Type>scalar</Type>
@@ -5956,7 +5791,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_dense_latency.h:13</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_dense_latency.h:33</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -5964,10 +5799,10 @@
 <DSP>125</DSP>
 <AVAIL_DSP>12288</AVAIL_DSP>
 <UTIL_DSP>1</UTIL_DSP>
-<FF>823</FF>
+<FF>902</FF>
 <AVAIL_FF>3456000</AVAIL_FF>
 <UTIL_FF>~0</UTIL_FF>
-<LUT>4183</LUT>
+<LUT>4237</LUT>
 <AVAIL_LUT>1728000</AVAIL_LUT>
 <UTIL_LUT>~0</UTIL_LUT>
 <BRAM_18K>0</BRAM_18K>
@@ -5992,61 +5827,6 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config11&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_start</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config11&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_done</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config11&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_idle</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config11&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_ready</name>
-<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config11&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_ce</name>
 <Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config11&gt;</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -6110,6 +5890,17 @@
 <Dir>out</Dir>
 <Bits>16</Bits>
 <Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_ce</name>
+<Object>dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config11&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
 <name>data_0_val</name>
@@ -6472,7 +6263,7 @@
 <TargetClockPeriod>5.00</TargetClockPeriod>
 <ClockUncertainty>1.35</ClockUncertainty>
 <TargetInitiationInterval>4294967295</TargetInitiationInterval>
-<EstimatedClockPeriod>3.494</EstimatedClockPeriod>
+<EstimatedClockPeriod>3.500</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <Best-caseLatency>4</Best-caseLatency>
@@ -6499,10 +6290,10 @@
 <DSP>5</DSP>
 <AVAIL_DSP>12288</AVAIL_DSP>
 <UTIL_DSP>~0</UTIL_DSP>
-<FF>437</FF>
+<FF>284</FF>
 <AVAIL_FF>3456000</AVAIL_FF>
 <UTIL_FF>~0</UTIL_FF>
-<LUT>770</LUT>
+<LUT>730</LUT>
 <AVAIL_LUT>1728000</AVAIL_LUT>
 <UTIL_LUT>~0</UTIL_LUT>
 <URAM>0</URAM>
@@ -6524,6 +6315,61 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
+<Object>softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_start</name>
+<Object>softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_done</name>
+<Object>softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_idle</name>
+<Object>softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_ready</name>
+<Object>softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_ce</name>
 <Object>softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -6587,17 +6433,6 @@
 <Dir>out</Dir>
 <Bits>16</Bits>
 <Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_ce</name>
-<Object>softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
 <name>data_0_val</name>
@@ -6666,14 +6501,14 @@
 <EstimatedClockPeriod>3.636</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>15</Best-caseLatency>
-<Average-caseLatency>15</Average-caseLatency>
-<Worst-caseLatency>15</Worst-caseLatency>
-<Best-caseRealTimeLatency>75.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>75.000 ns</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>75.000 ns</Worst-caseRealTimeLatency>
+<Best-caseLatency>14</Best-caseLatency>
+<Average-caseLatency>14</Average-caseLatency>
+<Worst-caseLatency>14</Worst-caseLatency>
+<Best-caseRealTimeLatency>70.000 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>70.000 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>70.000 ns</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>1</PipelineInitiationInterval>
-<PipelineDepth>16</PipelineDepth>
+<PipelineDepth>15</PipelineDepth>
 <PipelineType>yes</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
@@ -6690,10 +6525,10 @@
 <DSP>2415</DSP>
 <AVAIL_DSP>12288</AVAIL_DSP>
 <UTIL_DSP>19</UTIL_DSP>
-<FF>21499</FF>
+<FF>23352</FF>
 <AVAIL_FF>3456000</AVAIL_FF>
 <UTIL_FF>~0</UTIL_FF>
-<LUT>122700</LUT>
+<LUT>123621</LUT>
 <AVAIL_LUT>1728000</AVAIL_LUT>
 <UTIL_LUT>7</UTIL_LUT>
 <URAM>0</URAM>

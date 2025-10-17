@@ -88,10 +88,10 @@
 <DSP>512</DSP>
 <AVAIL_DSP>12288</AVAIL_DSP>
 <UTIL_DSP>4</UTIL_DSP>
-<FF>5723</FF>
+<FF>5618</FF>
 <AVAIL_FF>3456000</AVAIL_FF>
 <UTIL_FF>~0</UTIL_FF>
-<LUT>31838</LUT>
+<LUT>31649</LUT>
 <AVAIL_LUT>1728000</AVAIL_LUT>
 <UTIL_LUT>1</UTIL_LUT>
 <BRAM_18K>0</BRAM_18K>
@@ -920,7 +920,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_activation.h:39</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_activation.h:42</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -1659,17 +1659,6 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>ap_rst</name>
-<Object>relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, relu_config4&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
 <name>data_0_val</name>
 <Object>data_0_val</Object>
 <Type>scalar</Type>
@@ -2398,7 +2387,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_dense_latency.h:13</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_dense_latency.h:33</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -2406,10 +2395,10 @@
 <DSP>1017</DSP>
 <AVAIL_DSP>12288</AVAIL_DSP>
 <UTIL_DSP>8</UTIL_DSP>
-<FF>8036</FF>
+<FF>7991</FF>
 <AVAIL_FF>3456000</AVAIL_FF>
 <UTIL_FF>~0</UTIL_FF>
-<LUT>57267</LUT>
+<LUT>56725</LUT>
 <AVAIL_LUT>1728000</AVAIL_LUT>
 <UTIL_LUT>3</UTIL_LUT>
 <BRAM_18K>0</BRAM_18K>
@@ -3579,7 +3568,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_activation.h:39</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_activation.h:42</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -3966,17 +3955,6 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>ap_rst</name>
-<Object>relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, relu_config7&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
 <name>data_0_val</name>
 <Object>data_0_val</Object>
 <Type>scalar</Type>
@@ -4353,7 +4331,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_dense_latency.h:13</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_dense_latency.h:33</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -4361,10 +4339,10 @@
 <DSP>512</DSP>
 <AVAIL_DSP>12288</AVAIL_DSP>
 <UTIL_DSP>4</UTIL_DSP>
-<FF>6076</FF>
+<FF>6141</FF>
 <AVAIL_FF>3456000</AVAIL_FF>
 <UTIL_FF>~0</UTIL_FF>
-<LUT>28052</LUT>
+<LUT>27904</LUT>
 <AVAIL_LUT>1728000</AVAIL_LUT>
 <UTIL_LUT>1</UTIL_LUT>
 <BRAM_18K>0</BRAM_18K>
@@ -5182,7 +5160,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_activation.h:39</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_activation.h:42</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -5569,17 +5547,6 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>ap_rst</name>
-<Object>relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, relu_config10&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-</RtlPorts>
-<RtlPorts>
 <name>data_0_val</name>
 <Object>data_0_val</Object>
 <Type>scalar</Type>
@@ -5956,7 +5923,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_dense_latency.h:13</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_dense_latency.h:33</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -5967,7 +5934,7 @@
 <FF>1265</FF>
 <AVAIL_FF>3456000</AVAIL_FF>
 <UTIL_FF>~0</UTIL_FF>
-<LUT>5208</LUT>
+<LUT>5194</LUT>
 <AVAIL_LUT>1728000</AVAIL_LUT>
 <UTIL_LUT>~0</UTIL_LUT>
 <BRAM_18K>0</BRAM_18K>
@@ -6472,7 +6439,7 @@
 <TargetClockPeriod>5.00</TargetClockPeriod>
 <ClockUncertainty>1.35</ClockUncertainty>
 <TargetInitiationInterval>4294967295</TargetInitiationInterval>
-<EstimatedClockPeriod>3.494</EstimatedClockPeriod>
+<EstimatedClockPeriod>3.500</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <Best-caseLatency>4</Best-caseLatency>
@@ -6499,10 +6466,10 @@
 <DSP>5</DSP>
 <AVAIL_DSP>12288</AVAIL_DSP>
 <UTIL_DSP>~0</UTIL_DSP>
-<FF>437</FF>
+<FF>284</FF>
 <AVAIL_FF>3456000</AVAIL_FF>
 <UTIL_FF>~0</UTIL_FF>
-<LUT>770</LUT>
+<LUT>730</LUT>
 <AVAIL_LUT>1728000</AVAIL_LUT>
 <UTIL_LUT>~0</UTIL_LUT>
 <URAM>0</URAM>
@@ -6524,6 +6491,61 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
+<Object>softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_start</name>
+<Object>softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_done</name>
+<Object>softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_idle</name>
+<Object>softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_ready</name>
+<Object>softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_ce</name>
 <Object>softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -6587,17 +6609,6 @@
 <Dir>out</Dir>
 <Bits>16</Bits>
 <Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_ce</name>
-<Object>softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
 <name>data_0_val</name>
@@ -6666,14 +6677,14 @@
 <EstimatedClockPeriod>3.636</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>17</Best-caseLatency>
-<Average-caseLatency>17</Average-caseLatency>
-<Worst-caseLatency>17</Worst-caseLatency>
-<Best-caseRealTimeLatency>85.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>85.000 ns</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>85.000 ns</Worst-caseRealTimeLatency>
+<Best-caseLatency>16</Best-caseLatency>
+<Average-caseLatency>16</Average-caseLatency>
+<Worst-caseLatency>16</Worst-caseLatency>
+<Best-caseRealTimeLatency>80.000 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>80.000 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>80.000 ns</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>2</PipelineInitiationInterval>
-<PipelineDepth>18</PipelineDepth>
+<PipelineDepth>17</PipelineDepth>
 <PipelineType>yes</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
@@ -6690,10 +6701,10 @@
 <DSP>2126</DSP>
 <AVAIL_DSP>12288</AVAIL_DSP>
 <UTIL_DSP>17</UTIL_DSP>
-<FF>25474</FF>
+<FF>25236</FF>
 <AVAIL_FF>3456000</AVAIL_FF>
 <UTIL_FF>~0</UTIL_FF>
-<LUT>128064</LUT>
+<LUT>127150</LUT>
 <AVAIL_LUT>1728000</AVAIL_LUT>
 <UTIL_LUT>7</UTIL_LUT>
 <URAM>0</URAM>

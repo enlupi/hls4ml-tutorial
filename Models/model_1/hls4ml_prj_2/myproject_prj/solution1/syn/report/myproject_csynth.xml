@@ -1,7 +1,7 @@
 <profile>
 
 <ReportVersion>
-<Version>2024.2</Version>
+<Version>2023.2</Version>
 </ReportVersion>
 
 <UserAssignments>
@@ -23,14 +23,14 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>17</Best-caseLatency>
-<Average-caseLatency>17</Average-caseLatency>
-<Worst-caseLatency>17</Worst-caseLatency>
-<Best-caseRealTimeLatency>85.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>85.000 ns</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>85.000 ns</Worst-caseRealTimeLatency>
+<Best-caseLatency>16</Best-caseLatency>
+<Average-caseLatency>16</Average-caseLatency>
+<Worst-caseLatency>16</Worst-caseLatency>
+<Best-caseRealTimeLatency>80.000 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>80.000 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>80.000 ns</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>2</PipelineInitiationInterval>
-<PipelineDepth>18</PipelineDepth>
+<PipelineDepth>17</PipelineDepth>
 <Interval-min>2</Interval-min>
 <Interval-max>2</Interval-max>
 </SummaryOfOverallLatency>
@@ -45,8 +45,8 @@
 <Resources>
 <BRAM_18K>8</BRAM_18K>
 <DSP>2126</DSP>
-<FF>25474</FF>
-<LUT>128064</LUT>
+<FF>25236</FF>
+<LUT>127150</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>

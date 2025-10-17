@@ -12,11 +12,8 @@ set isEnableWaveformDebug 1
 set hasInterrupt 0
 set DLRegFirstOffset 0
 set DLRegItemOffset 0
-set svuvm_can_support 1
-set cdfgNum 10
 set C_modelName {relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7>}
 set C_modelType { int 512 }
-set ap_memory_interface_dict [dict create]
 set C_modelArgList {
 	{ data_0_val int 16 regular  }
 	{ data_1_val int 16 regular  }
@@ -52,8 +49,7 @@ set C_modelArgList {
 	{ data_31_val int 16 regular  }
 }
 set hasAXIMCache 0
-set l_AXIML2Cache [list]
-set AXIMCacheInstDict [dict create]
+set AXIMCacheInstList { }
 set C_modelArgMapList {[ 
 	{ "Name" : "data_0_val", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
  	{ "Name" : "data_1_val", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
@@ -89,7 +85,7 @@ set C_modelArgMapList {[
  	{ "Name" : "data_31_val", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
  	{ "Name" : "ap_return", "interface" : "wire", "bitwidth" : 512} ]}
 # RTL Port declarations: 
-set portNum 66
+set portNum 65
 set portList { 
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
 	{ data_0_val sc_in sc_lv 16 signal 0 } 
@@ -156,7 +152,6 @@ set portList {
 	{ ap_return_29 sc_out sc_lv 16 signal -1 } 
 	{ ap_return_30 sc_out sc_lv 16 signal -1 } 
 	{ ap_return_31 sc_out sc_lv 16 signal -1 } 
-	{ ap_rst sc_in sc_logic 1 reset -1 active_high_sync } 
 }
 set NewPortList {[ 
 	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
@@ -223,8 +218,7 @@ set NewPortList {[
  	{ "name": "ap_return_28", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_28", "role": "default" }} , 
  	{ "name": "ap_return_29", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_29", "role": "default" }} , 
  	{ "name": "ap_return_30", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_30", "role": "default" }} , 
- 	{ "name": "ap_return_31", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_31", "role": "default" }} , 
- 	{ "name": "ap_rst", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "reset", "bundle":{"name": "ap_rst", "role": "default" }}  ]}
+ 	{ "name": "ap_return_31", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_31", "role": "default" }}  ]}
 
 set RtlHierarchyInfo {[
 	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "",

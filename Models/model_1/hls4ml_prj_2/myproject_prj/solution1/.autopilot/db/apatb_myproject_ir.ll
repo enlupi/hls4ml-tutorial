@@ -1,4 +1,4 @@
-; ModuleID = '/home/enlupi/Work/repo/hls4ml-tutorial/Models/model_1/hls4ml_prj_2/myproject_prj/solution1/.autopilot/db/a.g.ld.5.gdce.bc'
+; ModuleID = '/data/hlssynt-users/enlupi/repo/hls4ml-tutorial/Models/model_1/hls4ml_prj_2/myproject_prj/solution1/.autopilot/db/a.g.ld.5.gdce.bc'
 source_filename = "llvm-link"
 target datalayout = "e-m:e-i64:64-i128:128-i256:256-i512:512-i1024:1024-i2048:2048-i4096:4096-n8:16:32:64-S128-v16:16-v24:32-v32:32-v48:64-v96:128-v192:256-v256:256-v512:512-v1024:1024"
 target triple = "fpga64-xilinx-none"
@@ -10,14 +10,14 @@ target triple = "fpga64-xilinx-none"
 ; Function Attrs: inaccessiblemem_or_argmemonly noinline willreturn
 define void @apatb_myproject_ir(%"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"* noalias nocapture nonnull readonly "fpga.decayed.dim.hint"="16" %fc1_input, %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"* noalias nocapture nonnull "fpga.decayed.dim.hint"="5" "partition" %layer13_out) local_unnamed_addr #0 {
 entry:
-  %0 = bitcast %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"* %fc1_input to [16 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]*
   %fc1_input_copy3 = alloca i256, align 512
-  %1 = bitcast %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"* %layer13_out to [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]*
   %layer13_out_copy_0 = alloca i16, align 512
   %layer13_out_copy_1 = alloca i16, align 512
   %layer13_out_copy_2 = alloca i16, align 512
   %layer13_out_copy_3 = alloca i16, align 512
   %layer13_out_copy_4 = alloca i16, align 512
+  %0 = bitcast %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"* %fc1_input to [16 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]*
+  %1 = bitcast %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"* %layer13_out to [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]*
   call void @copy_in([16 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* nonnull %0, i256* nonnull align 512 %fc1_input_copy3, [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* nonnull %1, i16* nonnull align 512 %layer13_out_copy_0, i16* nonnull align 512 %layer13_out_copy_1, i16* nonnull align 512 %layer13_out_copy_2, i16* nonnull align 512 %layer13_out_copy_3, i16* nonnull align 512 %layer13_out_copy_4)
   call void @apatb_myproject_hw(i256* %fc1_input_copy3, i16* %layer13_out_copy_0, i16* %layer13_out_copy_1, i16* %layer13_out_copy_2, i16* %layer13_out_copy_3, i16* %layer13_out_copy_4)
   call void @copy_back([16 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %0, i256* %fc1_input_copy3, [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %1, i16* %layer13_out_copy_0, i16* %layer13_out_copy_1, i16* %layer13_out_copy_2, i16* %layer13_out_copy_3, i16* %layer13_out_copy_4)
@@ -42,35 +42,36 @@ for.loop.lr.ph:                                   ; preds = %copy
 
 for.loop:                                         ; preds = %dst.addr.0.0.06.exit, %for.loop.lr.ph
   %for.loop.idx2 = phi i64 [ 0, %for.loop.lr.ph ], [ %for.loop.idx.next, %dst.addr.0.0.06.exit ]
+  %1 = trunc i64 %for.loop.idx2 to i3
   %src.addr.0.0.05 = getelementptr [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"], [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %src, i64 0, i64 %for.loop.idx2, i32 0, i32 0, i32 0
-  %1 = load i16, i16* %src.addr.0.0.05, align 2
-  switch i64 %for.loop.idx2, label %dst.addr.0.0.06.case.4 [
-    i64 0, label %dst.addr.0.0.06.case.0
-    i64 1, label %dst.addr.0.0.06.case.1
-    i64 2, label %dst.addr.0.0.06.case.2
-    i64 3, label %dst.addr.0.0.06.case.3
+  %2 = load i16, i16* %src.addr.0.0.05, align 2
+  switch i3 %1, label %dst.addr.0.0.06.case.4 [
+    i3 0, label %dst.addr.0.0.06.case.0
+    i3 1, label %dst.addr.0.0.06.case.1
+    i3 2, label %dst.addr.0.0.06.case.2
+    i3 3, label %dst.addr.0.0.06.case.3
   ]
 
 dst.addr.0.0.06.case.0:                           ; preds = %for.loop
-  store i16 %1, i16* %dst_0, align 2
+  store i16 %2, i16* %dst_0, align 2
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.1:                           ; preds = %for.loop
-  store i16 %1, i16* %dst_1, align 2
+  store i16 %2, i16* %dst_1, align 2
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.2:                           ; preds = %for.loop
-  store i16 %1, i16* %dst_2, align 2
+  store i16 %2, i16* %dst_2, align 2
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.3:                           ; preds = %for.loop
-  store i16 %1, i16* %dst_3, align 2
+  store i16 %2, i16* %dst_3, align 2
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.4:                           ; preds = %for.loop
-  %2 = icmp eq i64 %for.loop.idx2, 4
-  call void @llvm.assume(i1 %2)
-  store i16 %1, i16* %dst_4, align 2
+  %3 = icmp eq i3 %1, -4
+  call void @llvm.assume(i1 %3)
+  store i16 %2, i16* %dst_4, align 2
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.exit:                             ; preds = %dst.addr.0.0.06.case.4, %dst.addr.0.0.06.case.3, %dst.addr.0.0.06.case.2, %dst.addr.0.0.06.case.1, %dst.addr.0.0.06.case.0
@@ -114,12 +115,13 @@ for.loop.lr.ph:                                   ; preds = %copy
 
 for.loop:                                         ; preds = %src.addr.0.0.05.exit, %for.loop.lr.ph
   %for.loop.idx2 = phi i64 [ 0, %for.loop.lr.ph ], [ %for.loop.idx.next, %src.addr.0.0.05.exit ]
+  %1 = trunc i64 %for.loop.idx2 to i3
   %dst.addr.0.0.06 = getelementptr [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"], [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %dst, i64 0, i64 %for.loop.idx2, i32 0, i32 0, i32 0
-  switch i64 %for.loop.idx2, label %src.addr.0.0.05.case.4 [
-    i64 0, label %src.addr.0.0.05.case.0
-    i64 1, label %src.addr.0.0.05.case.1
-    i64 2, label %src.addr.0.0.05.case.2
-    i64 3, label %src.addr.0.0.05.case.3
+  switch i3 %1, label %src.addr.0.0.05.case.4 [
+    i3 0, label %src.addr.0.0.05.case.0
+    i3 1, label %src.addr.0.0.05.case.1
+    i3 2, label %src.addr.0.0.05.case.2
+    i3 3, label %src.addr.0.0.05.case.3
   ]
 
 src.addr.0.0.05.case.0:                           ; preds = %for.loop
@@ -139,14 +141,14 @@ src.addr.0.0.05.case.3:                           ; preds = %for.loop
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.4:                           ; preds = %for.loop
-  %1 = icmp eq i64 %for.loop.idx2, 4
-  call void @llvm.assume(i1 %1)
+  %2 = icmp eq i3 %1, -4
+  call void @llvm.assume(i1 %2)
   %_4 = load i16, i16* %src_4, align 2
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.exit:                             ; preds = %src.addr.0.0.05.case.4, %src.addr.0.0.05.case.3, %src.addr.0.0.05.case.2, %src.addr.0.0.05.case.1, %src.addr.0.0.05.case.0
-  %2 = phi i16 [ %_0, %src.addr.0.0.05.case.0 ], [ %_1, %src.addr.0.0.05.case.1 ], [ %_2, %src.addr.0.0.05.case.2 ], [ %_3, %src.addr.0.0.05.case.3 ], [ %_4, %src.addr.0.0.05.case.4 ]
-  store i16 %2, i16* %dst.addr.0.0.06, align 2
+  %3 = phi i16 [ %_0, %src.addr.0.0.05.case.0 ], [ %_1, %src.addr.0.0.05.case.1 ], [ %_2, %src.addr.0.0.05.case.2 ], [ %_3, %src.addr.0.0.05.case.3 ], [ %_4, %src.addr.0.0.05.case.4 ]
+  store i16 %3, i16* %dst.addr.0.0.06, align 2
   %for.loop.idx.next = add nuw nsw i64 %for.loop.idx2, 1
   %exitcond = icmp ne i64 %for.loop.idx.next, %num
   br i1 %exitcond, label %for.loop, label %copy.split
@@ -289,10 +291,6 @@ entry:
   ret void
 }
 
-declare i8* @malloc(i64)
-
-declare void @free(i8*)
-
 declare void @apatb_myproject_hw(i256*, i16*, i16*, i16*, i16*, i16*)
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
@@ -302,23 +300,19 @@ entry:
   ret void
 }
 
-declare void @myproject_hw_stub(%"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"* noalias nocapture nonnull readonly, %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"* noalias nocapture nonnull)
-
 define void @myproject_hw_stub_wrapper(i256*, i16*, i16*, i16*, i16*, i16*) #6 {
 entry:
-  %6 = call i8* @malloc(i64 32)
-  %7 = bitcast i8* %6 to [16 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]*
-  %8 = call i8* @malloc(i64 10)
-  %9 = bitcast i8* %8 to [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]*
-  call void @copy_out([16 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %7, i256* %0, [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %9, i16* %1, i16* %2, i16* %3, i16* %4, i16* %5)
-  %10 = bitcast [16 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %7 to %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"*
-  %11 = bitcast [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %9 to %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"*
-  call void @myproject_hw_stub(%"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"* %10, %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"* %11)
-  call void @copy_in([16 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %7, i256* %0, [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %9, i16* %1, i16* %2, i16* %3, i16* %4, i16* %5)
-  call void @free(i8* %6)
-  call void @free(i8* %8)
+  %6 = alloca [16 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]
+  %7 = alloca [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]
+  call void @copy_out([16 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %6, i256* %0, [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %7, i16* %1, i16* %2, i16* %3, i16* %4, i16* %5)
+  %8 = bitcast [16 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %6 to %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"*
+  %9 = bitcast [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %7 to %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"*
+  call void @myproject_hw_stub(%"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"* %8, %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"* %9)
+  call void @copy_in([16 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %6, i256* %0, [5 x %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"]* %7, i16* %1, i16* %2, i16* %3, i16* %4, i16* %5)
   ret void
 }
+
+declare void @myproject_hw_stub(%"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"*, %"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"*)
 
 attributes #0 = { inaccessiblemem_or_argmemonly noinline willreturn "fpga.wrapper.func"="wrapper" }
 attributes #1 = { nounwind willreturn }

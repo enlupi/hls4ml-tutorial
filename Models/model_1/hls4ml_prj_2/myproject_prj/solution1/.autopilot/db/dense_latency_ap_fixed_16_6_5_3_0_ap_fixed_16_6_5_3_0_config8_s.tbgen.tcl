@@ -12,11 +12,8 @@ set isEnableWaveformDebug 1
 set hasInterrupt 0
 set DLRegFirstOffset 0
 set DLRegItemOffset 0
-set svuvm_can_support 1
-set cdfgNum 10
 set C_modelName {dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>}
 set C_modelType { int 512 }
-set ap_memory_interface_dict [dict create]
 set C_modelArgList {
 	{ data_0_val int 16 regular  }
 	{ data_1_val int 16 regular  }
@@ -52,8 +49,7 @@ set C_modelArgList {
 	{ data_31_val int 16 regular  }
 }
 set hasAXIMCache 0
-set l_AXIML2Cache [list]
-set AXIMCacheInstDict [dict create]
+set AXIMCacheInstList { }
 set C_modelArgMapList {[ 
 	{ "Name" : "data_0_val", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
  	{ "Name" : "data_1_val", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
@@ -829,7 +825,7 @@ set ArgLastReadFirstWriteLatency {
 		data_26_val {Type I LastRead 0 FirstWrite -1}
 		data_27_val {Type I LastRead 0 FirstWrite -1}
 		data_28_val {Type I LastRead 0 FirstWrite -1}
-		data_29_val {Type I LastRead 0 FirstWrite -1}
+		data_29_val {Type I LastRead 1 FirstWrite -1}
 		data_30_val {Type I LastRead 1 FirstWrite -1}
 		data_31_val {Type I LastRead 1 FirstWrite -1}}}
 

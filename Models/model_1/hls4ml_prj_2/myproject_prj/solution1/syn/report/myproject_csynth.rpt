@@ -3,9 +3,9 @@
 ================================================================
 == Vitis HLS Report for 'myproject'
 ================================================================
-* Date:           Tue Oct 14 14:56:11 2025
+* Date:           Fri Oct 17 10:50:50 2025
 
-* Version:        2024.2 (Build 5238294 on Nov  8 2024)
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
 * Solution:       solution1 (Vivado IP Flow Target)
 * Product family: virtexuplus
@@ -29,7 +29,7 @@
     |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
     |   min   |   max   |    min    |    max    | min | max |   Type  |
     +---------+---------+-----------+-----------+-----+-----+---------+
-    |       17|       17|  85.000 ns|  85.000 ns|    2|    2|      yes|
+    |       16|       16|  80.000 ns|  80.000 ns|    2|    2|      yes|
     +---------+---------+-----------+-----------+-----+-----+---------+
 
     + Detail: 
@@ -61,14 +61,14 @@
 |         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
 +---------------------+---------+-------+---------+---------+------+
 |DSP                  |        -|      -|        -|        -|     -|
-|Expression           |        -|      -|        0|        6|     -|
+|Expression           |        -|      -|        0|       16|     -|
 |FIFO                 |        -|      -|        -|        -|     -|
-|Instance             |        8|   2126|    21537|   127999|     -|
+|Instance             |        8|   2126|    21299|   127066|     -|
 |Memory               |        -|      -|        -|        -|     -|
-|Multiplexer          |        -|      -|        0|       59|     -|
+|Multiplexer          |        -|      -|        -|       68|     -|
 |Register             |        -|      -|     3937|        -|     -|
 +---------------------+---------+-------+---------+---------+------+
-|Total                |        8|   2126|    25474|   128064|     0|
+|Total                |        8|   2126|    25236|   127150|     0|
 +---------------------+---------+-------+---------+---------+------+
 |Available SLR        |     1344|   3072|   864000|   432000|   320|
 +---------------------+---------+-------+---------+---------+------+
@@ -84,16 +84,16 @@
     +-------------------------------------------------------------------------------+------------------------------------------------------------------+---------+------+------+-------+-----+
     |                                    Instance                                   |                              Module                              | BRAM_18K|  DSP |  FF  |  LUT  | URAM|
     +-------------------------------------------------------------------------------+------------------------------------------------------------------+---------+------+------+-------+-----+
-    |grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s_fu_345    |dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s  |        0|    80|  1265|   5208|    0|
-    |grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_95      |dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s   |        0|   512|  5723|  31838|    0|
-    |grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s_fu_169     |dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s   |        0|  1017|  8036|  57267|    0|
-    |grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_fu_273     |dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s   |        0|   512|  6076|  28052|    0|
+    |grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s_fu_345    |dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s  |        0|    80|  1265|   5194|    0|
+    |grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_95      |dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s   |        0|   512|  5618|  31649|    0|
+    |grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s_fu_169     |dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s   |        0|  1017|  7991|  56725|    0|
+    |grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_fu_273     |dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s   |        0|   512|  6141|  27904|    0|
     |call_ret6_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s_fu_309  |relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s      |        0|     0|     0|   1216|    0|
     |call_ret2_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s_fu_101   |relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s       |        0|     0|     0|   2432|    0|
     |call_ret4_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s_fu_237   |relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s       |        0|     0|     0|   1216|    0|
-    |grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_381      |softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s    |        8|     5|   437|    770|    0|
+    |grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_381      |softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s    |        8|     5|   284|    730|    0|
     +-------------------------------------------------------------------------------+------------------------------------------------------------------+---------+------+------+-------+-----+
-    |Total                                                                          |                                                                  |        8|  2126| 21537| 127999|    0|
+    |Total                                                                          |                                                                  |        8|  2126| 21299| 127066|    0|
     +-------------------------------------------------------------------------------+------------------------------------------------------------------+---------+------+------+-------+-----+
 
     * DSP: 
@@ -109,11 +109,16 @@
     +------------------------------------------------------------------------------------+----------+----+---+----+------------+------------+
     |                                    Variable Name                                   | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +------------------------------------------------------------------------------------+----------+----+---+----+------------+------------+
-    |ap_block_pp0_stage0_11001                                                           |       and|   0|  0|   2|           1|           1|
+    |ap_block_pp0_stage0_01001                                                           |       and|   0|  0|   2|           1|           1|
+    |ap_block_pp0_stage0_11001_ignoreCallOp151                                           |       and|   0|  0|   2|           1|           1|
+    |ap_block_pp0_stage0_11001_ignoreCallOp19                                            |       and|   0|  0|   2|           1|           1|
+    |ap_block_pp0_stage0_11001_ignoreCallOp217                                           |       and|   0|  0|   2|           1|           1|
+    |ap_block_pp0_stage0_11001_ignoreCallOp286                                           |       and|   0|  0|   2|           1|           1|
+    |ap_block_pp0_stage0_11001_ignoreCallOp293                                           |       and|   0|  0|   2|           1|           1|
     |grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_95_ap_start  |        or|   0|  0|   2|           1|           1|
     |ap_enable_pp0                                                                       |       xor|   0|  0|   2|           1|           2|
     +------------------------------------------------------------------------------------+----------+----+---+----+------------+------------+
-    |Total                                                                               |          |   0|  0|   6|           3|           4|
+    |Total                                                                               |          |   0|  0|  16|           8|           9|
     +------------------------------------------------------------------------------------+----------+----+---+----+------------+------------+
 
     * Multiplexer: 
@@ -122,12 +127,13 @@
     +-------------------------+----+-----------+-----+-----------+
     |ap_NS_fsm                |  14|          3|    1|          3|
     |ap_enable_reg_pp0_iter0  |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter8  |   9|          2|    1|          2|
     |fc1_input_ap_vld_in_sig  |   9|          2|    1|          2|
     |fc1_input_ap_vld_preg    |   9|          2|    1|          2|
     |fc1_input_blk_n          |   9|          2|    1|          2|
     |fc1_input_in_sig         |   9|          2|  256|        512|
     +-------------------------+----+-----------+-----+-----------+
-    |Total                    |  59|         13|  261|        523|
+    |Total                    |  68|         15|  262|        525|
     +-------------------------+----+-----------+-----+-----------+
 
     * Register: 
@@ -135,7 +141,6 @@
     |                                           Name                                           |  FF | LUT| Bits| Const Bits|
     +------------------------------------------------------------------------------------------+-----+----+-----+-----------+
     |ap_CS_fsm                                                                                 |    2|   0|    2|          0|
-    |ap_block_pp0_stage0_subdone_grp0_done_reg                                                 |    1|   0|    1|          0|
     |ap_enable_reg_pp0_iter0_reg                                                               |    1|   0|    1|          0|
     |ap_enable_reg_pp0_iter1                                                                   |    1|   0|    1|          0|
     |ap_enable_reg_pp0_iter2                                                                   |    1|   0|    1|          0|
@@ -151,6 +156,7 @@
     |grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_95_ap_start_reg    |    1|   0|    1|          0|
     |grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s_fu_169_ap_start_reg   |    1|   0|    1|          0|
     |grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_fu_273_ap_start_reg   |    1|   0|    1|          0|
+    |grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_381_ap_start_reg    |    1|   0|    1|          0|
     |layer10_out_10_reg_2505                                                                   |   16|   0|   16|          0|
     |layer10_out_11_reg_2510                                                                   |   16|   0|   16|          0|
     |layer10_out_12_reg_2515                                                                   |   16|   0|   16|          0|
